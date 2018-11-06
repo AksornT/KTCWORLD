@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="css/ktc-world.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>KTC</title>
+  </head>
+  
+  <body>
+    
+    <div class="site-header">
+
+      <div id="menu-global" class="menu-global">
+        <div class="content-wrap d-flex">
+          <div id="ktc-logo"><a href="#"><img src="img/KTC.png" /></a></div>
+          <ul class="scrolled-menu">
+            <li class="dropdown">บัตรเครดิต
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ผลิตภัณฑ์บัตรเครดิต<a href="#"></a></li>
+                <li>คะแนนสะสม<a href="#"></a></li>
+                <li>แบ่งชำระ<a href="#"></a></li>
+                <li>บริจาค<a href="#"></a></li>
+                <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
+                <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">สินเชื่อบุคคล
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ผลิตภัณฑ์สินเชื่อ<a href="#"></a></li>
+                <li>แบ่งชำระ<a href="#"></a></li>
+                <li>เครื่องคำนวนสินเชื่อ<a href="#"></a></li>
+                <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+              </ul>
+            </li>
+            <li>โปรโมชั่น</li>
+            <li>ธุรกิจร้านค้า</li>
+            <li class="selected">บริการท่องเที่ยว</li>
+            <li>ช้อปสินค้าออนไลน์</li>
+            <!--<li>บริการลูกค้า
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ติดต่อ KTC<a href="#"></a></li>
+                <li>บริการ KTC ONLINE<a href="#"></a></li>
+                <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+                <li>ช่องทางการชำระเงิน<a href="#"></a></li>
+                <li>วารสารรายเดือน<a href="#"></a></li>
+                <li>ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ<a href="#"></a></li>
+                <li>คำถามที่พบบ่อย<a href="#"></a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <div class="d-flex align-items-center justify-content-end ml-auto">
+            <a class="search-on-menu" data-toggle="modal" data-target="#search-modal">
+              <img src="img/ico-search.png" />
+            </a>
+            <a id="card-register" class="card-register-btn" data-toggle="modal" data-target="#card-register-modal" href="#">สมัครบัตร</a>
+
+            <div class="float-onright d-flex align-items-center">
+              <!-- ก่อนล็อกอิน -->
+              <a class="login-btn" href="#">
+                <img src="img/ico-login-grey.png" />เข้าสู่ระบบ
+              </a>
+              <a class="login-mobile only-mobile" href="#">
+                <img src="img/ico-login-grey.png" />
+              </a>
+              
+              <!-- หลังล็อกอิน -->
+              <!--<div class="logged-in">
+                <div class="profile-image"><img src="img/img-profile.png"></div>
+                <p class="profile-name">Qwertyuiop</p><i class="fa fa-angle-down"></i>
+                <ul>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-1.png"></div><p>บัตร KTC ของฉัน</p></a></li>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-2.png"></div><p>โปรโมชั่นของฉัน</p></a></li>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-3.png"></div><p>ออกจากระบบ</p></a></li>
+                </ul>
+                <div class="for-sub-profile-mobile">
+                  <div class="profile-image"><img src="img/img-profile.png"></div>
+                  <button type="button" class="close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+              </div>-->
+            </div>  
+
+            <a class="menu-mobile only-mobile" onclick="myFunction()"><img src="img/ico-menu-mobile.png" /></a>
+
+          </div>
+          
+          <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
+            <div class="menu-resp-scroll">
+              <button type="button" class="menu-resp-close close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              <div class="menu-responsive">
+                <img src="img/ico-creditcard.png" /><h3 class="menu-more">บัตรเครดิต</h3>
+                <ul>
+                  <li><a href="#">ผลิตภัณฑ์บัตรเครดิต</a></li>
+                  <li><a href="#">คะแนนสะสม</a></li>
+                  <li><a href="#">แบ่งชำระ</a></li>
+                  <li><a href="#">บริจาค</a></li>
+                  <li><a href="#">บริการหักค่าใช้จ่ายอัตโนมัติ</a></li>
+                  <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                </ul>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-personal-loans.png" /><h3 class="menu-more">สินเชื่อบุคคล</h3>
+                <ul>
+                  <li><a href="#">ผลิตภัณฑ์สินเชื่อ</a></li>
+                  <li><a href="#">แบ่งชำระ</a></li>
+                  <li><a href="#">เครื่องคำนวนสินเชื่อ</a></li>
+                  <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                </ul>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-privilege.png" /><h3>สิทธิพิเศษ</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-business-store.png" /><h3>ธุรกิจร้านค้า</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-travel-service.png" /><h3>บริการท่องเที่ยว</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-shopping-online.png" /><h3>ช้อปสินค้าออนไลน์</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-service-custom.png" /><h3 class="menu-more">บริการลูกค้า</h3>
+                <ul>
+                  <li><a href="#">ติดต่อ KTC</a></li>
+                  <li><a href="#">บริการ KTC ONLINE</a></li>
+                  <li><a href="#">บริการ KTC MOBILE APPLICATION</a></li>
+                  <li><a href="#">ช่องทางการชำระเงิน</a></li>
+                  <li><a href="#">วารสารรายเดือน</a></li>
+                  <li><a href="#">ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ</a></li>
+                  <li><a href="#">คำถามที่พบบ่อย</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-btn">
+                <div class="menu-lang">
+                  <div class="lang-header-menu">
+                    <img src="img/ico-lang.png" /><label for="lang-change">Language</label>
+                    <select class="" id="lang-change">
+                      <option>TH</option>
+                      <option>EN</option>
+                    </select>
+                  </div>
+                </div>
+                <button data-toggle="modal" data-target="#card-register-modal">สมัครบัตร</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="head-trigger"></div>
+      </div>
+      <!-- END MENU GLOBAL -->
+      
+      <div id="menu-world" class="menu-global menu-world">
+        <div class="content-wrap d-flex">
+          <div class="ktc-world-logo"><a href="#"><img src="img/KTC-WORLD.png" /></a></div>
+          <ul class="scrolled-menu">
+            <li class="dropdown selected">บริการ KTC WORLD
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>บริการหลัก<a href="#"></a></li>
+                <li>เรื่องราวการท่องเที่ยว<a href="#"></a></li>
+                <li>คู่มือท่องเที่ยว KTC Guidezine<a href="#"></a></li>
+                <li>นิตยสาร MY WORLD<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">โปรโมชั่นท่องเที่ยว
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ตั๋วเครื่องบิน<a href="#"></a></li>
+                <li>แพ็กเกจทัวร์<a href="#"></a></li>
+                <li>โรงแรม<a href="#"></a></li>
+                <li>ห้องอาหาร<a href="#"></a></li>
+                <li>รถเช่าและรถไฟ<a href="#"></a></li>
+                <li>บัตรเข้าชม<a href="#"></a></li>
+                <li>ประกันภัยการเดินทาง<a href="#"></a></li>
+                <li>เว็บไซต์ท่องเที่ยวชั้นนำ<a href="#"></a></li>
+                <li>อื่นๆ<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">จองออนไลน์
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ตั๋วเครื่องบิน<a href="#"></a></li>
+                <li>โรงแรม<a href="#"></a></li>
+                <li>บัตรเข้าชม<a href="#"></a></li>
+                <li>รถเช่า<a href="#"></a></li>
+                <li>พ็อกเก็ตไวไฟ<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">กิจกรรม KTC WORLD
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>กิจกรรม<a href="#"></a></li>
+                <li>ประกาศรายชื่อผู้โชคดี<a href="#"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="sub-menu-mobile">
+          <ul class="horizontal-menu d-flex align-items-center ">
+            <li><a>เรื่องราวการท่องเที่ยว</a></li>
+            <li><a>คู่มือการท่องเที่ยว</a></li>
+            <li><a>นิตยสาร MY WORLD</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- END MENU WORLD -->
+    </div>
+    <!-- END SITE HEADER -->
+
+    <div id="menu-mobile-bottom">
+      <ul class="nav nav-fill">
+        <li class="nav-item"><a class="nav-link active"><img src="img/menu-world.png" style="padding:8px 0;" />หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-service-modal"><img src="img/menu-service.png" />บริการ</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-promotion-modal"><img src="img/menu-chat.png" />โปรโมชั่น</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-booking-modal"><img src="img/menu-gift.png" />จองออนไลน์</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-activity-modal"><img src="img/menu-gift.png" />กิจกรรม</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+
+      <div class="content-wrap">
+        <div class="row-breadcrumb-filter">
+          <div class="site-breadcrumb">
+            <a href="#">หน้าหลัก KTC World</a> / 
+            <a href="#">บริการ KTC WORLD</a> / 
+            <a href="#">เรื่องราวการท่องเที่ยว</a> /
+            <a href="#" class="current">โลโฟเทน (LOFOTEN ISLANDS) เกาะงามจับใจดั่งแดนเทพนิยาย</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="content-wrap article-wrap">
+
+        <div class="article-cover">
+          <div class="item"><img src="img/activity/content-cover.jpg"></div>
+        
+          <div class="sub-meta">
+            <div class="article-icon">
+              <div class="fav-btn"></div>
+              <div class="share-btn">
+                <div class="share-popover">
+                  <a class="share-fb-btn" href="#"></a>
+                  <a class="share-tw-btn" href="#"></a>
+                  <a class="share-line-btn" href="#"></a>
+                  <a class="share-mail-btn" href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-title bold">LOFOTEN ISLANDS โลโฟเทนเกาะงามจับใจดั่งแดนเทพนิยาย</div>
+
+        <div class="article-content">
+          <!-- HTML CONTENT FROM TEXT EDITOR ? -->
+          <p>เรื่อง คุณสมศรี สบายใจ</p>
+          <p>ภาพ คุณสมศรี สบายใจ และเพื่อนร่วมทริป</p>
+          <p>“โลโฟเทน” หมู่เกาะทางตอนเหนือของนอร์เวย์ ดินแดนในเขต ขั้วโลกเหนือที่มีแลนด์สเคปงดงามตระการตา จุดหมายปลายทาง ในฝันของนักล่าแสงเหนือและนักถ่ายภาพทั่วโลก
+          ตั้งอยู่เขตมณฑล NORDLAND ทาง ตะวันตกเฉียงเหนือ ของนอร์เวย์ ประกอบด้วยเกาะเล็กเกาะน้อยมากมายหลายเกาะ โดยมีเกาะ ใหญ่หลัก ๆ
+          ได้แก่ AUSTVAGOYA, GIMSOYA, VESTVAGOYA, FLAKSTADOYA และ MOSKENESOYA เชื่อม ต่อกันด้วยถนนสาย E10 ภูมิประเทศเป็น ภูเขา หินแกรนิตสูงตระหง่านสลับเรียงรายริมทะเล
+          มีผืนน้ำสีฟ้าคราม แซมด้วยบ้านชาวประมง (Rorbuer) สีแดง การเต้นระบำของแสงเหนือ บนท้องฟ้าในหน้าหนาว คือส่วน หนึ่งของมหัศจรรย์ธรรมชาติที่รังสรรค์
+          ให้โลโฟเทนมีทัศนียภาพงดงามราวกับเมืองในเทพนิยาย</p>
+          <img src="img/activity/content-1.jpg" />
+          <br/>
+          <p>หมู่เกาะโลโฟเทน มีทุกอย่างที่คุณ ต้องการในที่เดียวไม่ว่าจะ เป็นทะเล หาดทราย หมู่บ้านประมงดั้งเดิม ภูเขา ทุ่งหญ้าสะวัน น่า
+          แสงเหนือ ฯลฯ และนี่คือไฮไลท์ที่เที่ยวที่ควรมาสัมผัส เมื่อ มาเยือนหมู่เกาะที่สวยที่สุดในโลก แห่งนี้</p>
+          <img src="img/activity/content-2.jpg" />
+          <br/>
+          <p><b>SVOLVAER VILLAGE</b><br/>
+            หมู่บ้านชาวประมงเก่าแก่นับพันปี บน ชายฝั่งทางใต้ของเกาะ Austvagoy ศูนย์กลางการเดินทางของหมู่เกาะ โลโฟเทน Svolvaer มีสนามบินท่าเรือ
+          เฟอรี่เชื่อมเมืองต่าง ๆ เป็นจุดลง เรือล่องชมฟยอร์ดและปลาวาฬออร์ก้า ที่นี่มีพิพิธภัณฑ์ สงครามแสดงประวัติ การเข้าร่วมในสงครามโลกครั้งที่
+          2 ศูนย์ศิลปะ Nordnosk Kunstnersenter และ แกลเลอรี่ ศิลปินน่าชม รวมทั้ง บาร์น้ำแข็ง Magic ice bar และ ยอด เขา Svolvargeita
+          รูปร่างเหมือน เขาแพะที่นักปืนเขาไม่ควร พลาด</p>
+          <p><b>KABELVAG VILLAGE</b><br/>
+            หมู่บ้านชาวประมงเล็ก ๆ น่ารัก เงียบสงบ ห่างจาก Svolvaer ลงมาทางใต้ประมาณ 5 กม. นั่งรถบัส จาก Svolvaer ใช้เวลาประมาณ 15 นาที
+          กระท่อม ของชาวประมงโบราณที่เรียกว่า rorbuer หลังแรก สร้างขึ้นที่นี่เมื่อปีค.ศ.1120 Kabelvag เหมาะแก่การ เรียนรู้วิถีชีวิตของชาวพื้นเมืองโลโฟเทน
+          เริ่มต้นที่ Lofoten Museum ที่จัดแสดงเรื่องราวของหมู่บ้าน ชาวประมงสมัยปีค.ศ. 1800 ก่อน ชมเรือประมง บ้าน ชาวประมงเก่า Lofoten
+          Aquarium พิพิธภัณฑ์สัตว์น้ำ Vagan Church โบสถ์ไม้เก่าแก่ประจำหมู่บ้านหลังใหญ่</p>
+          <img src="img/activity/content-3.jpg" />
+          <p><b>LOFOTR VIKING MUSEUM</b><br/>
+            พิพิธภัณฑ์ไวกิ้งขนาดใหญ่ที่สุดที่ หมู่บ้าน Borg บนเกาะ Vestvagoya สร้างบนพื้นที่ ๆ มีการขุดค้นพบว่า เคยเป็นชุมชนชาวไวกิ้งในอดีต
+          เมื่อ หนึ่งพันห้าร้อยปีมาแล้ว โดยใช้ โครงสร้างบ้านไม้โบราณยาว 83 เมตร จัด แสดงข้าวของเครื่องใช้ เรือไวกิ้ง วิถีชีวิตชาวไวกิ้งโบราณ
+          เป็นพิพิธภัณฑ์ แบบ INTERACTIVE มีกิจกรรมแบบ ดั้งเดิมให้เข้าร่วม อาทิ เรียนงานฝีมือ ยิงธนู ขี่ม้า ขว้างขวาน พายเรือไวกิ้ง</p>
+          <p><b>REINE VILLAGE</b><br/>
+            หมู่บ้านชาวประมงบนเกาะ Moskenesoy ที่ขึ้นชื่อว่า ว่าเป็นหมู่บ้านชาวประมง ที่ สวยที่สุดในนอร์เวย์ ด้วย ภูมิทัศน์งดงามของหมู่บ้าน
+          ริมคุ้งน้ำที่มีขุนเขาเป็นฉาก หลังวิวสวยของโค้งอ่าวและ ฟยอร์ด จึงเป็นสถานที่โปรด ปรานของนักท่องเที่ยว มีมุม ถ่ายรูปสวยคลาสสิกมากมาย</p>
+          <p><b>HAMNOY</b><br/>
+            อีกหนึ่งหมู่บ้านที่มีภาพสวย ปรากฎใน อินสตาแกรมเป็น ไอคอนถ่ายทอด ความเป็น โลโฟเทนได้ดีที่สุด มุมมหาชน สำหรับการถ่ายรูปคือ
+          บนสะพาน หน้าหมู่บ้านที่สามารถเก็บภาพ บ้านชาว ประมงสีแดงหน้าภูเขา Festhelltinden ที่ตั้งสูงตระหง่าน Hamnoy อยู่ห่าง จาก Reine
+          ทางทิศตะวันออกเฉียง เหนือราว 5 กิโลเมตร</p>
+          <img src="img/activity/content-4.jpg" />
+          <p><b>A VILLAGE</b><br/>
+            จากหมู่บ้าน Reine ลงไปทางใต้ 10 กม. บริเวณจุดสิ้นสุดของถนนสายหลัก E10 คือที่ตั้งของอีกหนึ่งหมู่บ้านยอดนิยม ของนักท่องเที่ยว
+          นอกจากวิวสวยทั้งหมู่บ้าน ภูเขา ราวตากปลา ยังมีสถานที่ท่องเที่ยวน่าชม เช่น Norwegian Fishing Village Museum สัมผัส วิถีชีวิตความเป็นอยู่ของชาวประมงที่
+          อาศัยอยู่บนเกาะมายาวนาน กว่า 250 ปี พิพิธภัณฑ์ปลาแห้ง Stockfish ที่จะ ทำให้คุณรู้จักเรื่องราวของการตาก ปลาค้อดและปลาอื่น
+          ๆ รวมไปถึงวิธีถนอมรักษาปลาของชาวนอร์เวย์</p>
+          <br/>
+          <p><b>TIPS</b><br/>
+            Lofoten Islands มีถนนหลักคือ E10 อยู่สายเดียว ถนนนี้เชื่อมจากฝั่ง Main land ของ Norway ไป สุดที่เมือง A ที่อยู่ทางใต้สุดของหมู่เกาะ
+          วิธีเดินทาง ภายในหมู่เกาะ Lofoten ที่สะดวกที่สุดคือการเช่ารถขับเอง สามารถ จองรถ เช่าออนไลน์ได้ที่ Rentalcars.com</p>
+          <br/>
+          <p><b>WHEN</b><br/>
+            แนะนำเที่ยวปลาย ๆ หน้าหนาวราว ๆ ก.พ. - มี.ค. ช่วงพระอาทิตย์เที่ยงคืน หรือ หน้าหนาว เป็นช่วง low season ร้านรวงต่าง ๆ เปิดน้อย
+          หิมะตก อากาศหนาว แต่ก็มีลมทะเลและ กระแสน้ำอุ่นเป็นตัวช่วยไม่ให้อากาศหนาว เกินไป เที่ยวหน้าหนาวแม้จะเดินทางลำบาก เวลาเที่ยวน้อย
+          เพราะกลางวันสั้น กลางคืน ยาวนานแต่ก็ทำให้มีโอกาสเห็นแสงเหนือ มากกว่าและบรรยากาศหิมะที่ปกคลุมภูเขา ดูสวยงามกว่ายามหน้าร้อน
+          หน้าร้อนของ Lofoten เป็นช่วง high season ข้อดีคือ สามารถทำกิจกรรมได้หลากหลายมากกว่า ทั้ง ปีนเขา ดูปลาวาฬ พายคายัค ตกปลา แต่ที่พักจะมีราคาสูง</p>
+          <img src="img/activity/content-5.jpg" />
+          <br/>
+          <p><b>WHERE TO STAY</b><br/>
+            Eliassen Rorbuer โดดเด่นด้วยทำเล อยู่ที่ Hamnoy ห่างจาก ใจกลางเมือง Reine 5 กม. ห่างจากสนามบิน Leknes Airport 50 กม. ที่พักดัดแปลงจากบ้านชาวประมงดั้งเดิม
+          มีห้องครัวส่วนตัว บริการอินเทอร์เน็ตไร้สาย (WiFi) ฟรี มีห้องนั่งเล่น และสิ่งอำนวยความ สะดวกครบ ที่สำคัญคือ สามารถชมวิวสวย
+          ๆ ของหมู่บ้าน Hamnoy ท่าเรือ Hamnoy Harbour แหลม Vest Fjord และ Reine Fjord วิวภูเขางดงาม นอกจากนี้ยังมีบริการ จักรยานและจักรยานยนต์เช่า
+          บริการล่องเรือชมฟยอร์ด ตกปลา พายเรือคายัค ดำน้ำลึก ฯลฯ ห้องพัก มีหลายแบบ ราคาเริ่มต้นประมาณ 5,500 บาท</p>
+          <br/>
+          <p><b>HOW TO GO</b><br/>
+            มีเที่ยวบินการบินไทยและสายการบิน Norwegian ออกจากสนามบินสุวรรณภูมิ บินตรงไปยังสนามบิน Oslo ใช้เวลาเดินทางประมาณ 11 ชม. ครึ่ง
+          จากนั้นต่อ domestic flight อีกชั่วโมงครึ่งไปที่สนามบิน Bodo เพื่อต่อ เครื่องบินเจ็ท อีก 15 - 30 นาที ไปลงสนามบิน Svolvaer
+          หรือ Leknes บน หมู่เกาะโลโฟเทน</p>
+          <br/>
+          <p><b>DO YOU KNOW</b><br/>
+          Lofoten เป็นต้นแบบของอาณาจักร Arendelle ของเจ้าหญิง Elsa และ Anna ในภาพยนตร์ Animation ดัง “Frozen”</p>
+          <br/>
+          <p><b>ดูรายละเอียดการท่องเที่ยวหมู่เกาะโลโฟเทนเพิ่มเติมที่</b><br/>
+            <a>www.visitnorway.com/places-to-go/northern-norway/the-lofoten-islands/</a></p>
+          <br/>
+          <p><b>ปรึกษาการเดินทาง จองตั๋วเครื่องบิน ที่พัก ประกันการเดินทาง ได้ที่</b><br/>
+            KTC World Travel Service โทร <a>02 123 5050</a></p>
+          <br/>
+          <p>ที่มา : นิตยสาร My World Vol.113 MAY - JUNE 2018</p>
+        </div>
+
+        <div class="article-tag">
+          <a href="#">Teddy Bear</a>
+          <a href="#">Korean Air</a>
+          <a href="#">Nagoya</a>
+          <a href="#">Seoul</a>
+        </div>
+
+        <h3 class="index-head">ความคิดเห็น</h3>
+        <div class="article-comment-form">
+          <form class="form-content form-check-required">
+            <textarea class="required" placeholder="แสดงความคิดเห็นของคุณที่นี่..."></textarea>
+            <div class="d-flex justify-content-end">
+              <button class="btn btn-submit-form" disabled>ส่งความคิดเห็น</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="article-comments">
+          <div class="comment-item">
+            <div class="avatar"><img src="img/ico-user.png" /></div>
+            <div class="content">
+              <div class="head">
+                <div class="name">Nongnuch Sssssssssssssssssssss</div>
+                <div class="meta"><span>14:45 น.</span><span>12 มิ.ย 2561</span></div>
+              </div>
+              <div class="text">ขอบคุณสำหรับข้อมูลนะคะ เก็บลง wishlist ไว้เป็นทริปต่อไปเลย</div>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="avatar"><img src="img/ico-user.png" /></div>
+            <div class="content">
+              <div class="head">
+                <div class="name">นิติพันธ์</div>
+                <div class="meta"><span>17:25 น.</span><span>25 มิ.ย 2561</span></div>
+              </div>          
+              <div class="text">มีหมู่บ้านเยอะน่าเที่ยวมากเลยครับ ข้อมูลแน่นสุดๆ</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-readmore row">
+          <div class="col-12 col-lg-6">
+            <h3 class="index-head">บทความที่เกี่ยวข้อง</h3>
+            <div class="slide-wrap row row-item">
+              <a class="item col-6">
+                <img src="img/activity/tr-1.png">
+                <div class="slide-content-wrap">
+                  <p class="slide-title">MURMANSK ท่ามกลางหมู่ดาว หิมะขาว และแสงเหนือ</p>
+                  <p class="slide-content">ลำแสงสีเขียวเจือชมพูแซมเหลืองม่วง พลิ้ว ไหวอยู่บนท้องฟ้ายามค่ำคืน</p>
+                </div>
+              </a>
+              <a class="item col-6">
+                <img src="img/activity/tr-2.png">
+                <div class="slide-content-wrap">
+                  <p class="slide-title">NOSTALGIA ROMANIA ความ ทรงจำที่โรมาเนีย</p>
+                  <p class="slide-content">โรมาเนียไม่ได้มีดีแค่แดร็กคูล่า แต่ยังมี อีก หลายสิ่งอย่างที่น่าค้นหา</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h3 class="index-head">บทความยอดนิยม</h3>
+            <div class="slide-wrap row row-item">
+              <a class="item col-6">
+                <img src="img/activity/tr-3.png">
+                <div class="slide-content-wrap">
+                  <p class="slide-title">NICE PLACE & GOOD TASTE อาหารอร่อยในบรรยากาศมีสไตล์</p>
+                  <p class="slide-content">ที่ Quaint Bangkok (เควนท์ แบงคอก) และ ร้านอาหารฝรั่งเศส แบบ Bistro Style</p>
+                </div>
+              </a>
+              <a class="item col-6">
+                <img src="img/activity/tr-4.png">
+                <div class="slide-content-wrap">
+                  <p class="slide-title">THE TOWN OF STREET ART ปีนัง เดินกี่ครั้งก็ไม่เบื่อ</p>
+                  <p class="slide-content">เมืองแห่งศิลปะข้างถนน ภาพวาดที่เติมเต็ม จินตนาการให้แก่ผู้คน</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END ARTICLE -->
+  
+    </div>
+    <!-- END WRAPPER -->
+
+    <div class="content-wrap">
+      <div class="d-flex justify-content-end align-items-end action-footer">
+        <a class="chat-btn"><img src="img/ico-chat.png" /><p>Live Chat</p></a>
+        <!--<a class="totop-btn"><img src="img/ico-top.png" /></a>-->
+      </div>
+    </div>
+    
+    <div class="footer sub-footer">
+      <div id="foot-trigger"></div>
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-6 col-sm-6 col-desc">
+              <h2>KTC WORLD TRAVEL SERVICE</h2>
+              <h5>บริการข้อมูลการเดินทางและท่องเที่ยวสำหรับสมาชิก<br/>บัตรเครดิต KTC</h5>
+              <p>ดำเนินการโดย บริษัท เวิลด์ เอ็กซ์พลอเรอร์ จำกัด บริษัทนำเที่ยวสมาชิก IATA เลขที่ 35-3-0509-3ใบอนุญาตประกอบธุรกิจท่องเที่ยว ททท. เลขที่ 11/03724 ผู้ให้บริการสำรองบัตรโดยสารเครื่องบิน โรงแรม รถเช่า กรุ๊ปทัวร์ แพ็คเกจอิสระในและต่างประเทศ ตั๋วรถไฟต่างประเทศ บัตรเข้าชมสถานที่ท่องเที่ยวและประกันการเดินทาง</p>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <h3>เกี่ยวกับ KTC WORLD</h3>
+              <ul>
+                <li><a href="#">บริการ KTC WORLD</a></li>
+                <li><a href="#">โปรโมชั่นท่องเที่ยว</a></li>
+                <li><a href="#">จองออนไลน์</a></li>
+                <li><a href="#">กิจกรรม KTC WORLD</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2 col-info">
+            <div class="tel">
+              <p class="tel-text">KTC WORLD TRAVEL SERVICE</p>
+              <span>02 123 5050</span>
+            </div>
+            <div class="time">
+              <span>8.00 - 20.00 น. จันทร์ - อาทิตย์</span>
+              <span>(ไม่เว้นวันหยุดราชการ)</span>
+            </div>
+            <div class="contact">
+              <p>ติดตามเรา</p>
+              <a href="#"><img src="img/ico-social-facebook-c.png" /><span>KTCWorldCommunity</span></a>
+              <a href="#"><img src="img/ico-social-instagram-c.png" /><span>ktcworld</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="footer last-footer">
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-3 col-sm-6">
+              <h3>เกี่ยวกับเรา</h3>
+              <ul>
+                <li><a href="#">วิสัยทัศน์ / พันธกิจ </a></li>
+                <li><a href="#">ข้อมูลทั่วไป</a></li>
+                <li><a href="#">โครงสร้างการถือหุ้นกลุ่มบริษัท</a></li>
+                <li><a href="#">โครงสร้างการถือหุ้น</a></li>
+                <li><a href="#">โครงสร้างองค์กร</a></li>
+                <li><a href="#">คณะกรรมการ</a></li>
+                <li><a href="#">คณะผู้บริหาร</a></li>
+                <li><a href="#">เลขานุการบริษัท</a></li>
+                <li><a href="#">หัวหน้างานตรวจสอบภายใน</a></li>
+                <li><a href="#">ข่าวประชาสัมพันธ์</a></li>
+                <li><a href="#">บทความ</a></li>
+                <li><a href="#">สมัครงาน / ฝึกงาน</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>บริการลูกค้า</h3>
+              <ul>
+                <li><a href="#">บริการออนไลน์</a></li>
+                <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                <li><a href="#">คำนวณดอกเบี้ย / ค่าธรรมเนียม</a></li>
+                <li><a href="#">ช่องทางการชำระเงิน</a></li>
+                <li><a href="#">บริการหักค่าใช้จ่ายรายเดือนอัตโนมัติ</a></li>
+                <li><a href="#">ดาวน์โหลด</a></li>
+                <li><a href="#">ประกาศบริษัท</a></li>
+								<li><a href="#">คำถามที่พบบ่อย</a></li>
+                <li><a href="#">แผนผังเว็บไซต์</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>กำกับดูแลกิจการ</h3>
+              <ul>
+                <li class="two-line"><a href="#">การควบคุมภายในและการบริหารจัดการความเสี่ยง</a></li>
+                <li><a href="#">ความรับผิดชอบต่อสังคม</a></li>
+                <li class="two-line"><a href="#">ประมวลภาพกิจกรรมการกำกับดูแลกิจการและความรับผิดชอบต่อสังคม</a></li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>นักลงทุนสัมพันธ์</h3>
+              <ul>
+                <li><a href="#">ข้อมูลด้านการเงิน</a></li>
+                <li><a href="#">นโยบายการเปิดเผยข้อมูล</a></li>
+                <li><a href="#">เอกสารเผยแพร่</a></li>
+                <li><a href="#">ข้อมูลผู้ถือหุ้น</a></li>
+                <li><a href="#">การประชุมผู้ถือหุ้น</a></li>
+                <li><a href="#">ติดต่อนักลงทุนสัมพันธ์</a></li>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <div class="tel">
+              <p class="tel-text">KTC PHONE</p>
+              <span>02 123 5000</span>
+            </div>
+            <img class="footer-badge" src="img/ico-footer-badge.png" />
+            <div class="download-section">
+              <p>ดาวน์โหลด</p>
+              <img class="footer-badge tapktc" src="img/ico-download-tapktc.png" />
+              <div class="fotter-hollow"></div>
+              <img class="footer-badge" src="img/ico-download-ios.png" />
+              <img class="footer-badge" src="img/ico-download-ggplay.png" />
+            </div>
+          </div>
+          <div class="col-sm-12 only-mobile">
+            <div class="social-footer">
+              <a href="#"><img src="img/ico-social-facebook.png" /></a>
+              <a href="#"><img src="img/ico-social-twitter.png" /></a>
+              <a href="#"><img src="img/ico-social-instagram.png" /></a>
+              <a href="#"><img src="img/ico-social-line.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap last-piece">
+        <div class="row">
+          <div class="col-lg-6 license">สงวนลิขสิทธิ์ © 2561 บริษัท บัตรกรุงไทย จำกัด (มหาชน)</div>
+          <div class="col-lg-6 text-right">
+            <div class="social-footer">
+              <a href="#">
+                <img class="on-default" src="img/ico-social-facebook.png">
+                <img class="on-hover" src="img/ico-social-facebook-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-twitter.png">
+                <img class="on-hover" src="img/ico-social-twitter-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-instagram.png">
+                <img class="on-hover" src="img/ico-social-instagram-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-line.png">
+                <img class="on-hover" src="img/ico-social-line-color.png">
+              </a>
+            </div>
+            <a class="lang-footer">
+              <div class="lang-wrap active">
+                <label for="lang-change">Language</label>
+                <p id="lang-change">EN</p>
+              </div>
+              <div class="lang-wrap">
+                <label for="lang2-change">Language</label>
+                <p id="lang2-change">TH</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--<div class="chat ghost-footer"><img src="img/ico-chat.png" /><p>Live Chat</p></div>-->
+      <div class="to-top ghost-footer">↑</div>
+    </div>
+
+    <div id="menu-mobile-service-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">บริการ KTC WORLD</div>
+              <ul class="menu-list">
+                <li><a href="#">บริการหลัก</a></li>
+                <li><a href="#">เรื่องราวการท่องเที่ยว</a></li>
+                <li><a href="#">คู่มือท่องเที่ยว KTC Guidezine</a></li>
+                <li><a href="#">นิตยสาร MY WORLD</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-promotion-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">โปรโมชั่นท่องเที่ยว</div>
+              <ul class="menu-list">
+                <li><a href="#">ตั๋วเครื่องบิน</a></li>
+                <li><a href="#">แพ็กเกจทัวร์</a></li>
+                <li><a href="#">โรงแรม</a></li>
+                <li><a href="#">ห้องอาหาร</a></li>
+                <li><a href="#">รถเช่าและรถไฟ</a></li>
+                <li><a href="#">บัตรเข้าชม</a></li>
+                <li><a href="#">ประกันภัยการเดินทาง</a></li>
+                <li><a href="#">เว็บไซต์ท่องเที่ยวชั้นนำ</a></li>
+                <li><a href="#">อื่นๆ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-booking-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">จองออนไลน์</div>
+              <ul class="menu-list">
+                <li><a href="#">ตั๋วเครื่องบิน</a></li>
+                <li><a href="#">โรงแรม</a></li>
+                <li><a href="#">บัตรเข้าชม</a></li>
+                <li><a href="#">รถเช่า</a></li>
+                <li><a href="#">พ็อกเก็ตไวไฟ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-activity-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">กิจกรรม KTC WORLD</div>
+              <ul class="menu-list">
+                <li><a href="#">กิจกรรม</a></li>
+                <li><a href="#">ประกาศรายชื่อผู้โชคดี</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">เลือกผลิตภัณฑ์</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-credit.png" />
+              </div>
+              <p>บัตรเครดิต</p>
+            </a>
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-ktcproud.png" />
+              </div>
+              <p>บัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+            </a>
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-ktccash.png" />
+              </div>
+              <p>สินเชื่ออเนกประสงค์ KTC CASH</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="search-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="search-head">
+                <div class="panel-title search-cat-head">
+                  <div class="collapsed" data-toggle="collapse" data-target="#search-cat-wrap" aria-controls="search-cat-wrap">
+                    <img src="img/ico-sort.png"><h4>ตัวกรอง</h4><i class="fa fa-angle-up"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="search-cat-wrap" class="panel-collapse search-cat-wrap collapsed collapse" role="tabpanel" aria-labelledby="search-head"
+                style="height: 0px;">
+                <div class="subcat-wrap">
+                  <input checked="checked" type="checkbox" name="" id="all-cat">
+                  <label for="all-cat">ทั้งหมด</label>
+                  <input type="checkbox" name="" id="credit-cat" class="subcat">
+                  <label for="credit-cat">บัตรเครดิต</label>
+                  <input type="checkbox" name="" id="privill-cat" class="subcat">
+                  <label for="privill-cat">สิทธิพิเศษ</label>
+                  <input type="checkbox" name="" id="article-cat" class="subcat">
+                  <label for="article-cat">บทความ</label>
+                  <input type="checkbox" name="" id="other-cat" class="subcat">
+                  <label for="other-cat">อื่นๆ</label>
+                </div>
+              </div>
+            </div>
+            <form action="search-result.html" class="search-wrap">
+              <img src="img/ico-search-black.png">
+              <div class="search-input-wrap">
+                <input id="search" autocomplete="off" class="input-search" type="text" placeholder="ค้นหาทุกสิ่งใน KTC">
+                <div tabindex="0" id="suggest-box" class="suggess-box">
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-credit.png">
+                    </div>
+                    <p>KTC X VISA SIGNATURE</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-shopping.png">
+                    </div>
+                    <p>KTC X MASTERCARD</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-service-custom.png">
+                    </div>
+                    <p>มูลนิธิศิริราช</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-other.png">
+                    </div>
+                    <p>Early Inactive Q1 2018</p>
+                  </div>
+                </div>
+                <div id="fake-result"></div>
+              </div>
+              <div class="btn-wrap">
+                <button class="button-search">ค้นหา</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/datepicker-th.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dotdotdot.js"></script>
+
+    <script type="text/javascript" src="js/ui-main.js"></script>
+    <script type="text/javascript" src="js/ui-form-flight.js"></script>
+    <script type="text/javascript" src="js/ui-form-register.js"></script>
+
+  </body>
+</html>

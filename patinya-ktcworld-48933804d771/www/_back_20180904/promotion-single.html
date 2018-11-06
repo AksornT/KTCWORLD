@@ -1,0 +1,1082 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="css/ktc-world.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>KTC</title>
+  </head>
+  
+  <body>
+    
+    <div class="site-header">
+
+      <div id="menu-global" class="menu-global">
+        <div class="content-wrap d-flex">
+          <div id="ktc-logo"><a href="#"><img src="img/KTC.png" /></a></div>
+          <ul class="scrolled-menu">
+            <li class="dropdown">บัตรเครดิต
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ผลิตภัณฑ์บัตรเครดิต<a href="#"></a></li>
+                <li>คะแนนสะสม<a href="#"></a></li>
+                <li>แบ่งชำระ<a href="#"></a></li>
+                <li>บริจาค<a href="#"></a></li>
+                <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
+                <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">สินเชื่อบุคคล
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ผลิตภัณฑ์สินเชื่อ<a href="#"></a></li>
+                <li>แบ่งชำระ<a href="#"></a></li>
+                <li>เครื่องคำนวนสินเชื่อ<a href="#"></a></li>
+                <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+              </ul>
+            </li>
+            <li>โปรโมชั่น</li>
+            <li>ธุรกิจร้านค้า</li>
+            <li class="selected">บริการท่องเที่ยว</li>
+            <li>ช้อปสินค้าออนไลน์</li>
+            <!--<li>บริการลูกค้า
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ติดต่อ KTC<a href="#"></a></li>
+                <li>บริการ KTC ONLINE<a href="#"></a></li>
+                <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+                <li>ช่องทางการชำระเงิน<a href="#"></a></li>
+                <li>วารสารรายเดือน<a href="#"></a></li>
+                <li>ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ<a href="#"></a></li>
+                <li>คำถามที่พบบ่อย<a href="#"></a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <div class="d-flex align-items-center justify-content-end ml-auto">
+            <a class="search-on-menu" data-toggle="modal" data-target="#search-modal">
+              <img src="img/ico-search.png" />
+            </a>
+            <a id="card-register" class="card-register-btn" data-toggle="modal" data-target="#card-register-modal" href="#">สมัครบัตร</a>
+
+            <div class="float-onright d-flex align-items-center">
+              <!-- ก่อนล็อกอิน -->
+              <a class="login-btn" href="#">
+                <img src="img/ico-login-grey.png" />เข้าสู่ระบบ
+              </a>
+              <a class="login-mobile only-mobile" href="#">
+                <img src="img/ico-login-grey.png" />
+              </a>
+              
+              <!-- หลังล็อกอิน -->
+              <!--<div class="logged-in">
+                <div class="profile-image"><img src="img/img-profile.png"></div>
+                <p class="profile-name">Qwertyuiop</p><i class="fa fa-angle-down"></i>
+                <ul>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-1.png"></div><p>บัตร KTC ของฉัน</p></a></li>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-2.png"></div><p>โปรโมชั่นของฉัน</p></a></li>
+                  <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-3.png"></div><p>ออกจากระบบ</p></a></li>
+                </ul>
+                <div class="for-sub-profile-mobile">
+                  <div class="profile-image"><img src="img/img-profile.png"></div>
+                  <button type="button" class="close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+              </div>-->
+            </div>  
+
+            <a class="menu-mobile only-mobile" onclick="myFunction()"><img src="img/ico-menu-mobile.png" /></a>
+
+          </div>
+          
+          <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
+            <div class="menu-resp-scroll">
+              <button type="button" class="menu-resp-close close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              <div class="menu-responsive">
+                <img src="img/ico-creditcard.png" /><h3 class="menu-more">บัตรเครดิต</h3>
+                <ul>
+                  <li><a href="#">ผลิตภัณฑ์บัตรเครดิต</a></li>
+                  <li><a href="#">คะแนนสะสม</a></li>
+                  <li><a href="#">แบ่งชำระ</a></li>
+                  <li><a href="#">บริจาค</a></li>
+                  <li><a href="#">บริการหักค่าใช้จ่ายอัตโนมัติ</a></li>
+                  <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                </ul>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-personal-loans.png" /><h3 class="menu-more">สินเชื่อบุคคล</h3>
+                <ul>
+                  <li><a href="#">ผลิตภัณฑ์สินเชื่อ</a></li>
+                  <li><a href="#">แบ่งชำระ</a></li>
+                  <li><a href="#">เครื่องคำนวนสินเชื่อ</a></li>
+                  <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                </ul>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-privilege.png" /><h3>สิทธิพิเศษ</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-business-store.png" /><h3>ธุรกิจร้านค้า</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-travel-service.png" /><h3>บริการท่องเที่ยว</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-shopping-online.png" /><h3>ช้อปสินค้าออนไลน์</h3>
+              </div>
+              <div class="menu-responsive">
+                <img src="img/ico-service-custom.png" /><h3 class="menu-more">บริการลูกค้า</h3>
+                <ul>
+                  <li><a href="#">ติดต่อ KTC</a></li>
+                  <li><a href="#">บริการ KTC ONLINE</a></li>
+                  <li><a href="#">บริการ KTC MOBILE APPLICATION</a></li>
+                  <li><a href="#">ช่องทางการชำระเงิน</a></li>
+                  <li><a href="#">วารสารรายเดือน</a></li>
+                  <li><a href="#">ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ</a></li>
+                  <li><a href="#">คำถามที่พบบ่อย</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-btn">
+                <div class="menu-lang">
+                  <div class="lang-header-menu">
+                    <img src="img/ico-lang.png" /><label for="lang-change">Language</label>
+                    <select class="" id="lang-change">
+                      <option>TH</option>
+                      <option>EN</option>
+                    </select>
+                  </div>
+                </div>
+                <button data-toggle="modal" data-target="#card-register-modal">สมัครบัตร</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="head-trigger"></div>
+      </div>
+      <!-- END MENU GLOBAL -->
+      
+      <div id="menu-world" class="menu-global menu-world">
+        <div class="content-wrap d-flex">
+          <div class="ktc-world-logo"><a href="#"><img src="img/KTC-WORLD.png" /></a></div>
+          <ul class="scrolled-menu">
+            <li class="dropdown">บริการ KTC WORLD
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>บริการหลัก<a href="#"></a></li>
+                <li>เรื่องราวการท่องเที่ยว<a href="#"></a></li>
+                <li>คู่มือท่องเที่ยว KTC Guidezine<a href="#"></a></li>
+                <li>นิตยสาร MY WORLD<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown selected">โปรโมชั่นท่องเที่ยว
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ตั๋วเครื่องบิน<a href="#"></a></li>
+                <li>แพ็กเกจทัวร์<a href="#"></a></li>
+                <li>โรงแรม<a href="#"></a></li>
+                <li>ห้องอาหาร<a href="#"></a></li>
+                <li>รถเช่าและรถไฟ<a href="#"></a></li>
+                <li>บัตรเข้าชม<a href="#"></a></li>
+                <li>ประกันภัยการเดินทาง<a href="#"></a></li>
+                <li>เว็บไซต์ท่องเที่ยวชั้นนำ<a href="#"></a></li>
+                <li>อื่นๆ<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">จองออนไลน์
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>ตั๋วเครื่องบิน<a href="#"></a></li>
+                <li>โรงแรม<a href="#"></a></li>
+                <li>บัตรเข้าชม<a href="#"></a></li>
+                <li>รถเช่า<a href="#"></a></li>
+                <li>พ็อกเก็ตไวไฟ<a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">กิจกรรม KTC WORLD
+              <i class="fa fa-angle-down"></i>
+              <ul>
+                <li>กิจกรรม<a href="#"></a></li>
+                <li>ประกาศรายชื่อผู้โชคดี<a href="#"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="sub-menu-mobile">
+          <ul class="horizontal-menu d-flex align-items-center ">
+            <li><a>เรื่องราวการท่องเที่ยว</a></li>
+            <li><a>คู่มือการท่องเที่ยว</a></li>
+            <li><a>นิตยสาร MY WORLD</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- END MENU WORLD -->
+    </div>
+    <!-- END SITE HEADER -->
+
+    <div id="menu-mobile-bottom">
+      <ul class="nav nav-fill">
+        <li class="nav-item"><a class="nav-link active"><img src="img/menu-world.png" style="padding:8px 0;" />หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-service-modal"><img src="img/menu-service.png" />บริการ</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-promotion-modal"><img src="img/menu-chat.png" />โปรโมชั่น</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-booking-modal"><img src="img/menu-gift.png" />จองออนไลน์</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#menu-mobile-activity-modal"><img src="img/menu-gift.png" />กิจกรรม</a></li>
+      </ul>
+    </div>
+
+    <div class="promo-wrapper">
+
+      <div class="content-wrap">
+        <div class="row-breadcrumb-filter">
+          <div class="site-breadcrumb">
+            <a href="#">หน้าหลัก</a> / 
+            <a href="#">โปรโมชั่นท่องเที่ยว</a> / 
+            <a href="#" class="current">ตั๋วเครื่องบิน</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="content-wrap article-wrap">
+
+        <div class="article-cover">
+          <div class="item">
+            <img src="img/promo/cover-pro-2.png">
+          </div>
+          <small>(WPRAT-036)</small>
+        </div>
+
+        <div class="row">
+          <div class="col-9 article-title">คลิกจองตั๋วเครื่องบินสายการบินโคเรียนแอร์ (Korean Air) สุดคุ้ม ที่ KTC World Travel Service และ www.ktcworld.co.th</div>
+          <div class="col-3 article-icon">
+            <button class="fav-btn"></button>
+            <button class="share-btn">
+              <div class="share-popover">
+                <a class="share-fb-btn" href="#"></a>
+                <a class="share-tw-btn" href="#"></a>
+                <a class="share-line-btn" href="#"></a>
+                <a class="share-mail-btn" href="#"></a>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="article-content">
+          <!-- HTML CONTENT FROM TEXT EDITOR ? -->
+          <p>สิทธิพิเศษสมาชิกบัตรเครดิต KTC จองตั๋ว Korean Air ทุกเส้นทาง ผ่านช่องทาง<br/>
+              •  KTC World Travel Service โทร. <a>02 123 5050</a><br/>
+              •  เว็บไซต์ <a>KTC World</a></p>
+          <p><span class="hightlight"><b>รับฟรี</b></span> <b>ตุ๊กตาหมีแอร์โฮสเตส 1 ตัว</b><br/>
+              เพียงจองตั๋วไป - กลับ สายการบิน Korean Air เส้นทางใดก็ได้ ทุก ๆ 2 ที่นั่ง</p>
+          <p><a class="to-register"><u>ลงทะเบียน</u></a></p>
+          <p><b>เส้นทางแนะนำ</b><br/>
+              ญี่ปุ่น<br/>
+              •  โตเกียว เริ่ม 17,330.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  โอซาก้า เริ่ม 17,330.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  ฟุกุโอะกะ เริ่ม 16,140.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  นะโงะยะ เริ่ม 16,910.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              เกาหลีใต้<br/>
+              •  โซล เริ่ม 15,950.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              อเมริกา / แคนาดา<br/>
+              •  นิวยอร์ก เริ่ม 32,360.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  ชิคาโก เริ่ม 33,380.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  โตรอนโต เริ่ม 30,440.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  ซีแอตเทิล เริ่ม 31,440.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/>
+              •  ลาสเวกัส เริ่ม 31,620.- <a data-toggle="modal" data-target="#book-flight-modal">คลิกค้นหาที่นั่ง</a><br/></p>
+          <p>วิธีขอรับตุ๊กตา<br/>
+              ส่งเลข PNR พร้อมชื่อผู้จองมาที่ <a>ktcworld@ktc.co.th</a><br/>
+              โดยระบุ Subject: ขอรับตุ๊กตาหมี Korean Air</p>
+          <p><b><span class="hightlight">ด่วน !!</span> ของสมนาคุณมีจำนวนจำกัด มาก่อนได้ก่อน</b></p>
+          <p>สอบถามรายละเอียดเพิ่มเติม ได้ที่ KTC World Travel Service โทร. <a>02 123 5050</a></p>
+          <p>ดูรายละเอียดโปรโมชั่นสุดพิเศษอื่น ๆ<br/>
+            <a>•  โปรโมชั่นทัวร์</a><br/>
+            <a>•  จองรถเช่าออนไลน์</a><br/>
+            <a>•  ประกันการเดินทาง</a></p>
+          <p><b>ระยะเวลา</b><br/>
+            1 - 31 ส.ค. 61</p>
+        </div>
+
+        <!-- START REGISTER SECTION -->
+        <div class="register-wrapper">
+          <div class="section-title">ลงทะเบียนร่วมรายการ</div>
+          <div class="d-flex justify-content-center">
+            <ul class="nav nav-justified" role="tablist">
+              <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#tab-online" role="tab">ลงทะเบียนออนไลน์</a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-sms" role="tab">ลงทะเบียนผ่าน SMS</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab-online" role="tabpanel">
+              <form class="form-register form-content form-check-required">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <!-- IF LOGIN -->
+                    <div class="input-ico input-ico-right input-select">
+                      <label>กรุณาเลือกบัตรที่ต้องการลงทะเบียน</label>
+                      <input type="text" class="input-card-picker required" placeholder="กรุณาเลือกบัตรที่ต้องการลงทะเบียน" readonly />
+                    </div>
+                    <!-- IF NOT LOGIN -->
+                    <!--<div class="input-ico input-ico-right">
+                      <label>ระบุหมายเลขบัตร 16 หลัก</label>
+                      <input type="text" class="input-card-text required" placeholder="ระบุหมายเลขบัตร 16 หลัก" />
+                    </div>-->
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="input-ico input-ico-right">
+                      <label>ระบุหมายเลขโทรศัพท์มือถือ / อีเมล</label>
+                      <input type="text" class="input-text required" placeholder="ระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="input-ico input-ico-right">
+                      <label>ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย</label>
+                      <input type="text" class="input-text required" placeholder="ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="input-ico input-ico-right input-baht">
+                      <label>ระบุยอดใช้จ่ายต่อรายการ</label>
+                      <input type="text" class="input-text required" placeholder="ระบุยอดใช้จ่ายต่อรายการ">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="input-ico input-ico-right input-date">
+                      <label>ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย</label>
+                      <input type="text" class="input-date-picker required" placeholder="ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="input-ico input-ico-right input-upload">
+                      <label>กรุณาแนบไฟล์</label>
+                      <input type="file" class="required" />
+                      <input type="text" class="input-file" placeholder="กรุณาแนบไฟล์" readonly />
+                      <span>( ไฟล์ jpg, png, pdf, ขนาดไม่เกิน 2 MB ) การแนบหลักฐานจะช่วยทำให้ตรวจสอบได้เร็วขึ้น</span>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-md-center">
+                    <div class="checkbox">
+                      <input type="checkbox" name="cb-accpet" id="cb_accpet" class="required"><label for="cb_accpet">ขอยืนยันว่าข้อมูลที่ได้ระบุไว้เป็นข้อมูลจริง</label>
+                    </div>
+                  </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                  <button class="btn btn-submit-form disabled">ส่งข้อมูล</button>
+                </div>
+              </div>
+              <!-- END ROW -->
+              </form>
+            </div>
+            <div class="tab-pane fade" id="tab-sms" role="tabpanel">
+              <p>1. พิมพ์ “MO” วรรค ตามด้วยเลขบัตรฯ 16 หลัก # ตามด้วยยอดใช้จ่ายต่อเซลส์สลิป</p>
+              <p>2. ส่งมาที่ 0613845000 (ค่าส่งครั้งละ 3 บาท)</p>
+              <p>3. จะได้รับข้อความตอบกลับยืนยันเมื่อลงทะเบียนสำเร็จ</p> 
+            </div>
+          </div>
+        </div>
+        <!-- END REGISTER SECTION -->
+
+        <div class="article-collapse">
+          <a class="title collapsed" data-toggle="collapse" href="#collapseBranch">สาขาที่ร่วมรายการ<i class="fa fa-angle-up"></i></a>
+          <div class="info collapse" id="collapseBranch">
+            <p>จอง/สอบถามข้อมูลเพิ่มเติมที่ ABC Cooking Studio Thailand</p>
+            <p>สาขา Central World โทร. <span>02 646 1910</span> <a class="i-map"><img src="img/ico-map.png" /></a></p>
+            <p>สาขา Central EastVille โทร. <span>02 553 6259</span>  <a class="i-map"><img src="img/ico-map.png" /></a></p>
+          </div>
+        </div>
+
+        <div class="article-collapse">
+          <a class="title" data-toggle="modal" data-target="#terms-modal">เงื่อนไขรายการส่งเสริมการขาย<i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <!--<div class="article-collapse">
+          <a class="title collapsed" data-toggle="collapse" href="#collapseTerms">เงื่อนไขรายการส่งเสริมการขาย<i class="fa fa-angle-up"></i></a>
+          <div class="info collapse" id="collapseTerms">
+              1. เคทีซีสงวนสิทธิ์สำหรับสมาชิกบัตรเครดิต KTC ที่จองและชำระบัตรโดยสาร ผ่าน www.ktcworld.co.th และช่องทาง Call Center ที่ KTC World Travel Service 02 123 5050 ระหว่าง 1 - 31 ส.ค. 61 เท่านั้น<br/>
+              2. ของสมนาคุณมีจำนวนจำกัด ขอสงวนสิทธิ์มอบของสมนาคุณให้กับสมาชิกบัตรฯ ที่ทำการแจ้งความประสงค์ขอรับของสมนาคุณเข้ามาก่อน<br/>
+              3. ของสมนาคุณจะถูกจัดส่งภายใน 45 วันหลังจากจบแคมเปญ<br/>
+              4. เงื่อนไขบัตรโดยสารจะเป็นไปตามที่สายการบินกำหนด<br/>
+              5. เคทีซีไม่ใช่ผู้จัดจำหน่ายหรือผู้ให้บริการ และไม่มีส่วนเกี่ยวข้องใดๆเกี่ยวกับสินค้าและบริการตามรายการ กรณีสมาชิกบัตรฯ มีข้อสงสัยหรือร้องเรียนเกี่ยวกับสินค้าหรือบริการ หรือต้องการใบเสร็จ/ใบกำกับภาษีกรุณา
+              ติดต่อโดยตรงกับสายการบิน<br/>
+              6. เคทีซีสวนสิทธิ์ในการยกเลิกหรือเปลี่ยนแปลงเงื่อนไขและของสมนาคุณโดยไม่ต้องแจ้งให้ทราบล่วงหน้า<br/>
+              7. เคทีซีไม่ใช่ผู้จัดจำหน่ายหรือผู้ให้บริการ และไม่มีส่วนเกี่ยวข้องใดๆ เกี่ยวกับสินค้าและบริการนั้นๆ กรณีสมาชิก KTC มีข้อสงสัยหรือร้องเรียนเกี่ยวกับสินค้าหรือบริการ หรือ ต้องการใบเสร็จ/ใบกำกับภาษี กรุณาติดต่อ
+              โดยตรงกับบริษัทตัวแทนผู้จัดจำหน่ายหรือผู้ให้บริการนั้นๆ KTC World Travel Service ดำเนินการโดย บริษัท เวิลด์ เอ็กซ์พลอเรอร์ จำกัด บริษัทนำเที่ยวสมาชิก IATA เลขที่ 35-3-0509-3 ใบอนุญาตประกอบธุรกิจ
+              ท่องเที่ยว กับททท. เลขที่ 11/03724
+          </div>
+        </div> -->
+
+        <div class="article-tag">
+          <a href="#">Teddy Bear</a>
+          <a href="#">Korean Air</a>
+          <a href="#">Nagoya</a>
+          <a href="#">Seoul</a>
+        </div>
+
+        <div class="article-link">
+          <div class="title">KOREAN AIR</div>
+          <div class="link"><img src="img/ico-link-web.png" /><a href="#">https://www.koreanair.com/global/</a></div>
+          <div class="link"><img src="img/ico-link-phone.png" />02 123 5050</div>
+        </div> 
+
+      </div>
+      <!-- END ARTICLE -->
+    
+      <div class="sticky-footer-booking fixed" data-toggle="modal" data-target="#book-flight-modal">
+        <div class="content-wrap">
+          <form class="form-content form-flight">
+            <div class="row">
+              <div class="row d-none d-lg-flex col-lg-10">
+                <div class="col-12 col-md-4">
+                  <div class="input-ico input-origin filled">
+                    <label>ต้นทาง</label>
+                    <input type="text" class="input-airport-picker" placeholder="ต้นทาง" value="Bangkok [BKK] - Thailand" disabled />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="input-ico input-destination">
+                    <label>ปลายทาง</label>
+                    <input type="text" class="input-airport-picker" placeholder="ปลายทาง" disabled />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="input-ico input-people filled">
+                    <label>จำนวนผู้โดยสาร</label>
+                    <input type="text" class="input-people-picker" placeholder="จำนวนผู้โดยสาร" value="ผู้ใหญ่ 1" disabled />
+                  </div>
+                </div>
+              </div>
+              <div class="col-5 d-lg-none ml-auto">
+                <span class="banner-text-1">จองง่ายๆ กับ</span>
+                <span class="banner-text-2">KTC WORLD</span>
+              </div>
+              <div class="col-5 col-lg-2 mr-auto">
+                <button class="btn btn-block btn-go-booking" type="button">จองออนไลน์</button>
+              </div>
+            </div>
+            <!-- END ROW -->
+          </form>
+        </div>
+      </div>
+      <!-- END STICKY FOOTER BOOKING -->
+      
+      <div id="sticky-trigger"></div>
+    </div>
+    <!-- END WRAPPER -->
+
+    <div class="content-wrap">
+      <div class="d-flex justify-content-end align-items-end action-footer">
+        <a class="chat-btn"><img src="img/ico-chat.png" /><p>Live Chat</p></a>
+        <!--<a class="totop-btn"><img src="img/ico-top.png" /></a>-->
+      </div>
+    </div>
+    
+    <div class="footer sub-footer">
+      <div id="foot-trigger"></div>
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-6 col-sm-6 col-desc">
+              <h2>KTC WORLD TRAVEL SERVICE</h2>
+              <h5>บริการข้อมูลการเดินทางและท่องเที่ยวสำหรับสมาชิก<br/>บัตรเครดิต KTC</h5>
+              <p>ดำเนินการโดย บริษัท เวิลด์ เอ็กซ์พลอเรอร์ จำกัด บริษัทนำเที่ยวสมาชิก IATA เลขที่ 35-3-0509-3ใบอนุญาตประกอบธุรกิจท่องเที่ยว ททท. เลขที่ 11/03724 ผู้ให้บริการสำรองบัตรโดยสารเครื่องบิน โรงแรม รถเช่า กรุ๊ปทัวร์ แพ็คเกจอิสระในและต่างประเทศ ตั๋วรถไฟต่างประเทศ บัตรเข้าชมสถานที่ท่องเที่ยวและประกันการเดินทาง</p>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <h3>เกี่ยวกับ KTC WORLD</h3>
+              <ul>
+                <li><a href="#">บริการ KTC WORLD</a></li>
+                <li><a href="#">โปรโมชั่นท่องเที่ยว</a></li>
+                <li><a href="#">จองออนไลน์</a></li>
+                <li><a href="#">กิจกรรม KTC WORLD</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2 col-info">
+            <div class="tel">
+              <p class="tel-text">KTC WORLD TRAVEL SERVICE</p>
+              <span>02 123 5050</span>
+            </div>
+            <div class="time">
+              <span>8.00 - 20.00 น. จันทร์ - อาทิตย์</span>
+              <span>(ไม่เว้นวันหยุดราชการ)</span>
+            </div>
+            <div class="contact">
+              <p>ติดตามเรา</p>
+              <a href="#"><img src="img/ico-social-facebook-c.png" /><span>KTCWorldCommunity</span></a>
+              <a href="#"><img src="img/ico-social-instagram-c.png" /><span>ktcworld</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="footer last-footer">
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-3 col-sm-6">
+              <h3>เกี่ยวกับเรา</h3>
+              <ul>
+                <li><a href="#">วิสัยทัศน์ / พันธกิจ </a></li>
+                <li><a href="#">ข้อมูลทั่วไป</a></li>
+                <li><a href="#">โครงสร้างการถือหุ้นกลุ่มบริษัท</a></li>
+                <li><a href="#">โครงสร้างการถือหุ้น</a></li>
+                <li><a href="#">โครงสร้างองค์กร</a></li>
+                <li><a href="#">คณะกรรมการ</a></li>
+                <li><a href="#">คณะผู้บริหาร</a></li>
+                <li><a href="#">เลขานุการบริษัท</a></li>
+                <li><a href="#">หัวหน้างานตรวจสอบภายใน</a></li>
+                <li><a href="#">ข่าวประชาสัมพันธ์</a></li>
+                <li><a href="#">บทความ</a></li>
+                <li><a href="#">สมัครงาน / ฝึกงาน</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>บริการลูกค้า</h3>
+              <ul>
+                <li><a href="#">บริการออนไลน์</a></li>
+                <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+                <li><a href="#">คำนวณดอกเบี้ย / ค่าธรรมเนียม</a></li>
+                <li><a href="#">ช่องทางการชำระเงิน</a></li>
+                <li><a href="#">บริการหักค่าใช้จ่ายรายเดือนอัตโนมัติ</a></li>
+                <li><a href="#">ดาวน์โหลด</a></li>
+                <li><a href="#">ประกาศบริษัท</a></li>
+								<li><a href="#">คำถามที่พบบ่อย</a></li>
+                <li><a href="#">แผนผังเว็บไซต์</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>กำกับดูแลกิจการ</h3>
+              <ul>
+                <li class="two-line"><a href="#">การควบคุมภายในและการบริหารจัดการความเสี่ยง</a></li>
+                <li><a href="#">ความรับผิดชอบต่อสังคม</a></li>
+                <li class="two-line"><a href="#">ประมวลภาพกิจกรรมการกำกับดูแลกิจการและความรับผิดชอบต่อสังคม</a></li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3>นักลงทุนสัมพันธ์</h3>
+              <ul>
+                <li><a href="#">ข้อมูลด้านการเงิน</a></li>
+                <li><a href="#">นโยบายการเปิดเผยข้อมูล</a></li>
+                <li><a href="#">เอกสารเผยแพร่</a></li>
+                <li><a href="#">ข้อมูลผู้ถือหุ้น</a></li>
+                <li><a href="#">การประชุมผู้ถือหุ้น</a></li>
+                <li><a href="#">ติดต่อนักลงทุนสัมพันธ์</a></li>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <div class="tel">
+              <p class="tel-text">KTC PHONE</p>
+              <span>02 123 5000</span>
+            </div>
+            <img class="footer-badge" src="img/ico-footer-badge.png" />
+            <div class="download-section">
+              <p>ดาวน์โหลด</p>
+              <img class="footer-badge tapktc" src="img/ico-download-tapktc.png" />
+              <div class="fotter-hollow"></div>
+              <img class="footer-badge" src="img/ico-download-ios.png" />
+              <img class="footer-badge" src="img/ico-download-ggplay.png" />
+            </div>
+          </div>
+          <div class="col-sm-12 only-mobile">
+            <div class="social-footer">
+              <a href="#"><img src="img/ico-social-facebook.png" /></a>
+              <a href="#"><img src="img/ico-social-twitter.png" /></a>
+              <a href="#"><img src="img/ico-social-instagram.png" /></a>
+              <a href="#"><img src="img/ico-social-line.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap last-piece">
+        <div class="row">
+          <div class="col-lg-6 license">สงวนลิขสิทธิ์ © 2561 บริษัท บัตรกรุงไทย จำกัด (มหาชน)</div>
+          <div class="col-lg-6 text-right">
+            <div class="social-footer">
+              <a href="#">
+                <img class="on-default" src="img/ico-social-facebook.png">
+                <img class="on-hover" src="img/ico-social-facebook-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-twitter.png">
+                <img class="on-hover" src="img/ico-social-twitter-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-instagram.png">
+                <img class="on-hover" src="img/ico-social-instagram-color.png">
+              </a>
+              <a href="#">
+                <img class="on-default" src="img/ico-social-line.png">
+                <img class="on-hover" src="img/ico-social-line-color.png">
+              </a>
+            </div>
+            <a class="lang-footer">
+              <div class="lang-wrap active">
+                <label for="lang-change">Language</label>
+                <p id="lang-change">EN</p>
+              </div>
+              <div class="lang-wrap">
+                <label for="lang2-change">Language</label>
+                <p id="lang2-change">TH</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--<div class="chat ghost-footer"><img src="img/ico-chat.png" /><p>Live Chat</p></div>-->
+      <div class="to-top ghost-footer">↑</div>
+    </div>
+
+    <div id="terms-modal" class="modal fade full-modal world-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="header">
+                <div class="title">เงื่อนไขรายการส่งเสริมการขาย</div>
+                <div class="name">จองตั๋วเครื่องบินสายการบินโคเรียนแอร์ (Korean Air) รับฟรี ตุ๊กตาหมีแอร์โฮสเตส 1 ตัว</div>
+              </div>
+              <div class="content">
+                 1. เคทีซีสงวนสิทธิ์สำหรับสมาชิกบัตรเครดิต KTC ที่จองและชำระบัตรโดยสาร ผ่าน www.ktcworld.co.th และช่องทาง Call Center ที่
+                KTC World Travel Service 02 123 5050 ระหว่าง 1 - 31 ส.ค. 61 เท่านั้น<br/> 2. ของสมนาคุณมีจำนวนจำกัด ขอสงวนสิทธิ์มอบของสมนาคุณให้กับสมาชิกบัตรฯ
+                ที่ทำการแจ้งความประสงค์ขอรับของสมนาคุณเข้ามาก่อน<br/> 3. ของสมนาคุณจะถูกจัดส่งภายใน 45 วันหลังจากจบแคมเปญ<br/> 4. เงื่อนไขบัตรโดยสารจะเป็นไปตามที่สายการบินกำหนด<br/>5.
+                เคทีซีไม่ใช่ผู้จัดจำหน่ายหรือผู้ให้บริการ และไม่มีส่วนเกี่ยวข้องใดๆเกี่ยวกับสินค้าและบริการตามรายการ กรณีสมาชิกบัตรฯ มีข้อสงสัยหรือร้องเรียนเกี่ยวกับสินค้าหรือบริการ
+                หรือต้องการใบเสร็จ/ใบกำกับภาษีกรุณา ติดต่อโดยตรงกับสายการบิน
+                <br/> 6. เคทีซีสวนสิทธิ์ในการยกเลิกหรือเปลี่ยนแปลงเงื่อนไขและของสมนาคุณโดยไม่ต้องแจ้งให้ทราบล่วงหน้า<br/> 7. เคทีซีไม่ใช่ผู้จัดจำหน่ายหรือผู้ให้บริการ
+                และไม่มีส่วนเกี่ยวข้องใดๆ เกี่ยวกับสินค้าและบริการนั้นๆ กรณีสมาชิก KTC มีข้อสงสัยหรือร้องเรียนเกี่ยวกับสินค้าหรือบริการ หรือ
+                ต้องการใบเสร็จ/ใบกำกับภาษี กรุณาติดต่อ โดยตรงกับบริษัทตัวแทนผู้จัดจำหน่ายหรือผู้ให้บริการนั้นๆ KTC World Travel Service ดำเนินการโดย
+                บริษัท เวิลด์ เอ็กซ์พลอเรอร์ จำกัด บริษัทนำเที่ยวสมาชิก IATA เลขที่ 35-3-0509-3 ใบอนุญาตประกอบธุรกิจ ท่องเที่ยว กับททท. เลขที่
+                11/03724
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="book-flight-modal" class="modal fade full-modal world-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">จองตั๋วเครื่องบิน</div>
+
+              <ul class="nav nav-flight nav-primary">
+                <li class="nav-item"><a class="nav-link active" data-toggle="pill" data-val="return">ไป - กลับ</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="pill" data-val="oneway">เที่ยวเดียว</a></li>
+                <li class="nav-item"><a class="nav-link mr-0" data-toggle="pill" data-val="multi">หลายเมือง</a></li>
+              </ul>
+
+              <form class="form-content form-check-required form-flight f-one-city">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-origin space-right">
+                      <label>ต้นทาง</label>
+                      <input type="text" class="input-airport-picker required" id="originAirport_0" placeholder="ต้นทาง" />
+                      <a href="#" class="swap-btn"><img src="img/ico-swap.png" /></a>
+                      <div class="box-airport-autocomplete form-bubble" style="display: none;">
+                        <div class="loading"><i class="fa fa-circle-o-notch fa-spin fa-fw"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-destination space-left">
+                      <label>ปลายทาง</label>
+                      <input type="text" class="input-airport-picker required" id="destinationAirport_0" placeholder="ปลายทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 flex-order-m-1">
+                    <div class="input-ico input-people filled">
+                      <label>จำนวนผู้โดยสาร</label>
+                      <input type="text" class="input-people-picker required"  id="peoplePicker_0" placeholder="จำนวนผู้โดยสาร" readonly />
+              
+                      <div class="people-picker-popover form-bubble">
+                        <div class="d-flex justify-content-between">
+                          <div class="title">ผู้ใหญ่</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-adult" value="1" title="ผู้ใหญ่" disabled
+                            /><a class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุตั้งแต่ 12 ปีขึ้นไป)</div>
+                        <div class="d-flex justify-content-between">
+                          <div class="title">เด็ก</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-child" value="0" title="เด็ก" disabled /><a
+                              class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุตั้งแต่ 2 - 11 ปี)</div>
+                        <div class="d-flex justify-content-between">
+                          <div class="title">ทารก</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-infant" value="0" title="ทารก" disabled
+                            /><a class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุน้อยกว่า 2 ปี)</div>
+                        <div class="f-button text-right"><button class="btn">ตกลง</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 show-on-expand">
+                    <div class="input-ico input-date space-right">
+                      <label>วันที่ออกเดินทาง</label>
+                      <input type="text" class="input-date-picker required" id="departureDate" placeholder="วันที่ออกเดินทาง" readonly />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4  show-on-expand">
+                    <div class="input-ico input-date space-left disable-on-oneway">
+                      <label>วันที่เดินทางกลับ</label>
+                      <input type="text" class="input-date-picker required" id="returnDate" placeholder="วันที่เดินทางกลับ" readonly />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 show-on-expand flex-order-m-2">
+                    <div class="input-ico input-seat filled">
+                      <label>ชั้นโดยสาร</label>
+                      <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด" readonly />
+                    </div>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-block btn-submit-form disabled">ค้นหาเที่ยวบิน</button>
+                </div>
+              </form>
+              <!-- END FORM ONE CITY -->
+              <!-- START FORM MULTI CITY -->
+              <form class="form-content form-check-required form-flight f-multi-city" style="display:none" data-route="2">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-origin">
+                      <label>เส้นทางที่ 1: ต้นทาง</label>
+                      <input type="text" class="input-airport-picker required" id="originAirport_1" placeholder="เส้นทางที่ 1: ต้นทาง" />
+                      <div class="box-airport-autocomplete form-bubble" style="display: none;">
+                        <div class="loading"><i class="fa fa-circle-o-notch fa-spin fa-fw"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-destination">
+                      <label>เส้นทางที่ 1: ปลายทาง</label>
+                      <input type="text" class="input-airport-picker required" id="destinationAirport_1" placeholder="เส้นทางที่ 1: ปลายทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-date space-right-lg">
+                      <label>เส้นทางที่ 1: วันที่ออกเดินทาง</label>
+                      <input type="text" class="input-date-picker required" placeholder="เส้นทางที่ 1: วันที่ออกเดินทาง" readonly />
+                    </div>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-origin">
+                      <label>เส้นทางที่ 2: ต้นทาง</label>
+                      <input type="text" class="input-airport-picker required" id="originAirport_2" placeholder="เส้นทางที่ 2: ต้นทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-destination">
+                      <label>เส้นทางที่ 2: ปลายทาง</label>
+                      <input type="text" class="input-airport-picker required" id="destinationAirport_2" placeholder="เส้นทางที่ 2: ปลายทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-date space-right-lg">
+                      <label>เส้นทางที่ 2: วันที่ออกเดินทาง</label>
+                      <input type="text" class="input-date-picker required" placeholder="เส้นทางที่ 2: วันที่ออกเดินทาง" readonly />
+                    </div>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="row third-route">
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-origin">
+                      <label>เส้นทางที่ 3: ต้นทาง</label>
+                      <input type="text" class="input-airport-picker" id="originAirport_3" placeholder="เส้นทางที่ 3: ต้นทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-destination">
+                      <label>เส้นทางที่ 3: ปลายทาง</label>
+                      <input type="text" class="input-airport-picker" id="destinationAirport_3" placeholder="เส้นทางที่ 3: ปลายทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-date space-right-lg">
+                      <label>เส้นทางที่ 3: วันที่ออกเดินทาง</label>
+                      <input type="text" class="input-date-picker" placeholder="เส้นทางที่ 3: วันที่ออกเดินทาง" readonly />
+                      <a href="#" class="delete-route-btn" data-delete="3"><img src="img/ico-del.png" /></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="row fourth-route">
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-origin">
+                      <label>เส้นทางที่ 4: ต้นทาง</label>
+                      <input type="text" class="input-airport-picker" id="originAirport_4" placeholder="เส้นทางที่ 4: ต้นทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-destination">
+                      <label>เส้นทางที่ 4: ปลายทาง</label>
+                      <input type="text" class="input-airport-picker" id="destinationAirport_4" placeholder="เส้นทางที่ 4: ปลายทาง" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input-ico input-date space-right-lg">
+                      <label>เส้นทางที่ 4: วันที่ออกเดินทาง</label>
+                      <input type="text" class="input-date-picker" placeholder="เส้นทางที่ 4: วันที่ออกเดินทาง" readonly />
+                      <a href="#" class="delete-route-btn" data-delete="4"><img src="img/ico-del.png" /></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="row">
+                  <div class="col-12 col-md-4 flex-order-m-1">
+                    <div class="input-ico input-people filled">
+                      <label>จำนวนผู้โดยสาร</label>
+                      <input type="text" class="input-people-picker required" placeholder="จำนวนผู้โดยสาร" readonly />
+              
+                      <div class="people-picker-popover form-bubble">
+                        <div class="d-flex justify-content-between">
+                          <div class="title">ผู้ใหญ่</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-adult" value="1" title="ผู้ใหญ่" disabled
+                            /><a class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุตั้งแต่ 12 ปีขึ้นไป)</div>
+                        <div class="d-flex justify-content-between">
+                          <div class="title">เด็ก</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-child" value="0" title="เด็ก" disabled /><a
+                              class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุตั้งแต่ 2 - 11 ปี)</div>
+                        <div class="d-flex justify-content-between">
+                          <div class="title">ทารก</div>
+                          <div class="input-qty">
+                            <a class="minus"></a><input type="number" min="0" max="5" class="p-infant" value="0" title="ทารก" disabled
+                            /><a class="plus"></a>
+                          </div>
+                        </div>
+                        <div class="meta">(อายุน้อยกว่า 2 ปี)</div>
+                        <div class="f-button text-right"><button class="btn">ตกลง</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 flex-order-m-2">
+                    <div class="input-ico input-seat filled">
+                      <label>ชั้นโดยสาร</label>
+                      <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด" readonly />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 hide-on-route-4">
+                    <a class="add-route-btn"><img src="img/ico-plus.png" /> เพิ่มเส้นทาง</a>
+                  </div>
+                </div>
+                <!-- END ROW -->
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-block btn-submit-form disabled">ค้นหาเที่ยวบิน</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="menu-mobile-service-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">บริการ KTC WORLD</div>
+              <ul class="menu-list">
+                <li><a href="#">บริการหลัก</a></li>
+                <li><a href="#">เรื่องราวการท่องเที่ยว</a></li>
+                <li><a href="#">คู่มือท่องเที่ยว KTC Guidezine</a></li>
+                <li><a href="#">นิตยสาร MY WORLD</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-promotion-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">โปรโมชั่นท่องเที่ยว</div>
+              <ul class="menu-list">
+                <li><a href="#">ตั๋วเครื่องบิน</a></li>
+                <li><a href="#">แพ็กเกจทัวร์</a></li>
+                <li><a href="#">โรงแรม</a></li>
+                <li><a href="#">ห้องอาหาร</a></li>
+                <li><a href="#">รถเช่าและรถไฟ</a></li>
+                <li><a href="#">บัตรเข้าชม</a></li>
+                <li><a href="#">ประกันภัยการเดินทาง</a></li>
+                <li><a href="#">เว็บไซต์ท่องเที่ยวชั้นนำ</a></li>
+                <li><a href="#">อื่นๆ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-booking-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">จองออนไลน์</div>
+              <ul class="menu-list">
+                <li><a href="#">ตั๋วเครื่องบิน</a></li>
+                <li><a href="#">โรงแรม</a></li>
+                <li><a href="#">บัตรเข้าชม</a></li>
+                <li><a href="#">รถเช่า</a></li>
+                <li><a href="#">พ็อกเก็ตไวไฟ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu-mobile-activity-modal" class="modal fade full-modal world-modal menu-mobile-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <div class="section-title">กิจกรรม KTC WORLD</div>
+              <ul class="menu-list">
+                <li><a href="#">กิจกรรม</a></li>
+                <li><a href="#">ประกาศรายชื่อผู้โชคดี</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">เลือกผลิตภัณฑ์</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-credit.png" />
+              </div>
+              <p>บัตรเครดิต</p>
+            </a>
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-ktcproud.png" />
+              </div>
+              <p>บัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+            </a>
+            <a href="#" class="card-choice">
+              <div class="left-icon">
+                <img src="img/ico-ktccash.png" />
+              </div>
+              <p>สินเชื่ออเนกประสงค์ KTC CASH</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="search-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="search-cat-wrap">
+              <input type="checkbox" name="" id="all-cat" />
+              <label for="all-cat">ทั้งหมด</label>
+              <div class="subcat-wrap">
+                <input type="checkbox" name="" id="credit-cat" />
+                <label for="credit-cat">บัตรเครดิต</label>
+                <input type="checkbox" name="" id="privill-cat" />
+                <label for="privill-cat">สิทธิพิเศษ</label>
+                <input type="checkbox" name="" id="article-cat" />
+                <label for="article-cat">บทความ</label>
+                <input type="checkbox" name="" id="other-cat" />
+                <label for="other-cat">อื่นๆ</label>
+              </div>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="search-wrap">
+              <img src="img/ico-search-black.png">
+              <input class="input-search" type="text" placeholder="ค้นหาทุกสิ่งใน KTC" />
+              <button class="button-search">ค้นหา</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/datepicker-th.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dotdotdot.js"></script>
+
+    <script type="text/javascript" src="js/ui-main.js"></script>
+    <script type="text/javascript" src="js/ui-form-flight.js"></script>
+    <script type="text/javascript" src="js/ui-form-register.js"></script>
+
+  </body>
+</html>

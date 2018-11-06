@@ -1,0 +1,416 @@
+@media (max-width: 991px) {
+  .last-piece .text-right{
+    display: none;
+  }
+
+  .license{
+    font-size: 12px;
+    padding: 10px 0 12px 0;
+    text-align: center;
+  }
+  .scrolled-menu{
+    display: none;
+  }
+
+  /*.menu-global{
+    background: url("../img/bg_menu.png");
+    margin-bottom: 215px;
+  }*/
+  .menu-global{
+    position: relative;
+  }
+  .menu-global .card-register-btn{
+    display: none;
+  }
+  .menu-global .login-btn{
+    display: none;
+  }
+  .menu-global .only-mobile{
+  	display: inline-block;
+  }
+
+  .menu-global .search-on-menu{
+    padding: 6px 12px;
+    margin-right: 0;
+  }
+  .menu-global .search-on-menu img{
+    width: 24px;
+  }
+
+  .menu-global .profile-image img{
+    width: 28px;
+    height: 28px;
+  }
+
+  .menu-global .login-mobile{
+    padding: 6px 12px;
+  }
+  .menu-global .login-mobile img{
+    width: 16px;
+  }
+  .menu-global .logged-in{
+    padding: 18px 12px;
+    margin-left: 0;
+  }
+
+  .menu-global .menu-mobile{
+    padding: 6px 12px;
+    margin-right: -12px;
+  }
+  .menu-global .menu-mobile img{
+    width: 20px;
+  }
+  
+  /*.menu-mobile{
+    position: relative;
+    top: 4px;
+    padding-left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    width: 0px;
+    background: url("../img/ico-menu-mobile.png");
+  }
+  .mini-header .menu-mobile {
+    background: url("../img/ico-menu-mobile.png");
+    background-size: 100%;
+    opacity: 1;
+    pointer-events: all;
+    width: 18px;
+    height: 16px;
+    margin-left: 14px;
+  }*/
+
+  .menu-responsive-dropdown{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: calc(100vh);
+    padding: 0 25px;
+    padding-top: 66px;
+    padding-bottom: 150px;
+    z-index: 5;
+  }
+  .menu-resp-scroll{
+    overflow: auto;
+    max-height: 100%;
+  }
+  div#scrolled-menu-responsive{
+    opacity: 0;
+    pointer-events:none;
+  }
+  div#scrolled-menu-responsive.active{
+    opacity: 1;
+    pointer-events:all;
+  }
+  #scrolled-menu-responsive img{
+    width: 40px;
+  }
+  .menu-responsive-dropdown a {
+    position: relative;
+    display: block;
+    left: 0;
+    margin-top: 8px;
+    opacity: 1;
+  }
+  .menu-responsive-dropdown ul a{
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 14px;
+    overflow: hidden;
+    height: 0;
+    margin-top: 0;
+    padding-left: 55px;
+  }
+  .menu-responsive-dropdown ul{
+    padding-bottom: 0;
+  }
+  .menu-responsive-dropdown .active + ul{
+    padding-bottom: 25px;
+    margin-top: -14px;
+  }
+  .menu-responsive-dropdown .active + ul a{
+    height: 17px;
+    margin-top: 20px;
+    line-height: 21px;
+  }
+  .menu-responsive-dropdown h3{
+    font-family: 'Conv_SukhumvitTadmai_Bol';
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    padding-left: 15px;
+    width: 88vw;
+  }
+  .menu-responsive-dropdown .menu-responsive{
+    position: relative;
+    border-bottom: 0.5px solid #535353;
+    padding: 5px 0;
+  }
+
+  .menu-responsive-dropdown h3.menu-more:after{
+    content: "+";
+    position: absolute;
+    top: -3px;
+    font-family: 'Gotham-Book';
+    right: 0;
+    font-size: 24px;
+  }
+  .menu-responsive-dropdown h3.menu-more:after{
+    transform: rotate(0);
+    right: 0;
+    top: -3px;
+  }
+  .menu-responsive-dropdown h3.menu-more.active:after{
+  	transform: rotate(-45deg);
+    right: -1px;
+  }
+
+  .menu-responsive-dropdown .menu-btn{
+    position: absolute;
+    bottom: 0;
+  }
+  .menu-responsive-dropdown .menu-lang{
+    position: relative;
+  }
+  .menu-responsive-dropdown .lang-header-menu{
+    border-top: 0.5px solid #535353;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .menu-responsive-dropdown .lang-header-menu img{
+    padding-left: 0;
+  }
+  .menu-responsive-dropdown .lang-header-menu label{
+    display: inline-block;
+    position: absolute;
+    font-family: 'Gotham-Bold';
+    font-size: 16px;
+    top: 23px;
+    left: 56px;
+  }
+  .menu-responsive-dropdown .lang-header-menu select{
+    float: right;
+    background-color: transparent;
+    color: #707070;
+    font-family: 'Gotham-Bold';
+    border-radius: 4px;
+    border-color: #707070;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    padding: 5px;
+    margin-top: 7px;
+  }
+  .menu-responsive-dropdown .menu-btn button{
+    font-family: 'Conv_SukhumvitTadmai_Bol';
+    font-size: 18px;
+    margin: 12px 0;
+    background: #CF3339;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    width: 94vw;
+    height: 45px;
+  }
+  #ktc-logo{
+    position: relative;
+    z-index: 6;
+  }
+  .menu-resp-close{
+    top: 7px;
+    right: 20px;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    opacity: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }
+
+  .index-slide2 .owl-nav button.owl-prev{
+    top: 13.5vw;
+  }
+  .index-slide2 .owl-nav button.owl-next {
+    top: 13.5vw;
+  }
+  .open-on-top h4{
+    margin-top: 30px;
+  }
+  .open-on-top h4.title-mobile{
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    line-height: 36px;
+  }
+  .icon-wrap {
+    padding: 30px 0 0 0;
+  }
+  .icon-wrap p {
+    line-height: 18px;
+  }
+  .big-link img {
+    margin-bottom: 0px;
+  }
+  .only-desktop {
+    display: none;
+  }
+  .only-mobile{
+    display: block;
+  }
+  .menu-global .another-sub .content-wrap > * {
+    flex: 0 100%;
+  }
+  
+  /*.index-head {
+    padding-bottom: 4px;
+  }*/
+
+  .another-sub span{
+    display: none;
+  }
+  .another-sub a:after{
+  	background: none;
+  }
+  .text-on-slide p {
+    font-size: 28px;
+  }
+  .item .slide-title{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .item .slide-content{
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .slide-wrap:before,
+  .slide-wrap:after{
+    display: none;
+  }
+  /*.owl-item {
+    opacity: 0;
+  }*/
+
+  .to-top:hover{
+    cursor: pointer;
+    bottom: 30px;
+  }
+
+  .chat:hover{
+    cursor: pointer;
+    bottom: 57px;
+  }
+
+  .input-search{
+    width: calc(100% - 33px);
+    margin-right: 0;
+    font-size: 14px;
+  }
+
+  .button-search{
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+    display: block;
+    bottom: 20px;
+    background: #cf3339;
+    color: #fff;
+    height: 45px;
+  }
+
+  .search-cat-wrap label,
+  .search-cat-wrap > label:nth-child(2){
+    padding: 12px 5px;
+  }
+
+  .modal-header{
+    position: relative;
+    z-index: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .modal-body{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #search-modal .modal-body{
+    padding-bottom: 70px;
+    padding-top: 8px;
+    flex: none;
+    display: block;
+    height: calc(100vh - 130px);
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .menu-global .on-right .login-btn.logged-in{
+    display: inline-block;
+  }
+
+  .login-btn.logged-in ul{
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 75px;
+  }
+
+  .active .for-sub-profile-mobile {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 75px;
+      border-bottom: 1px solid #fff;
+      opacity: 1;
+      pointer-events: all;
+      display: block;
+      text-align: left;
+      background: #000;
+      z-index: 7;
+  }
+
+  .for-sub-profile-mobile .profile-image{
+    width: 47px;
+    height: 47px;
+    margin: 15px 20px;
+  }
+
+  .on-right .for-sub-profile-mobile .profile-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .for-sub-profile-mobile button.close{
+    top: 7px;
+    right: 20px;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    opacity: 1;
+  }
+
+  .big-link > div{
+    height: 153px;
+  }
+
+  /*.menu-global{
+    background-position: left -30px top;
+  }*/
+
+  .footer-menu > .col-lg-3 {
+      width: 40%;
+      flex: none;
+  }
+}
