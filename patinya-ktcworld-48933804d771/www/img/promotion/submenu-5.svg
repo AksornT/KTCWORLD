@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke: #00b2e3;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-4, .cls-7 {
+        opacity: 0.3;
+      }
+
+      .cls-5, .cls-7 {
+        fill: #00b2e3;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_3520" data-name="Group 3520" transform="translate(-2216 -1415)">
+    <g id="Symbol_3_17" data-name="Symbol 3 – 17" transform="translate(1617 254)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="64" height="64" transform="translate(599 1161)"/>
+    </g>
+    <g id="Group_3369" data-name="Group 3369" transform="translate(2226 1427)">
+      <path id="Path_191" data-name="Path 191" class="cls-2" d="M21.1,28.4H5.4A4.375,4.375,0,0,1,1,24V8A7.02,7.02,0,0,1,8,1H18.4a7.02,7.02,0,0,1,7,7V24A4.232,4.232,0,0,1,21.1,28.4Z"/>
+      <line id="Line_106" data-name="Line 106" class="cls-3" x2="24.4" transform="translate(1 7.4)"/>
+      <line id="Line_107" data-name="Line 107" class="cls-3" x2="24.5" transform="translate(1 17.9)"/>
+      <line id="Line_108" data-name="Line 108" class="cls-4" y1="8.5" transform="translate(13.2 8.4)"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-5" cx="1.8" cy="1.8" r="1.8" transform="translate(5 21.6)"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-5" cx="1.8" cy="1.8" r="1.8" transform="translate(17.9 21.6)"/>
+      <g id="Group_228" data-name="Group 228">
+        <path id="Path_192" data-name="Path 192" class="cls-6" d="M36.5,16.6H23.2a4.083,4.083,0,0,0-3.9,2.8l-2.8,8.4a5.663,5.663,0,0,0-.3,1.8v4.9a2.263,2.263,0,0,0,2.3,2.3H41.1a2.263,2.263,0,0,0,2.3-2.3V29.6a5.662,5.662,0,0,0-.3-1.8l-2.8-8.4A3.872,3.872,0,0,0,36.5,16.6Z"/>
+        <line id="Line_109" data-name="Line 109" class="cls-3" x2="24.9" transform="translate(17.4 25.2)"/>
+        <line id="Line_110" data-name="Line 110" class="cls-2" y1="0.8" x2="2.6" transform="translate(42.3 24.4)"/>
+        <line id="Line_111" data-name="Line 111" class="cls-2" x1="2.5" y1="0.8" transform="translate(14.9 24.4)"/>
+        <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-5" cx="1.8" cy="1.8" r="1.8" transform="translate(19.2 28)"/>
+        <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-5" cx="1.8" cy="1.8" r="1.8" transform="translate(37.2 28)"/>
+        <path id="Path_193" data-name="Path 193" class="cls-7" d="M21.5,39.6h-5a1.324,1.324,0,0,1-1.3-1.3V34.4l2.4,2.3,5.2.9v.7A1.324,1.324,0,0,1,21.5,39.6Z"/>
+        <path id="Path_194" data-name="Path 194" class="cls-7" d="M38.2,39.6h5a1.324,1.324,0,0,0,1.3-1.3V34.4l-2.4,2.3-5.2.9v.7A1.324,1.324,0,0,0,38.2,39.6Z"/>
+      </g>
+      <line id="Line_112" data-name="Line 112" class="cls-2" x1="5.5" y2="5.1" transform="translate(2.3 28.4)"/>
+      <line id="Line_113" data-name="Line 113" class="cls-3" x2="11.1" transform="translate(5 31.6)"/>
+      <line id="Line_114" data-name="Line 114" class="cls-3" x2="8.1" transform="translate(25.9 29.8)"/>
+    </g>
+  </g>
+</svg>

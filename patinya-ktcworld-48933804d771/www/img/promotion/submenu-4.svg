@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #00b2e3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <g id="Group_3521" data-name="Group 3521" transform="translate(-2076 -1415)">
+    <g id="Symbol_3_16" data-name="Symbol 3 – 16" transform="translate(1477 254)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="64" height="64" transform="translate(599 1161)"/>
+    </g>
+    <g id="Group_3514" data-name="Group 3514" transform="translate(2084 1431)">
+      <path id="Path_2130" data-name="Path 2130" class="cls-2" d="M6.5,1V8.7a2.689,2.689,0,0,1-2.7,2.7h0A2.712,2.712,0,0,1,1,8.7V1"/>
+      <line id="Line_1661" data-name="Line 1661" class="cls-2" x2="5.5" transform="translate(1 6.5)"/>
+      <line id="Line_1662" data-name="Line 1662" class="cls-2" y2="5.5" transform="translate(3.7 1)"/>
+      <line id="Line_1663" data-name="Line 1663" class="cls-2" y2="17.2" transform="translate(3.7 13.726)"/>
+      <line id="Line_1664" data-name="Line 1664" class="cls-2" y2="17.2" transform="translate(47 13.726)"/>
+      <path id="Path_2131" data-name="Path 2131" class="cls-2" d="M40.9,16.4h3.6V1.2H43.1a2.22,2.22,0,0,0-2.2,2.2Z" transform="translate(2.5)"/>
+      <g id="Group_3512" data-name="Group 3512" transform="translate(11.034 1.3)">
+        <ellipse id="Ellipse_292" data-name="Ellipse 292" class="cls-2" cx="13.6" cy="14.413" rx="13.6" ry="14.413"/>
+      </g>
+      <g id="Group_3513" data-name="Group 3513" class="cls-3" transform="translate(12.918 3.2)">
+        <ellipse id="Ellipse_293" data-name="Ellipse 293" class="cls-2" cx="11.7" cy="12.513" rx="11.7" ry="12.513"/>
+      </g>
+    </g>
+  </g>
+</svg>

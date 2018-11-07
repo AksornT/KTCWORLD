@@ -1,0 +1,26 @@
+<svg id="Group_3455" data-name="Group 3455" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.6 17.6">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <line id="Line_1621" data-name="Line 1621" class="cls-1" x2="1.9" transform="translate(4.2 6)"/>
+  <line id="Line_1622" data-name="Line 1622" class="cls-1" x2="2" transform="translate(8.5 6)"/>
+  <line id="Line_1623" data-name="Line 1623" class="cls-1" x2="2" transform="translate(8.5 9.9)"/>
+  <line id="Line_1624" data-name="Line 1624" class="cls-1" x2="2" transform="translate(8.5 13.8)"/>
+  <line id="Line_1625" data-name="Line 1625" class="cls-1" x2="1.9" transform="translate(4.2 9.9)"/>
+  <line id="Line_1626" data-name="Line 1626" class="cls-1" x2="1.9" transform="translate(4.2 13.8)"/>
+  <path id="Path_2063" data-name="Path 2063" class="cls-2" d="M11.8,2.6V1.5a1,1,0,0,0-1-1H4.2a1,1,0,0,0-1,1V2.6H2A1.454,1.454,0,0,0,.5,4V17.1H14.1V4a1.367,1.367,0,0,0-1.4-1.4Z"/>
+</svg>

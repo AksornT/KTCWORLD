@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: rgba(0,178,227,0.3);
+        stroke: #00b2e3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_3516" data-name="Group 3516" transform="translate(-2776 -1415)">
+    <g id="Symbol_3_21" data-name="Symbol 3 – 21" transform="translate(2177 254)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="64" height="64" transform="translate(599 1161)"/>
+    </g>
+    <g id="Group_3515" data-name="Group 3515" transform="translate(2789 1442)">
+      <circle id="Ellipse_294" data-name="Ellipse 294" class="cls-2" cx="4.183" cy="4.183" r="4.183" transform="translate(1 1)"/>
+      <circle id="Ellipse_295" data-name="Ellipse 295" class="cls-2" cx="4.183" cy="4.183" r="4.183" transform="translate(14.761 1)"/>
+      <circle id="Ellipse_296" data-name="Ellipse 296" class="cls-2" cx="4.183" cy="4.183" r="4.183" transform="translate(28.633 1)"/>
+    </g>
+  </g>
+</svg>

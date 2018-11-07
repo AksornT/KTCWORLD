@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #5b6670;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke-width: 0.75px;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <g id="Group_3528" data-name="Group 3528" transform="translate(-1218 -4330)">
+    <g id="Symbol_386_13" data-name="Symbol 386 – 13" transform="translate(284 72)">
+      <rect id="Rectangle_3027" data-name="Rectangle 3027" class="cls-1" width="24" height="24" transform="translate(934 4258)"/>
+    </g>
+    <g id="Group_3508" data-name="Group 3508" transform="translate(1221.54 4332.5)">
+      <path id="Path_2118" data-name="Path 2118" class="cls-2" d="M5.5,3.9a.43.43,0,0,0-.7.2L.5,17.7c-.2.5.4.9.8.7l12.9-5.7a.388.388,0,0,0,.1-.7Z"/>
+      <line id="Line_1650" data-name="Line 1650" class="cls-3" x2="10.7" y2="2.4" transform="translate(3.2 9.1)"/>
+      <line id="Line_1651" data-name="Line 1651" class="cls-3" x2="4.4" y2="1" transform="translate(5.1 13.5)"/>
+      <line id="Line_1652" data-name="Line 1652" class="cls-4" y1="3.7" x2="0.5" transform="translate(9.5 0.5)"/>
+      <line id="Line_1653" data-name="Line 1653" class="cls-4" x2="1.8" transform="translate(13.9 8.3)"/>
+      <line id="Line_1654" data-name="Line 1654" class="cls-4" y1="1.8" x2="2.1" transform="translate(12.2 4)"/>
+    </g>
+  </g>
+</svg>

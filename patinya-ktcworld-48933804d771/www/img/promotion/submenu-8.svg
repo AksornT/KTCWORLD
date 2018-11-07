@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #00b2e3;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+
+      .cls-4 {
+        fill: #00b2e3;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_3517" data-name="Group 3517" transform="translate(-2636 -1415)">
+    <g id="Symbol_3_20" data-name="Symbol 3 – 20" transform="translate(2037 254)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="64" height="64" transform="translate(599 1161)"/>
+    </g>
+    <g id="Group_3366" data-name="Group 3366" transform="translate(2647 1426)">
+      <g id="Group_220" data-name="Group 220">
+        <path id="Path_177" data-name="Path 177" class="cls-2" d="M34.6,7.5c-3.5,2.7-8.7,4.3-14.4,4.3A24.6,24.6,0,0,1,5.8,7.5"/>
+        <path id="Path_178" data-name="Path 178" class="cls-2" d="M6.2,33.4a24.057,24.057,0,0,1,13.9-4,24.057,24.057,0,0,1,13.9,4"/>
+        <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="10.2" cy="19.2" rx="10.2" ry="19.2" transform="translate(10 1)"/>
+        <line id="Line_97" data-name="Line 97" class="cls-2" x2="38.4" transform="translate(1 20.2)"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-3" cx="19.2" cy="19.2" r="19.2" transform="translate(1 1)"/>
+      </g>
+      <path id="Path_179" data-name="Path 179" class="cls-4" d="M26.6,24.6l.7,15.6,4-3.6a.483.483,0,0,1,.7.1l3.7,5.4,3.6-2.4-3.7-5.4a.483.483,0,0,1,.1-.7l5.4-2.4Z"/>
+    </g>
+  </g>
+</svg>

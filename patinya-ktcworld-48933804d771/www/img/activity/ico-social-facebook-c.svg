@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #757575;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3528" data-name="Group 3528" transform="translate(-2652 -4071)">
+    <g id="Symbol_382_3" data-name="Symbol 382 – 3" transform="translate(0 -1950)">
+      <path id="Path_1935" data-name="Path 1935" class="cls-1" d="M10.382,0V3.619c0,.172-.057.172-.172.172H8.372c-.23,0-.4.057-.632.057a.805.805,0,0,0-.689.8c-.057.8,0,1.608-.057,2.413,0,.172.115.115.172.115h3.274c-.115,1.264-.287,2.527-.4,3.791H6.993V22H2.857V10.914H.1V7.3c0-.172.057-.172.172-.172H2.627c.172,0,.23-.057.23-.23,0-1.034,0-2.068.057-3.1a4.472,4.472,0,0,1,.517-2.125A2.938,2.938,0,0,1,5.155.345C5.614.23,6.074.172,6.476.057A.211.211,0,0,0,6.648,0Z" transform="translate(2660.9 6023.564)"/>
+    </g>
+    <rect id="Rectangle_3033" data-name="Rectangle 3033" class="cls-2" width="27" height="27" transform="translate(2652 4071)"/>
+  </g>
+</svg>

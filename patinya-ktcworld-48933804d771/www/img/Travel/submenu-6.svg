@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #00b2e3;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        opacity: 0.4;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_3530" data-name="Group 3530" transform="translate(-2740 -1414)">
+    <g id="Symbol_3_6" data-name="Symbol 3 – 6" transform="translate(2141 253)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="64" height="64" transform="translate(599 1161)"/>
+    </g>
+    <g id="Group_3354" data-name="Group 3354" transform="translate(2742 1439)">
+      <path id="Path_119" data-name="Path 119" class="cls-2" d="M13.3,25s-.8-8-5.5-13.9a30.914,30.914,0,0,1,11.3,2.6"/>
+      <path id="Path_120" data-name="Path 120" class="cls-3" d="M19.4,25s2-9.3-2.8-17.6c0,0,6.5.3,11.2,3.7"/>
+      <path id="Path_121" data-name="Path 121" class="cls-3" d="M28.1,25s2.1-13.1-4-24c0,0,23.8,5.8,21.1,24"/>
+      <path id="Path_122" data-name="Path 122" class="cls-2" d="M31.9,25c5.7-.5,10-4.4,12.2-9.5"/>
+      <path id="Path_123" data-name="Path 123" class="cls-2" d="M27.7,11.1c-2.3.8-6,4.7-8.4,13.9"/>
+      <path id="Path_126" data-name="Path 126" class="cls-4" d="M19.3,25s2-9.3-2.8-17.6h0s6.5.3,11.2,3.7"/>
+      <path id="Path_127" data-name="Path 127" class="cls-4" d="M28.1,25s2.1-13.1-4-24h0S47.9,6.8,45.2,25"/>
+      <line id="Line_81" data-name="Line 81" class="cls-5" x2="47.3" transform="translate(7.1 25)"/>
+      <line id="Line_82" data-name="Line 82" class="cls-2" x2="47.3" transform="translate(7.1 25)"/>
+      <path id="Path_128" data-name="Path 128" class="cls-4" d="M44.1,15.5c8.1-4.5,14.6-3.2,14.6-3.2A36.19,36.19,0,0,0,54.6,25H59a1.58,1.58,0,0,1,1.6,1.6v2.5A1.58,1.58,0,0,1,59,30.7H2.6A1.58,1.58,0,0,1,1,29.1V26.6A1.58,1.58,0,0,1,2.6,25H7.2s6.9-4.6.5-13.9A30.914,30.914,0,0,1,19,13.7"/>
+    </g>
+  </g>
+</svg>
