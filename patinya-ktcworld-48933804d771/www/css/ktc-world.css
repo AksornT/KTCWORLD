@@ -447,12 +447,15 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         width: 32px;
         height: 32px;
         background-image: url("../img/Index/ico-3.svg");
+        background-position: right;
         position: relative;
         top: 7px;
-        margin-right: 5px;
+        margin-right: 8px;
         background-size: contain; 
-        background-repeat: no-repeat;}
+        background-repeat: no-repeat;
+      }
 
+      
         .form-wrapper .nav-main .nav-link.third.active:before{
           background-image: url(../img/Index/ico-3.1.svg);
           background-repeat: no-repeat; 
@@ -466,7 +469,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         background-image: url("../img/Index/ico-4.svg");
         position: relative;
         top: 7px;
-        margin-right: 5px;
+        margin-right: 8px;
         background-size: contain; }
 
         .form-wrapper .nav-main .nav-link.forth.active:before{
