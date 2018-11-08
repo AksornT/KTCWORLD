@@ -2341,13 +2341,19 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 .menu-mobile-modal .menu-list {
   padding-top: 20px; }
   .menu-mobile-modal .menu-list li {
-    border-bottom: 1px solid #E6E8EA; }
+    border-bottom: 1px solid #E6E8EA;
+    padding: 15px;
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 14px;
+    line-height: 10px;
+    display: block;
+    color: #000; 
+  }
     .menu-mobile-modal .menu-list li a {
       font-family: 'Conv_SukhumvitTadmai_Tex';
       font-size: 14px;
       line-height: 10px;
       display: block;
-      padding: 15px 0;
       color: #000; }
 
 .magazine-featured {
