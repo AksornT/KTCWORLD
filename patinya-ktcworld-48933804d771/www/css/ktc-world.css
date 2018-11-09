@@ -676,10 +676,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       background-image: url("../img/ico-input-arrow.png"); }
     .form-content .input-ico.input-ico-right.input-date:after {
       display: inline-block;
-      background-image: url("../img/input-ico-calendar.png"); }
+      background-image: url("../img/ico-calendar.svg"); }
     .form-content .input-ico.input-ico-right.input-upload:after {
       display: inline-block;
-      background-image: url("../img/input-ico-upload.png"); }
+      background-image: url("../img/ico-upload.svg"); }
     .form-content .input-ico.input-ico-right.input-baht:after {
       display: inline-block;
       background-image: none;
@@ -1177,7 +1177,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       width: 24px;
       height: 24px;
       background-size: contain;
-      background-image: url("../img/ico-search-inline.png");
+      background-image: url("../img/ico-search-grey.svg");
       position: absolute;
       top: 6px;
       right: 10px; }
@@ -1256,7 +1256,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         font-size: 12px; } }
     .menu-sub-icon .nav-link img {
       display: block;
-      margin: 0 auto 18px; }
+      margin: 0 auto 18px;
+      width: 60px;
+      height: auto; }
       @media only screen and (max-width: 767px) {
         .menu-sub-icon .nav-link img {
           max-width: 40px;
@@ -1895,7 +1897,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       width: 32px;
       height: 32px;
       background-size: contain;
-      background-image: url("../img/ico-art-fav.png");
+      background-image: url("../img/ico-fav.svg");
       background-color: transparent;
       background-repeat: no-repeat;
       margin-right: 10px;
@@ -1906,15 +1908,15 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
           width: 24px;
           height: 24px; } }
       .article-wrap .article-icon .fav-btn:hover {
-        background-image: url("../img/ico-art-fav-line.png"); }
+        background-image: url("../img/ico-fav-line.svg"); }
       .article-wrap .article-icon .fav-btn.active {
-        background-image: url("../img/ico-art-fav-fill.png"); }
+        background-image: url("../img/ico-fav-fill.svg"); }
     .article-wrap .article-icon .share-btn {
       border: 0;
       width: 32px;
       height: 32px;
       background-size: contain;
-      background-image: url("../img/ico-art-share.png");
+      background-image: url("../img/ico-share.svg");
       background-color: transparent;
       background-repeat: no-repeat;
       position: relative;
@@ -1925,9 +1927,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
           width: 24px;
           height: 24px; } }
       .article-wrap .article-icon .share-btn:hover {
-        background-image: url("../img/ico-art-share-line.png"); }
+        background-image: url("../img/ico-share-pro-line.svg"); }
       .article-wrap .article-icon .share-btn.active {
-        background-image: url("../img/ico-art-share-fill.png"); }
+        background-image: url("../img/ico-share-pro-fill.svg"); }
         .article-wrap .article-icon .share-btn.active .share-popover {
           display: flex; }
     .article-wrap .article-icon .share-popover {

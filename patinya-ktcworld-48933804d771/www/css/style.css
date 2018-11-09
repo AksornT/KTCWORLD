@@ -382,7 +382,7 @@ a:hover{
 }
 
 .menu-global .login-btn img{
-	width: 13px;
+	width: 18px;
 	margin-right: 6px;
 	position: relative;
 	top:3px;
@@ -595,7 +595,7 @@ a:hover{
     height: 10px;
     display: inline-block;
     content: "";
-    background: url(../img/ico-arrow-right-line.png);
+    background: url(../img/index/ico-arrow-right.svg);
     margin-left: 3px;
     position: relative;
     left: 0px;
@@ -662,6 +662,10 @@ a:hover{
 
 .footer-menu > .col-3:nth-last-child(1){
 	margin-right: 0;
+}
+
+.to-top img{
+	width: 11px;
 }
 
 /* slide - eve */
