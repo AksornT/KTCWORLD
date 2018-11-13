@@ -1552,6 +1552,576 @@ button.close{
     text-shadow: none;
 }
 
+/*== static page template ==*/
+.global-space{
+	display: block;
+	width: 100%;
+	height: 40px;
+}
+.static-wrap .row > div{
+	align-self: center;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.static-wrap{
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: hidden;
+}
+
+.static-wrap img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.static-wrap h5{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 40px;
+	line-height: 1.5;
+	display: block;
+	margin:0 0 14px 0;
+}
+
+.static-wrap p{
+	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-size: 20px;
+	display: block;
+}
+
+.static-wrap p b{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+}
+
+.static-wrap a{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.static-wrap a:hover{
+	opacity: 0.7;
+}
+
+.static-wrap a:hover img{
+	cursor: pointer;
+}
+
+.static-wrap .link-more{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 16px;
+	text-decoration: underline;
+	color: #CF3339;
+	margin: 33px 0;
+	display: block;
+	margin: 33px 0 0 0;
+}
+
+.static-modal .link-more{
+	text-decoration: underline;
+	color: #CF3339;
+}
+
+.static-merchant .link-more{
+	color: #0055B8;
+}
+
+.half-half-white-reverse .link-more{
+	margin-bottom: 33px;
+}
+
+.half-overlap-grey .static-content{
+	padding: 0;
+}
+
+.static-wrap .overlap-wrap{
+	padding: 50px 20px;
+	position: relative;
+	margin-left: -16.5%;
+	width: 116.5%; 
+	background: #fff;
+    min-height: 29vw;
+    display: flex;
+}
+
+.half-overlap-grey .overlap-wrap{
+	background: #F9F9F9;
+}
+
+.overlap-wrap > div{
+	align-self: center;
+    width: 100%;
+}
+
+.half-half-blue,
+.half-half-blue-reverse {
+	background: #0055B8;
+}
+
+.half-half-black,
+.half-half-black-reverse {
+	background: #000;
+}
+
+.half-half-grey,
+.half-half-grey-reverse {
+	background: #F9F9F9;
+}
+
+.half-half-blue,
+.half-half-blue .link-more,
+.half-half-blue-reverse,
+.half-half-blue-reverse .link-more,
+.half-half-black,
+.half-half-black-reverse,
+.negative-text,
+.negative-text .link-more{
+	color: #fff;
+}
+
+
+.half-half-black > .row > div:nth-child(1),
+.half-half-blue > .row > div:nth-child(1),
+.half-half-grey > .row > div:nth-child(1),
+.half-half-white > .row > div:nth-child(1),
+.half-half .row > div:nth-child(1),
+.half-overlap-grey .row > div:nth-child(1){
+	padding: 0 0 0 15px;
+}
+
+.static-wrap .order-lg-2{
+	padding: 0 15px 0 0;
+}
+
+.text-on-right-img{
+	position: absolute;
+    left: auto;
+    right: 0;
+}
+
+.text-on-center-img{
+	position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.text-on-left-img{
+	position: absolute;
+    left: 0;
+    right: auto;
+}
+
+.static-content ul{
+	display: inline-block;
+	text-align: left;
+}
+
+.tel-number{
+	text-align: center;
+	padding: 45px 15px;
+}
+
+.tel-number p{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 35px;
+	display: block;
+}
+.tel-number .the-number{
+	font-size: 41px;
+	padding: 1px 0 1px 70px; 
+	display: inline-block;
+	margin: 20px 0;
+	color: #CF3339;
+	background: url('../img/ico-tel-big.png') no-repeat;
+	background-size: auto 100%;
+}
+
+.static-merchant .the-number{
+	color: #0055B8;
+	background: url('../img/ico-tel-big-blue.png') no-repeat;
+	background-size: auto 100%;
+}
+
+.static-merchant.half-half-blue .the-number{
+	color: #fff;
+	background: url('../img/ico-tel-big-white.png') no-repeat;
+	background-size: auto 100%;
+	line-height: 1;
+}
+
+.tel-number .mini-text{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 20px;
+}
+
+.static-content{
+	padding:40px 3%;
+}
+
+.half-half .row .row .static-content.text-on-left-img{
+	padding-left: 6%;
+}
+
+.static-content img{
+	width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.static-content li{
+	list-style-type: disc;
+	margin-left: 1.5em;
+}
+
+.static-content.text-left.text-on-left-img{
+	margin-left: 0;
+	padding-left: 6%
+}
+
+.full-overimage{
+	position: relative;
+}
+
+.white-layer{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    width: auto;
+    display: flex;
+    background: rgba(255,255,255,0.8);
+}
+
+.white-layer > div{
+    align-self: center;
+    margin: 0 auto;
+}
+
+.page-merchant-inner-header .breadcrumb-top[aria-label="breadcrumb"]{
+	top: auto;
+	z-index: 1;
+}
+
+.full-overimage.top-banner .text-on-left-img.text-left{
+	padding:0 9%;
+}
+
+.static-content.order-lg-1{
+	padding-left: calc(3% + 15px);
+	margin-left: 0;
+}
+
+.big-icon-content{
+    text-align: center;
+    padding: 45px 15px;
+}
+.static-wrap .big-icon-content .static-content{
+	align-self: flex-start;
+}
+
+.big-icon-content h5{
+	font-size: 30px;
+}
+
+.half-half-blue .tel-number{
+	position: relative;
+}
+
+.half-half-blue .tel-number:nth-child(1):after{
+	content: "";
+	position: absolute;
+	width: 1px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,0.15);
+}
+
+.static-wrap .link-square{
+	padding: 8px 10px;
+	border-radius: 4px;
+	border: 1px solid #CF3339;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.static-merchant .link-square{
+	border-color: #0055B8;
+}
+
+.half-half-blue .link-square{
+	border-color: #fff;
+}
+
+.static-content.text-on-right-img.float-up{
+    background: rgba(255,255,255,.9);
+    padding: 60px 3%;
+    align-self: flex-start;
+    top: 50px;
+    right: 50px;
+    width: auto;
+    max-width: none;
+}
+
+.static-content.text-on-left-img.float-up{
+    background: rgba(255,255,255,.9);
+    padding: 60px 3%;
+    align-self: flex-start;
+    top: 50px;
+    left: 50px;
+    width: auto;
+    max-width: none;
+}
+
+.full-full .static-content{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.top-banner .share-on-top{
+	position: absolute;
+	left: auto;
+    right: 39px;
+    bottom: auto;
+    top: 13px;
+}
+
+.btn-flexi-share + .share-popover{
+	top: 100%;
+}
+
+
+
+.btn-flexi-share + .share-popover:after {
+	border-top: none;
+	border-bottom: 8px solid #ECEEED;
+	top: -8px;
+	bottom: auto;
+} 
+
+.top-banner .share-on-top.with-bc .btn-flexi-share {
+    margin-top: 30px;
+}
+
+.page-flexi-header.top-banner .share-on-top{
+	margin-right: -15px;
+}
+
+.top-banner .share-on-top .btn-flexi-share{
+    background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+}
+
+.top-banner .share-on-top .btn-flexi-share:focus{
+	background: #CF3339 url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+}
+
+.top-banner.static-merchant .share-on-top .btn-flexi-share:focus{
+	background: #0055B8 url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+}
+
+section.static-wrap img{
+	cursor: default;
+}
+
+.half-half .full-overimage + .full-overimage{
+	padding: 0 15px 0 0;
+}
+
+article.content-wrap{
+	overflow: hidden;
+}
+
+.static-content .media{
+	padding:30px 25px;
+	position: relative;
+	height: 100%;
+}
+
+.static-content .media img{
+	width: 50px;
+	height: auto;
+	margin:0 20px 0 0;
+}
+
+.static-wrap .media h5{
+	font-size: 20px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	margin-bottom: 10px;
+}
+
+.static-wrap .media p{
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.static-wrap .media-content > div{
+	align-self: stretch;
+}
+
+.static-content .media:before{
+	content: "";
+	height: 1px;
+	position: absolute;
+	left: 25px;
+	right: 25px;
+	bottom: 0;
+	background: rgba(91,102,112,0.15);
+}
+
+.static-wrap .media-body .link-more{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.static-wrap .media-body .link-more{
+	display: inline;
+}
+
+.static-wrap .media-body p b{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.static-modal .header{
+	margin: 18px 0 20px 0;
+	padding-bottom: 17px;
+}
+
+.static-modal .content p,
+.static-modal .content li{
+	line-height: 1.6;
+}
+
+.static-modal .content > ul li{
+	margin-left: 1.3em;
+}
+
+.static-modal .content ul.number > li{
+	list-style-type: decimal;
+}
+
+.static-modal .content ul ul li{
+	margin-left: 2.5em;
+}
+
+.static-content .row.small-desc > div {
+    align-self: flex-start;
+}
+
+.navbar-nav .btn-flexi-share + .share-popover{
+	top: 50px;
+}
+
+.navbar-nav .btn-flexi-share + .share-popover:after{
+    border-top: none;
+    border-bottom: 8px solid #ECEEED;
+    top: -8px;
+    bottom: auto;
+}
+
+.more-modal.edc-modal .header{
+	border-bottom: none;
+}
+.table .modal-table-title th.tb-title-first{
+	text-align: left;
+	font-size: 22px;
+}
+.table .modal-table-title th{
+	text-align: center;
+	vertical-align: middle;
+	border-top: none;
+}
+.table .modal-table-title th img{
+	width: 67px;
+	margin-bottom: 6px;
+}
+.table .modal-table-desc{
+	height: 80px;
+}
+.table .modal-table-desc th{
+	vertical-align: middle;
+	min-width: 130px;
+}
+.table .modal-table-desc td{
+	text-align: center;
+	vertical-align: middle;
+	min-width: 135px;
+	max-width: 220px;
+}
+.table .modal-table-desc th p, .table .modal-table-title th p{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+}
+.table .modal-table-desc td i{
+	font-family: 'FontAwesome';
+}
+
+.world-service .static-wrap h5{
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
+.world-service .static-wrap p{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.world-service .static-content{
+	padding: 15px;
+}
+
+.world-service .half-half-black > .row > div:nth-child(1), 
+.world-service .half-half-blue > .row > div:nth-child(1), 
+.world-service .half-half-grey > .row > div:nth-child(1), 
+.world-service .half-half-white > .row > div:nth-child(1), 
+.world-service .half-half .row > div:nth-child(1), 
+.world-service .half-overlap-grey .row > div:nth-child(1){
+	padding: 0 15px;
+}
+
+.world-service .static-wrap img{
+	width: 100%;
+	height: 100%;
+}
+
+.space-15{
+	padding-top: 15px;
+	width: 100%;
+	display: block;
+}
+
+.blank-grey{
+	display: block;
+    background: rgba(188,188,188,.09);
+    height: 16.5vw;
+    width: 100%;
+}
+
+.image-over-left img{
+	position: relative;
+	left: -30px;
+}
+
+.right-side{
+    padding: 0;
+    position: relative;
+    left: 15px;
+}
+
+.right-side .text-on-center-img{
+	left: 15px;
+	right: 15px;
+	width: auto;
+}
+
+
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{
 		padding-left: calc(50vw - 653px);

@@ -465,4 +465,331 @@
       width: 40%;
       flex: none;
   }
+
+  /*Static Content*/
+  .static-wrap .static-content{
+    padding: 40px 100px;
+    position: relative;
+    margin: 0;
+  }
+
+  .static-wrap .overlap-wrap {
+    width: calc(100% + 170px);
+    margin: -40px -85px;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .static-wrap h5{
+    line-height: 1.4;
+    font-size: 30px;
+  }
+
+  .static-wrap .text-left h5,
+  .static-wrap .text-right h5{
+    text-align: center !important;
+  }
+
+  .static-wrap .text-left p,
+  .static-wrap .text-left a,
+  .static-wrap .text-right p,
+  .static-wrap .text-right a{
+    text-align: center !important;
+  }
+
+  .static-wrap .text-left li p,
+  .static-wrap .text-left li a{
+    text-align: left !important;
+  }
+
+  .static-wrap h5 br,
+  .static-wrap p br{
+    display: none;
+  }
+ 
+  .negative-text, 
+  .negative-text .link-more{
+    color: #212529;
+  }
+
+  .static-wrap .link-more {
+    color: #CF3339;
+    text-align: center;
+  }
+
+  .static-merchant .link-more {
+    color: #0055B8;
+    margin-top: 10px;
+  }
+
+  .half-half-blue .link-more,
+  .half-half-blue-reverse .link-more{
+    color: #fff;
+  }
+
+  .tel-number p{
+    font-size: 24px;
+  }
+  .tel-number .mini-text{
+    font-size: 14px;
+  }
+  .static-wrap .link-more{
+    margin-bottom: 0;
+  }
+  .tel-number .the-number{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .global-space{
+    display: none;
+  }
+  .white-layer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+  }
+  .white-layer h5,
+  .white-layer p,
+  .white-layer .link-more{
+    color: #fff;
+  }
+
+  .space-on-left img,
+  .page-content .space-on-left img{
+    max-width: none;
+    width: 200%;
+    margin-left: -100%;
+  }
+  .space-on-right img,
+  .page-content .space-on-right img{
+    max-width: none;
+    width: 200%;
+  }
+  .full-overimage.top-banner .text-on-left-img.text-left{
+    padding:40px 100px;
+    text-align: center !important;
+  }
+
+  .static-wrap .big-icon-content .static-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .half-half-blue{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .still-background,
+  .still-background img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    padding: 0;
+  }
+
+  .negative-text .still-background + .static-content ,
+  .negative-text .still-background + .static-content .link-more{
+    color: #fff;
+  }
+
+  .half-half .row .row .static-content.text-on-left-img{
+    padding-left: 35px;
+  }
+
+  .static-wrap .btn.button-shop-register{
+    margin: 0 auto;
+    display: block;
+    width: 210px;
+  }
+
+  .static-content.text-on-left-img.float-up,
+  .static-content.text-on-right-img.float-up{
+    padding: 40px 100px;
+    top: 0;
+    right: 0;
+  }
+
+  .half-half-black > .row > div:nth-child(1),
+  .half-half-blue > .row > div:nth-child(1),
+  .half-half-grey > .row > div:nth-child(1),
+  .half-half-white > .row > div:nth-child(1),
+  .half-half .row > div:nth-child(1),
+  .half-overlap-grey .row > div:nth-child(1),
+  .static-wrap .order-lg-2{
+    padding: 0 15px;
+  }
+
+  .static-wrap.half-half-blue .row .tel-number{
+    padding: 20px 35px;
+  }
+
+  #section-merchant-card-type{
+    padding-top: 0;
+  }
+  section#section-merchant-card-type .list-card-vendors{
+    margin: 0 auto;
+  }
+
+  section#section-merchant-card-type .list-payment-services{
+    margin-top: 10px;
+  }
+
+  section#section-merchant-card-type .row:first-child{
+    margin-bottom: 20px;
+  }
+
+  .half-half .row .row .static-content.text-on-left-img {
+    padding-left: 100px;
+  }
+
+  .half-half .full-overimage + .full-overimage{
+    padding: 0 15px;
+  }
+
+  .half-half .full-overimage .space-on-left,
+  .half-half .full-overimage .space-on-right{
+    overflow: hidden;
+  }
+
+  .half-half .full-overimage img{
+    margin: -30.37vw 0;
+  }
+
+  .half-half .full-overimage .space-on-left img{
+    margin-left: -100%;
+  }
+
+  .top-banner > .row > div:nth-child(1) img{
+    width: 156vw;
+    max-width: none;
+    margin-left: -56vw;
+  }
+
+  .proud-after-logo .btn-flexi-share{
+    background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+  }
+
+  .proud-after-logo .btn-flexi-share:focus{
+    background: #CF3339 url('../img/ico-share-pro-fill.png') no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .static-wrap .row > .text-left,
+  .static-wrap .row > .text-right{
+    text-align: center !important;
+  }
+
+  .static-wrap .static-content.media-content{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .static-wrap .media-content > div{
+    padding: 0;
+  }
+  .static-content .media{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: block;
+    text-align: center;
+  }
+  .static-content .media:before{
+    left: 0;
+    right: 0;
+  }
+  .static-content .media img{
+    margin: 0 0 20px 0;
+    width: 100px;
+  }
+  #header-card-detail .content-desc{
+    margin: 30px 0 0 0;
+  }
+
+  #header-card-detail .header-title .btn-flexi-share{
+    background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+      background-size: 80% auto;
+  }
+
+  #header-card-detail .header-title .btn-flexi-share:focus {
+    outline: 0;
+    background: #CF3339 url(../img/ico-share-pro-fill.png) no-repeat center;
+    background-size: 100% auto;
+    box-shadow: none;
+  }
+
+  .nav.mini .btn-flexi-share + .share-popover{
+    top: 50px;
+    right: -90px;
+  }
+
+  .nav.mini .btn-flexi-share + .share-popover:after{
+    border-top: none;
+    border-bottom: 8px solid #ECEEED;
+    top: -8px;
+    bottom: auto;
+    right: 98px;
+  }
+
+  .static-content.text-left.text-on-left-img{
+    padding-left: 100px;
+  }
+
+  #header-card-detail a.card-register-center {
+    margin: 30px 0 40px 0;
+  } 
+
+  .media-content > div:nth-last-child(1) .media:before{
+    display: none;
+  }
+
+  .proud-loan .proud-after-logo br{
+    display: none;
+  }
+
+  .blank-grey{
+    display: none;
+  }
+
+  .left-side{
+  }
+
+  .left-side .row .row,
+  .right-side .row .row{
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-side .row .row > .col-12{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .right-side{
+    left: 0;
+    padding-right: 15px;
+  }
+
+  .image-over-left img{
+    left: 0;
+  }
+
+  .tablet-pad-0{
+    padding: 0;
+  }
+
+  .world-service .static-wrap .static-content{
+    padding: 40px 50px;
+    left: 0;
+  }
+
+  .static-wrap .static-content.margin-in-tablet{
+    margin-top: -80px;
+  }
 }
