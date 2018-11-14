@@ -2121,6 +2121,12 @@ article.content-wrap{
 	width: auto;
 }
 
+.text-on-center-img.margin-in-tablet{
+	padding: 0 ;
+	left: 0;
+	right: 0;
+}
+
 
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{

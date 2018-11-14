@@ -790,7 +790,7 @@
   }
 
   .static-wrap .static-content.margin-in-tablet{
-    margin-top: -80px;
+    margin-top: 0;
   }
 
   .world-service .static-wrap .text-on-center-img{
@@ -805,5 +805,9 @@
 
   .space-15{
     display: none;
+  }
+
+  .add-bg-tablet img{
+    background: rgba(188,188,188,.09);
   }
 }
