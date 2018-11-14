@@ -407,7 +407,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         content: ' ';
         width: 32px;
         height: 32px;
-        background-image: url("../img/Index/ico-1.svg");
+        background-image: url("../img/index/ico-1.svg");
         position: relative;
         top: 7px;
         margin-right: 5px;
@@ -416,7 +416,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
          }
 
         .form-wrapper .nav-main .nav-link.first.active:before{
-          background-image: url(../img/Index/ico-1.1.svg); 
+          background-image: url(../img/index/ico-1.1.svg); 
           background-repeat: no-repeat;
         } 
 
@@ -425,7 +425,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         content: ' ';
         width: 32px;
         height: 32px;
-        background-image: url("../img/Index/ico-2.svg");
+        background-image: url("../img/index/ico-2.svg");
         position: relative;
         top: 7px;
         margin-right: 5px;
@@ -433,7 +433,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         background-repeat: no-repeat;}
 
         .form-wrapper .nav-main .nav-link.second.active:before{
-          background-image: url(../img/Index/ico-2.1.svg); 
+          background-image: url(../img/index/ico-2.1.svg); 
           background-repeat: no-repeat;
         }       
 
@@ -442,7 +442,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         content: ' ';
         width: 32px;
         height: 32px;
-        background-image: url("../img/Index/ico-3.svg");
+        background-image: url("../img/index/ico-3.svg");
         background-position: right;
         position: relative;
         top: 7px;
@@ -453,7 +453,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
       
         .form-wrapper .nav-main .nav-link.third.active:before{
-          background-image: url(../img/Index/ico-3.1.svg);
+          background-image: url(../img/index/ico-3.1.svg);
           background-repeat: no-repeat; 
         }       
 
@@ -462,14 +462,14 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         content: ' ';
         width: 32px;
         height: 32px;
-        background-image: url("../img/Index/ico-4.svg");
+        background-image: url("../img/index/ico-4.svg");
         position: relative;
         top: 7px;
         margin-right: 8px;
         background-size: contain; }
 
         .form-wrapper .nav-main .nav-link.forth.active:before{
-          background-image: url(../img/Index/ico-4.1.svg); 
+          background-image: url(../img/index/ico-4.1.svg); 
         }       
 
         .form-wrapper .nav-main .nav-link.fifth:before {
@@ -477,7 +477,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
         content: ' ';
         width: 32px;
         height: 32px;
-        background-image: url("../img/Index/ico-5.svg");
+        background-image: url("../img/index/ico-5.svg");
         position: relative;
         top: 7px;
         margin-right: 5px;
@@ -486,7 +486,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 
         .form-wrapper .nav-main .nav-link.fifth.active:before{
-          background-image: url(../img/Index/ico-5.1.svg); 
+          background-image: url(../img/index/ico-5.1.svg); 
           background-repeat: no-repeat; 
         }       
 
@@ -624,28 +624,28 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     left: 0px;
     background-size: contain; }
   .form-content .input-ico.input-origin:before {
-        background-image: url("../img/Index/input-ico-origin.svg");
+        background-image: url("../img/index/input-ico-origin.svg");
         background-repeat: no-repeat; }
 
 
   .form-content .input-ico.input-destination:before {
-    background-image: url("../img/Index/input-ico-destination.svg");
+    background-image: url("../img/index/input-ico-destination.svg");
         background-repeat: no-repeat; }
 
   .form-content .input-ico.input-people:before {
-    background-image: url("../img/Index/input-ico-people.svg");
+    background-image: url("../img/index/input-ico-people.svg");
         background-repeat: no-repeat; }
 
   .form-content .input-ico.input-date:before {
-    background-image: url("../img/Index/input-ico-calendar.svg"); 
+    background-image: url("../img/index/input-ico-calendar.svg"); 
       background-repeat: no-repeat;}
 
   .form-content .input-ico.input-seat:before {
-    background-image: url("../img/Index/input-ico-seat.svg"); 
+    background-image: url("../img/index/input-ico-seat.svg"); 
       background-repeat: no-repeat;}
 
   .form-content .input-ico.input-ticket:before {
-    background-image: url("../img/Index/input-ico-ticket.svg"); 
+    background-image: url("../img/index/input-ico-ticket.svg"); 
       background-repeat: no-repeat;}
 
   .form-content .input-ico:after {
@@ -2180,6 +2180,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   font-size: 35px;
   line-height: 66px;
   position: relative;
+  display: inline-block;
   text-align: center; }
   @media only screen and (max-width: 767px) {
     .section-title {
@@ -2187,17 +2188,13 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       line-height: 30px; } }
   .section-title:after {
     content: '';
-    width: 50px;
+    width: 50%;
+    margin-left: -25%;
     height: 4px;
     background: #00B2E3;
     position: absolute;
-    left: calc(50% - 25px);
+    left: 50%;
     bottom: -5px; }
-    @media only screen and (max-width: 767px) {
-      .section-title:after {
-        width: 25px;
-        height: 2px;
-        left: calc(50% - 12.5px); } }
 
 .register-wrapper {
   padding: 10px 0 40px; }
