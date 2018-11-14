@@ -180,12 +180,6 @@ $(document).ready(function() {
         $(this).toggleClass('active');
     });
 
-    // dotdotdot init
-
-    $('.slide-title').dotdotdot({ watch: true });
-    $('.slide-content').dotdotdot({ watch: true });
-    $('.magazine-content .title').dotdotdot({ watch: true });
-    $('.magazine-content .meta').dotdotdot({ watch: true });
 
     // owlCarousel init
 
