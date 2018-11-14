@@ -584,9 +584,29 @@
     display: none;
   }
 
-  .static-wrap .static-content.last-grey-text{
+  .static-wrap .last-grey-text{
     margin-bottom: 40px;
     background: #F9F9F9;
+  }
+
+  .world-service .static-wrap .space-on-top{
+    height: 76vw;
+    overflow: hidden;
+  }
+
+  .world-service .static-wrap .space-on-top img{
+    margin-top: -34vw;
+    width: 100%;
+    margin-bottom: 0;
+    height: auto;
+  }
+
+  .world-service .static-wrap .space-on-top.less-top-space{
+    height: 80vw;
+  }
+
+  .image-over-left img{
+    margin: 0 30px -7vw 15px;
   }
 
 

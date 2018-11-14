@@ -792,4 +792,18 @@
   .static-wrap .static-content.margin-in-tablet{
     margin-top: -80px;
   }
+
+  .world-service .static-wrap .text-on-center-img{
+    padding: 40px 50px;
+    position: relative;
+  }
+
+  .right-side .text-on-center-img{
+    left: 0;
+    right: 0;
+  }
+
+  .space-15{
+    display: none;
+  }
 }
