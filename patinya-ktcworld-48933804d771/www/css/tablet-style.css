@@ -501,11 +501,6 @@
   .static-wrap .text-left li a{
     text-align: left !important;
   }
-
-  .static-wrap h5 br,
-  .static-wrap p br{
-    display: none;
-  }
  
   .negative-text, 
   .negative-text .link-more{
@@ -808,6 +803,6 @@
   }
 
   .add-bg-tablet img{
-    background: rgba(188,188,188,.09);
+    background: #f9f9f9;
   }
 }

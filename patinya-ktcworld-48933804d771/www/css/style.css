@@ -2141,6 +2141,13 @@ article.content-wrap{
 	}
 }
 
+@media (max-width: 1365px) {
+  .static-wrap h5 br,
+  .static-wrap p br{
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
 		font-size: 14px;
