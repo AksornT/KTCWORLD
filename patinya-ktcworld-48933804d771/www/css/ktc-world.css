@@ -1537,7 +1537,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       .sub-footer .col-info .contact a img {
         margin-right: 10px;
         position: relative;
-        top: 6px; }
+        top: 6px;
+        width: 20px; }
     @media only screen and (max-width: 767px) {
       .sub-footer .col-info .contact {
         text-align: center;
@@ -1971,7 +1972,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     .article-wrap .article-link .link img {
       position: relative;
       margin-right: 7px;
-      top: 4px; }
+      top: 4px;
+      width: 18px; }
   .article-wrap .article-comment-form {
     margin-bottom: 40px; }
     .article-wrap .article-comment-form textarea {
