@@ -501,11 +501,6 @@
   .static-wrap .text-left li a{
     text-align: left !important;
   }
-
-  .static-wrap h5 br,
-  .static-wrap p br{
-    display: none;
-  }
  
   .negative-text, 
   .negative-text .link-more{
@@ -790,7 +785,7 @@
   }
 
   .static-wrap .static-content.margin-in-tablet{
-    margin-top: -80px;
+    margin-top: 0;
   }
 
   .world-service .static-wrap .text-on-center-img{
@@ -805,5 +800,9 @@
 
   .space-15{
     display: none;
+  }
+
+  .add-bg-tablet img{
+    background: #f9f9f9;
   }
 }
