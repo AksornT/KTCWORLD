@@ -202,7 +202,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     padding: 5px 0; }
     #menu-mobile-bottom .nav-link img {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 18px; }
     #menu-mobile-bottom .nav-link.active {
       color: #00B2E3; }
 
