@@ -241,11 +241,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     position: fixed;
     top: 0;
     z-index: 450;
-    right: calc(50vw - 596px);
     color: #5B6670; }
-    @media only screen and (min-width: 992px) and (max-width: 1119px) {
-      .fixed-header #menu-global .float-onright {
-        padding-right: 15px; } }
     .fixed-header #menu-global .float-onright .login-btn {
       color: #5B6670;
       border: 1px #5B6670 solid; }
