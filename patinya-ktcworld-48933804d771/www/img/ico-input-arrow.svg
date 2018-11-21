@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.564;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #5b6670;
+        opacity: 0.55;
+      }
+    </style>
+  </defs>
+  <g id="Group_2077" data-name="Group 2077" transform="translate(-311 -456)">
+    <rect id="Rectangle_1250" data-name="Rectangle 1250" class="cls-1" width="20" height="20" transform="translate(311 456)"/>
+    <path id="Path_1123" data-name="Path 1123" class="cls-2" d="M0,0,6,6,0,11.648" transform="translate(326.848 463) rotate(90)"/>
+  </g>
+</svg>

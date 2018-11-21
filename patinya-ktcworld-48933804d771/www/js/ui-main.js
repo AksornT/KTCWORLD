@@ -27,6 +27,10 @@ $(document).on('scroll', function() {
         }
     }
 
+    if ($(".share-btn")[0]){ 
+        $(".share-btn").removeClass('active');
+    }
+
 });
 
 

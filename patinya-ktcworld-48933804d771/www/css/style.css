@@ -1058,12 +1058,15 @@ button:focus {
 	line-height: 38px;
 	padding-top: 60px;
 	display: block;
+	text-align: center;
 }
 
 .full-modal .modal-title{
 	text-align: center;
-	display: block;
-	width: 100%;
+	display: inline-block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 	margin-bottom: 38px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -1071,10 +1074,10 @@ button:focus {
 
 .full-modal .modal-title:after{
 	height: 4px;
-	width: 50px;
+	width: 50%;
 	background: #CF3339;
 	position: absolute;
-	left: calc(50% - 25px);
+	left: 25%;
 	content: "";
 	top: 100%;
 }
