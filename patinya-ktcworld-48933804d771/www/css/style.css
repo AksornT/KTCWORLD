@@ -1385,6 +1385,11 @@ button:focus {
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.16);
 }
 
+.card-choice .left-icon img {
+    width: auto;
+    height: 53px;
+}
+
 input:focus + .suggess-box,
 .suggess-box:focus{
 	opacity: 1;

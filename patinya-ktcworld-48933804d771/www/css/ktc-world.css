@@ -685,11 +685,11 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
       background-image: url("../img/ico-input-arrow.svg"); }
     .form-content .input-ico.input-ico-right.input-date:after {
       display: inline-block;
-            background-image: url("../img/ico-calendar.svg"); }
+            background-image: url("../img/ico-calendar.svg");
     background-repeat: no-repeat; }
     .form-content .input-ico.input-ico-right.input-upload:after {
       display: inline-block;
-            background-image: url("../img/ico-upload.svg"); }
+            background-image: url("../img/ico-upload.svg");
  
       background-repeat: no-repeat; }
     .form-content .input-ico.input-ico-right.input-baht:after {
@@ -741,7 +741,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   .form-content .checkbox input:checked + label:before {
     border: 2px solid #00B2E3;
     background-color: #00B2E3;
-    background-image: url("../img/ico-checked.png");
+    background-image: url("../img/ico-checked.svg");
     background-size: contain; }
 
 @media only screen and (max-width: 767px) {
