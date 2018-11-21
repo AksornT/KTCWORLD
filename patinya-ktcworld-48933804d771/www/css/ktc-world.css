@@ -240,9 +240,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   .fixed-header #menu-global .float-onright {
     position: fixed;
     top: 0;
-    right: 0;
     z-index: 450;
-    padding-right: calc(50vw - 596px);
+    right: calc(50vw - 596px);
     color: #5B6670; }
     @media only screen and (min-width: 992px) and (max-width: 1119px) {
       .fixed-header #menu-global .float-onright {
