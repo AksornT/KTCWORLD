@@ -2143,7 +2143,8 @@ article.content-wrap{
 	right: 0;
 }
 
-.article-tag.d-none + .article-link{
+.article-tag.d-none + .article-link,
+.article-tag.d-none + hr{
 	margin-top: 40px;
 }
 
