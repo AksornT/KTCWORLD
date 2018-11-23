@@ -2143,6 +2143,10 @@ article.content-wrap{
 	right: 0;
 }
 
+.article-tag.d-none + .article-link{
+	margin-top: 40px;
+}
+
 
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{
