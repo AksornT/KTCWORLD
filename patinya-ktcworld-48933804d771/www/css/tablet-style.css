@@ -798,6 +798,56 @@
     right: 0;
   }
 
+  .world-service{
+    width: 530px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .world-service:before{
+    left: 28px;
+    bottom: 110px;
+    top: 180px;
+  }
+
+  .world-service > .row > div,
+  .world-service > .row > div:nth-child(odd){
+    padding-right: 15px;
+    padding-left: 120px;
+    text-align: left !important;
+    justify-content: flex-start;
+    top: 0;
+    margin-top: 0 !important;
+    margin-bottom: 40px;
+  }
+
+  
+
+  .connect-dots,
+  .world-service > .row > div:nth-child(odd) .connect-dots{
+    width: 70px;
+    left: -90px;
+    right: auto;
+  }
+
+  .world-service > .row > div:nth-child(odd) .connect-dots:after{
+    left: -18px;
+    right: auto;
+  }
+
+  .world-service .col-auto{
+    max-width: 100%;
+  }
+
+  #present-box{
+    margin-right: 0 !important;
+    margin-left: -20px !important;
+  }
+
+
+
+
   .space-15{
     display: none;
   }

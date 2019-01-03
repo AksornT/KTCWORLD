@@ -2144,34 +2144,96 @@ article.content-wrap{
 	font-family: 'FontAwesome';
 }
 
-.world-service .static-wrap h5{
-	font-size: 20px;
-	line-height: 1.6;
-	margin-bottom: 0;
-}
-
-.world-service .static-wrap p{
+.world-service{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
-	line-height: 1.6;
-}
-
-.world-service .static-content{
-	padding: 15px;
-}
-
-.world-service .half-half-black > .row > div:nth-child(1), 
-.world-service .half-half-blue > .row > div:nth-child(1), 
-.world-service .half-half-grey > .row > div:nth-child(1), 
-.world-service .half-half-white > .row > div:nth-child(1), 
-.world-service .half-half .row > div:nth-child(1), 
-.world-service .half-overlap-grey .row > div:nth-child(1){
+	line-height: 26px;
+	position: relative;
+	margin-top: 100px;
 	padding: 0 15px;
 }
-
-.world-service .static-wrap img{
-	width: 100%;
-	height: 100%;
+.world-service:before{
+	left: calc(50% - 2px);
+	width: 1px;
+	position: absolute;
+	top: 100px;
+	bottom: 195px;
+	border-right: 4px dashed #EBEBEB;
+	content: "";
 }
+
+.world-service h5{
+	font-size: 24px;
+	line-height: 39px;
+	position: relative;
+}
+
+.world-service img{
+	width: auto;
+	height: auto;
+	position: relative;
+	z-index: -1;
+}
+
+.world-service > .row > div{
+	padding-left: 120px;
+	position: relative;
+	margin-bottom: 95px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.connect-dots{
+	position: absolute;
+	display: block;
+	left: -120px;
+	width: 95px;
+	height: 1px;
+	bottom: 15px;
+	border-top: 4px dashed #EBEBEB;
+}
+
+.connect-dots:after{
+	display: block;
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	left: -18px;
+	top: -20px;
+	background: #fff;
+	border: 4px solid #EBEBEB;
+}
+
+.world-service > .row > div:nth-child(odd){
+	text-align: right;
+	padding-left: 15px;
+	padding-right: 120px;
+	top: -80px;
+	justify-content: flex-end;
+}
+
+.world-service > .row > div:nth-child(odd) .connect-dots{
+	left: auto;
+	right: -120px;
+}
+
+.world-service > .row > div:nth-child(odd) .connect-dots:after{
+	left: auto;
+	right: -18px;
+}
+
+.world-service .col-auto{
+	align-self: center;
+}
+
+#present-box{
+	bottom: -6px;
+	margin-right: -20px;
+}
+
+
 
 .space-15{
 	padding-top: 15px;
@@ -2675,6 +2737,20 @@ img[href]:hover{
     height: 28px;
 }
 
+.service-pro-wrap{
+	background: rgba(91,102,112,0.05);
+}
+
+.service-pro-wrap .page-info{
+	margin-bottom: 0;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.page-head .info,
+.page-head .meta{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+}
 
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{

@@ -570,6 +570,46 @@
     padding-right: 30px;
   }
 
+  .world-service h5{
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .world-service > .row > div,
+  .world-service > .row > div:nth-child(odd){
+    padding-left: 65px;
+  }
+
+  .connect-dots,
+  .world-service > .row > div:nth-child(odd) .connect-dots{
+    width: 30px;
+    left: -35px;
+  }
+
+  .world-service img{
+    bottom: 0 !important;
+    top: 0 !important;
+    margin: 0 !important;
+    display: block;
+    max-width: 36vw;
+  }
+
+  .world-service > .row > div br{
+    display: none;
+  }
+
+  .connect-dots:after,
+  .world-service > .row > div:nth-child(odd) .connect-dots:after{
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    top: -12px;
+  }
+
+  .world-service:before{
+    bottom: 120px;
+  }
+
   .left-side,
   .right-side{
     padding: 0;
