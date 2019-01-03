@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico-tab-3" transform="translate(-1679 -282)">
+    <rect id="Rectangle_1151" data-name="Rectangle 1151" width="24" height="24" transform="translate(1679 282)" fill="none"/>
+    <g id="Group_2670" data-name="Group 2670" transform="translate(-54.177 -705.288)">
+      <g id="Group_2638" data-name="Group 2638" transform="translate(1733.177 987.288)">
+        <g id="Rectangle_1682" data-name="Rectangle 1682" transform="matrix(0.788, 0.616, -0.616, 0.788, 11.496, 0)" fill="#fff" stroke="#5b6670" stroke-width="1">
+          <rect width="15.082" height="18.673" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="14.082" height="17.673" rx="2.5" fill="none"/>
+        </g>
+        <g id="Rectangle_1683" data-name="Rectangle 1683" transform="translate(3.935 14.037) rotate(-49)" fill="#fff" stroke="#5b6670" stroke-width="1">
+          <rect width="10.063" height="5.75" rx="2.875" stroke="none"/>
+          <rect x="0.5" y="0.5" width="9.063" height="4.75" rx="2.375" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_1686" data-name="Path 1686" d="M643.34,1001.774l11.26-13.966" transform="translate(1099.742 7.034)" fill="none" stroke="#5b6670" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

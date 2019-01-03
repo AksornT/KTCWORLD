@@ -340,11 +340,11 @@ a:hover{
 }*/
 
 .menu-global .search-on-menu{
-	margin-right: 15px;
+	margin-right: 18px;
 }
 
 .menu-global .search-on-menu img{
-	width:24px;
+	width:18px;
 }
 
 .menu-global a.search-on-menu:hover{
@@ -363,9 +363,10 @@ a:hover{
 	color:#FFF;
 }
 
-.menu-global a.card-register-btn:hover{
-	background: #bf2a31;
+.card-register-btn:hover{
+	background: #c93339;
 	color:#FFF;
+	cursor: pointer;
 }
 
 .menu-global .login-btn{
@@ -386,16 +387,16 @@ a:hover{
 	margin-right: 6px;
 	position: relative;
 	top:3px;
-	filter: invert(100%) brightness(200%);
+	/*filter: invert(100%) brightness(200%);*/
 }
 
-.menu-global .login-btn:hover{
+/*.menu-global .login-btn:hover{
 	background: #fff;
 	color:#333;
 }
 .menu-global .login-btn:hover img{
 	filter: brightness(10%);
-}	
+}*/
 
 /*/.menu-global .content-wrap{
 	display: flex;
@@ -665,7 +666,7 @@ a:hover{
 }
 
 .to-top img{
-	width: 11px;
+	width: 39px;
 }
 
 /* slide - eve */
@@ -711,31 +712,55 @@ a:hover{
 	display: flex;
 	align-items: flex-start; 
 }
+
 .owl-prev span,
 .owl-next span{
 	width: 45px;
-    height: 45px;
-    background: #fff;
-    background-size: 100% 100%;
-    display: block;
-    border-radius: 50%;
-    font-size: 50px;
-    line-height: 35px;
-    color: #00B2E3;
-    -webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	height: 45px;
+	background: #fff;
+	background-position: center -11px;
+	display: block;
+	border-radius: 50%;
+	/*font-size: 50px;
+	line-height: 35px;*/
+	color: #CF3339;
 	box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
-	padding-right: 2px;
+		-webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	opacity: 0;
+	transition: all .15s ease-out;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+		-o-transition: all .15s ease-out;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+.owl-prev span{
+	background-image: url('../img/index/ico-slide-left.svg');
 }
 .owl-next span{
-	padding: 0 0 0 2px;
+	background-image: url('../img/index/ico-slide-right.svg');
 }
+
+.slide-wrap:hover .owl-prev span, 
+.slide-wrap:hover .owl-next span{
+	opacity: 1;
+}
+
 .index-slide1 .owl-nav button.owl-prev{
 	position: absolute;
 	top: 50%;
 	left: -30px;
 	transform: translateY(-50%);
 	opacity: 1;
+}
+.index-slide1 .owl-nav button.owl-next{
+	position: absolute;
+	top: 50%;
+	right: -30px;
+	transform: translateY(-50%);
+  	opacity: 1;
 }
 
 .index-slide2 .owl-nav button.owl-prev{
@@ -745,16 +770,6 @@ a:hover{
 	transform: translateY(-50%);
 	opacity: 1;
 }
-
-
-.index-slide1 .owl-nav button.owl-next{
-	position: absolute;
-	top: 50%;
-	right: -30px;
-	transform: translateY(-50%);
-  	opacity: 1;
-}
-
 .index-slide2 .owl-nav button.owl-next{
 	position: absolute;
 	top: 9.5vw;
@@ -955,14 +970,13 @@ button:focus {
 	background: none;
 	border: #707070 solid 1px;
 	border-radius: 6px;
-	width: 29px;
-	height: 28px;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	padding: 2px;
+	padding: 4px 8px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 22px;
+	line-height: 22px;
+	margin-left: 30px;
 }
 
 .lang-footer:hover{
@@ -1004,17 +1018,12 @@ button:focus {
 	white-space: nowrap;
 }
 
-#card-register:hover{
-	background: #f08b8f;
-	cursor: pointer;
-}
-
 .modal.in{
 	opacity: 1;
 }
 
 .modal-backdrop.in{
-	opacity: 0.4;
+	opacity: 0.65;
 }
 
 .modal.in .modal-dialog {
@@ -1023,12 +1032,29 @@ button:focus {
 }
 
 .full-modal .close{
-	top: 1rem;
-	right: 1rem;
+	top: 20px;
+	right: 20px;
 	position: absolute;
-	color: #CF3339;
+	/*color: #CF3339;
 	font-size: 40px;
+	font-family: "Conv_SukhumvitTadmai_Thi";*/
 	opacity: 1;
+	z-index: 6;
+	background-image: url('../img/ico-close.svg');
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 40px;
+	height: 40px;
+}
+
+.full-modal .close span{
+	display: none;
+}
+
+.full-modal .close:hover{
+	opacity: 0.5;
+	cursor: pointer;
 }
 
 .full-modal .close:hover{
@@ -1037,39 +1063,67 @@ button:focus {
 }
 
 .full-modal .modal-dialog {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  max-width: none;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  /*padding: 0;*/
+	max-width: 945px;
+}
+
+.full-modal .modal-dialog.modal-sm {
+	max-width: 485px;
 }
 
 .full-modal .modal-content {
-  height: 100%;
-  border-radius: 0;
-  overflow: auto;
   border: none;
-  border-top: 4px solid #CF3339;
+	border-top: 4px solid #CF3339;
+	border-radius: 4px;
+	max-height: 90vh;
 }
 
 .full-modal .modal-header{
 	border: none;
 	font-size: 40px;
 	line-height: 38px;
-	padding-top: 60px;
+	padding: 40px 40px 20px;
 	display: block;
 	text-align: center;
+}
+
+.full-modal .modal-body{
+	margin: 0;
+	padding: 0 40px 40px;
+	overflow: auto;
+	overflow-x: hidden;
+	height: 80vh;
+}
+
+.full-modal .modal-sm .modal-body{
+	height: auto;
+}
+
+.full-modal .modal-content:after{
+	display: block;
+	content: '';
+	width: calc(100% - 20px);
+	height: 40px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%); 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}	
+
+.full-modal .content-wrap{
+	padding: 0;
 }
 
 .full-modal .modal-title{
 	text-align: center;
 	display: inline-block;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+  	width: auto;
 	position: relative;
-	margin-bottom: 38px;
+	/*margin-bottom: 25px;*/
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 28px;
 }
 
 .full-modal .modal-title:after{
@@ -1080,6 +1134,7 @@ button:focus {
 	left: 25%;
 	content: "";
 	top: 100%;
+	display: none;
 }
 
 .card-choice{
@@ -1103,6 +1158,10 @@ button:focus {
 	-webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.2);
+}
+
+.card-choice:first-child{
+	margin-top: 5px;
 }
 
 .card-choice> *{
@@ -1140,14 +1199,13 @@ button:focus {
 
 .to-top{
 	position: fixed;
-	bottom: 20px;
+	bottom: 50px;
 	right: 37px;
 	z-index: 1;
 	width: 45px;
     height: 45px;
     background: #fff;
     background-size: 100% 100%;
-    display: block;
     border-radius: 50%;
     font-size: 28px;
     line-height: 42px;
@@ -1156,12 +1214,15 @@ button:focus {
     font-family: serif;
     -webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .to-top:hover{
 	cursor: pointer;
-	bottom: 25px;
+	bottom: 55px;
 }
 
 /*.chat{
@@ -1554,6 +1615,11 @@ input:focus + .suggess-box,
     width: 39px;
     text-align: center;
     padding-right: 15px;
+}
+
+.subimg-wrap img {
+    width: 32px;
+    height: 32px;
 }
 
 .for-sub-profile-mobile {

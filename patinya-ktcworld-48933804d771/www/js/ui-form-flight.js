@@ -1,4 +1,4 @@
-var airportData = [
+/*var airportData = [
     "Bangkok [BKK] - Thailand",
     "Chiang Mai [CNX] - Thailand",
     "Chiang Rai [CEI] - Thailand",
@@ -17,7 +17,102 @@ var airportData = [
     "Ubon Ratchathani [UBP] - Thailand",
     "Udon Thani [UTH] - Thailand",
     "Utapao [UTP] - Thailand"
-  ]
+  ];
+*/
+
+var airportData = [
+    {   
+        label: "Bangkok [BKK] - Thailand",
+        country: "Thailand"
+    }, {
+        label: "Suvarnnabumi [BKK] - Thailand",
+        country: "Thailand",
+        group: "Bangkok [BKK] - Thailand",
+        intl: true
+    }, {
+        label: "Don Maung [DMK] - Thailand",
+        country: "Thailand",
+        group: "Bangkok [BKK] - Thailand",
+        intl: true
+    }, {
+        label: "Chiang Mai [CNX] - Thailand",
+        country: "Thailand",
+        intl: true
+    }, {
+        label: "Chiang Rai [CEI] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Hat Yai [HDY] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Khon Kaen [KKC] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Krabi [KBV] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Lampang [LPT] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Mae Hong Son [HGN] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Narathiwat [NAW] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Phitsanulok [PHS] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Phuket [HKT] - Thailand",
+        country: "Thailand",
+        intl: true
+    }, {
+        label: "Koh Samui [USM] - Thailand",
+        country: "Thailand",
+        intl: true
+    }, {
+        label: "Sukhothai [THS] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Surat Thani [URT] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Trang [TST] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Ubon Ratchathani [UBP] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Udon Thani [UTH] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Utapao [UTP] - Thailand",
+        country: "Thailand",
+    }, {
+        label: "Taipei [TPE] - Taiwan",
+        country: "Taiwan",
+    }, {
+        label: "Taoyuan [TPE] - Taiwan",
+        country: "Taiwan",
+        group: "Taipei [TPE] - Taiwan",
+    }, {
+        label: "Songshan [TSA] - Taiwan",
+        country: "Taiwan",
+        group: "Taipei [TPE] - Taiwan",
+    }, {
+        label: "Kaohsiung [KHH] - Taiwan",
+        country: "Taiwan",
+    }, {
+        label: "Green Island [GNI] - Taiwan",
+        country: "Taiwan",
+    }, {
+        label: "Poptun [PON] - Guatemala",
+        country: "Guatemala",
+    }, {
+        label: "Pontiac [PTK] - USA",
+        country: "United States of America",
+    }
+];
 
 $(document).ready(function() {
 
@@ -248,7 +343,7 @@ $(document).ready(function() {
             else if (inputID[0] == 'destinationAirport') {
                 filterAirport = $('#originAirport_' + inputID[1]).val();
             }
-            $(this).autocomplete('option', 'source', $.grep(airportData, function (value) { return value != filterAirport; }) );
+            $(this).autocomplete('option', 'source', $.grep(airportData, function (n) { return n.label != filterAirport; }) );
 
             var inputbox = this;
             $(this).parents('.form-flight').find('.box-airport-autocomplete').show();
@@ -303,13 +398,125 @@ $(document).ready(function() {
                 }
             }
         },
-        create: function() {
-            $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
-                var name = item.label.substring(0, item.label.indexOf('['));
-                var meta = item.label.substring(item.label.indexOf('['));
-                return $('<li class="ui-menu-item"></li>').data('item.autocomplete', item ).append('<b>'+name +'</b> '+meta).appendTo(ul);
-            };
+        create: function() {            
+            var inputID = $(this).attr('id').split('_');
+            console.log(inputID);
+
+            if (inputID[0] == "originAirport") {
+                $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
+                    var title = item.label.substr(0, item.label.lastIndexOf('-') - 1);
+                    var option = $('<div class="option-airport"><span class="title">' + title +'</span></div>');
+                    // if (item.country != null && item.country.length > 0){
+                    //     option.append('<span class="info">' + item.country + '</span>');
+                    // }
+                    // if (item.group != null) {
+                    if (item.sub == true) {
+                        option.find('.info').remove();
+                        option.addClass('sub');
+                    }
+                    return $('<li class="ui-menu-item"></li>').data('item.autocomplete', item).append(option).appendTo(ul);
+                };
+
+                $(this).data('ui-autocomplete')._renderMenu = function( ul, items ) {
+                    var that = this;
+                    $(ul).append("<div>Thailand</div>");
+                    var sorted = [];
+                    var inserted = [];
+                    for(var i in items) {
+                        var item = items[i];
+                        if (item.country == "Thailand" && item.intl != null && item.intl == true) {
+                            inserted.push(item.group);
+                            inserted.push(item.value);
+                            sorted.push(item);
+                        }
+                    }
+                    for(var i in items) {
+                        var item = items[i];
+                        if (item.country == "Thailand" && (inserted.indexOf(item.value) == -1) ) {
+                            // if (item.country == "Thailand") {
+                            sorted.push(item);
+                        }
+                    }
+
+                    $.each( sorted, function( index, item ) {
+                        that._renderItemData( ul, item );
+                    });
+                };
+            } else {
+                $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
+                    var title = item.label.substr(0, item.label.lastIndexOf('-') - 1);
+                    var option = $('<div class="option-airport"><span class="title">' + title +'</span></div>');
+                    if (item.country != null && item.country.length > 0){
+                        option.append('<span class="info">' + item.country + '</span>');
+                    }
+                    // if (item.group != null) {
+                    if (item.sub == true) {
+                        option.find('.info').remove();
+                        option.addClass('sub');
+                    }
+                    return $('<li class="ui-menu-item"></li>').data('item.autocomplete', item).append(option).appendTo(ul);
+                };
+
+                $(this).data('ui-autocomplete')._renderMenu = function( ul, items ) {
+                    var that = this;
+                    var groups = [];
+                    var sorted = [];
+                    var created_head = [];
+                    for(var i in items) {
+                        var item = items[i];
+                        item.sub = false;
+                        if (item.group != null) {
+                            // if ( groups.indexOf(item.group) == -1) {
+                                // groups.push(item.group);
+                                // sorted.push(item);    
+                            // } else {
+                                item.sub = true;
+                                // find first idx in group
+                                var first_idx = -1;
+                                var last_idx = -1;
+                                for(var j in sorted) {
+                                    if (sorted[j].group == item.value || (sorted[j].group != null && sorted[j].group == item.group)) {
+                                        if (first_idx == -1) {
+                                            first_idx = j;
+                                        }
+                                        last_idx = j;
+                                        sorted[j].sub = true;
+                                    }
+                                }
+                                if (first_idx == -1) { first_idx = sorted.length - 1;}
+                                if (last_idx == -1) { last_idx = sorted.length - 1;}
+
+                                sorted = sorted.slice(0,last_idx + 1).concat(item).concat(sorted.slice(last_idx + 1));
+
+                                // console.log(sorted);
+                                // console.log(item.value + ": " + first_idx + ", " + last_idx);
+
+                                if (created_head.indexOf(item.group) == -1) {
+                                    // console.log("create head : " + item.group);
+                                    var t = {
+                                        "label": item.group,
+                                        "country": item.country,
+                                        "value": item.group
+                                    };
+                                    sorted = sorted.slice(0,first_idx + 1).concat(t).concat(sorted.slice(first_idx + 1));
+                                    created_head.push(item.group);
+                                }
+                            // }
+                        } else {
+                            created_head.push(item.value);
+                            sorted.push(item);
+                        }
+                    }
+                    $.each( sorted, function( index, item ) {
+                        // item.label = item.label + "AA";
+                        console.log(item);
+                        that._renderItemData( ul, item );
+                    });
+                    // $( ul ).find( "li:odd" ).addClass( "odd" );
+                };
+            }
         }
+
     };
 
     $('.form-flight.f-one-city .input-airport-picker').autocomplete(autocomplete_option).bind('click', function () {
@@ -423,7 +630,7 @@ $(document).ready(function() {
                         var dFrom = selected;
                         var dTo = mark;
                     }
-                    if(date > dFrom && date < dTo){
+                    if (date > dFrom && date < dTo){
                         return [true, 'ui-datepicker-range', ''];
                     }
                 }
@@ -449,7 +656,9 @@ $(document).ready(function() {
             if($(this).attr('id') == 'departureDate' && dateText.length > 0 && $('#returnDate').hasClass('required')){
                 $('#returnDate').attr('data-mark', dateText).datepicker('refresh')
                 if($('#returnDate').val().length <= 0){ 
-                    $('#returnDate').datepicker('show');
+                    // SELECT ONE DAY RETURN
+                    var nextSelected = getNextDateFrom( getDateFromString(dateText), 1);
+                    $('#returnDate').datepicker("setDate", nextSelected).datepicker('show');
                 }
             }
             else if($(this).attr('id') == 'returnDate' && dateText.length > 0){
@@ -494,4 +703,8 @@ function getDateFromToday(num){
 function getDateFromString(str){
     var dateArr = str.split('/');
     return new Date(dateArr[2],dateArr[1]-1,dateArr[0]);
+}
+
+function getNextDateFrom(date, n){
+    return new Date(date.getTime() + (24 * 60 * 60 * 1000 * n));
 }

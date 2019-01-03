@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_3298" data-name="Group 3298" transform="translate(-2733 -1486)">
+    <g id="Symbol_303_2" data-name="Symbol 303 – 2">
+      <rect id="Rectangle_2652" data-name="Rectangle 2652" width="40" height="40" transform="translate(2733 1486)" fill="#fff"/>
+    </g>
+    <g id="Group_3252" data-name="Group 3252" transform="translate(2735 1494)">
+      <g id="Group_2339" data-name="Group 2339" transform="translate(0 0)">
+        <path id="Path_1525" data-name="Path 1525" d="M5.526,1V7.4A2.227,2.227,0,0,1,3.263,9.658h0A2.227,2.227,0,0,1,1,7.4V1" transform="translate(-1 -1)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_1206" data-name="Line 1206" x2="4.526" transform="translate(0 4.526)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_1207" data-name="Line 1207" y2="4.526" transform="translate(2.263)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_1208" data-name="Line 1208" y2="14.365" transform="translate(2.263 9.249)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_2340" data-name="Group 2340" transform="translate(33.256 0.197)">
+        <line id="Line_1209" data-name="Line 1209" y2="14.365" transform="translate(2.952 9.052)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1526" data-name="Path 1526" d="M34.8,13.892h2.952V1.2h-.787A2.184,2.184,0,0,0,34.8,3.365Z" transform="translate(-34.8 -1.2)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_2341" data-name="Group 2341" transform="translate(7.281 0.197)">
+        <ellipse id="Ellipse_138" data-name="Ellipse 138" cx="11.315" cy="11.315" rx="11.315" ry="11.315" stroke-width="2" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+        <ellipse id="Ellipse_139" data-name="Ellipse 139" cx="8.363" cy="8.363" rx="8.363" ry="8.363" transform="translate(2.952 2.952)" fill="none" stroke="rgba(0,178,227,0.4)" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

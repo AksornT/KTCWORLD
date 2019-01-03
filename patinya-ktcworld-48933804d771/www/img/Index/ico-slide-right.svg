@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="81" viewBox="0 0 81 81">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #00b2e3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_24);
+      }
+    </style>
+    <filter id="Ellipse_24" x="0" y="0" width="81" height="81" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Symbol_265_3" data-name="Symbol 265 – 3" transform="translate(-2831 -1599)">
+    <rect id="Rectangle_2474" data-name="Rectangle 2474" class="cls-1" width="45" height="45" transform="translate(2849 1610)"/>
+    <g id="Group_2987" data-name="Group 2987" transform="translate(2972 2621) rotate(180)">
+      <g class="cls-3" transform="matrix(-1, 0, 0, -1, 141, 1022)">
+        <circle id="Ellipse_24-2" data-name="Ellipse 24" class="cls-1" cx="22.5" cy="22.5" r="22.5" transform="translate(63 56) rotate(180)"/>
+      </g>
+      <path id="Path_1875" data-name="Path 1875" class="cls-2" d="M1,1,7.3,7.3,1,13.6" transform="translate(104.5 995.5) rotate(180)"/>
+    </g>
+  </g>
+</svg>

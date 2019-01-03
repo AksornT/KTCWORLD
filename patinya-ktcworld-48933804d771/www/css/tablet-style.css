@@ -34,7 +34,7 @@
     margin-right: 0;
   }
   .menu-global .search-on-menu img{
-    width: 24px;
+    width: 18px;
   }
 
   .menu-global .profile-image img{
@@ -46,7 +46,7 @@
     padding: 6px 12px;
   }
   .menu-global .login-mobile img{
-    width: 24px;
+    width: 18px;
   }
   .menu-global .logged-in{
     padding: 18px 12px;
@@ -58,7 +58,7 @@
     margin-right: -12px;
   }
   .menu-global .menu-mobile img{
-    width: 20px;
+    width: 18px;
   }
   
   /*.menu-mobile{
@@ -182,7 +182,7 @@
     bottom: 0;
   }
   .menu-responsive-dropdown .lang-header-menu img{
-    padding-left: 0;
+    padding: 5px;
   }
   .menu-responsive-dropdown .lang-header-menu label{
     display: inline-block;

@@ -198,7 +198,7 @@ $(document).ready(function() {
                 margin: 10
             },
             576: {
-                items: 2,
+                items: 1,
                 nav: true,
                 margin: 20
             }
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
     $('.index-slide1-default').owlCarousel({
         loop: true,
-        dots: false,
+        dots: true,
         responsiveClass: true,
         responsive: {
             0: {

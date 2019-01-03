@@ -1,24 +1,11 @@
-<svg id="Group_3485" data-name="Group 3485" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.009 15.4">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #5b6670;
-      }
-
-      .cls-2 {
-        fill: none;
-        stroke: #5b6670;
-        stroke-miterlimit: 10;
-      }
-    </style>
-  </defs>
-  <path id="Path_2092" data-name="Path 2092" class="cls-1" d="M13.6,6.4H.5v-2A2.476,2.476,0,0,1,3,1.9h8.1a2.476,2.476,0,0,1,2.5,2.5Z"/>
-  <path id="Path_2093" data-name="Path 2093" class="cls-2" d="M11.7,1.9H2.4A1.9,1.9,0,0,0,.5,3.8V13a1.9,1.9,0,0,0,1.9,1.9h9.2A1.9,1.9,0,0,0,13.5,13V3.8A1.815,1.815,0,0,0,11.7,1.9Z"/>
-  <circle id="Ellipse_283" data-name="Ellipse 283" class="cls-1" cx="0.7" cy="0.7" r="0.7" transform="translate(6.6 8.2)"/>
-  <circle id="Ellipse_284" data-name="Ellipse 284" class="cls-1" cx="0.7" cy="0.7" r="0.7" transform="translate(10 8.2)"/>
-  <circle id="Ellipse_285" data-name="Ellipse 285" class="cls-1" cx="0.7" cy="0.7" r="0.7" transform="translate(6.6 11.1)"/>
-  <circle id="Ellipse_286" data-name="Ellipse 286" class="cls-1" cx="0.7" cy="0.7" r="0.7" transform="translate(2.7 11.1)"/>
-  <circle id="Ellipse_287" data-name="Ellipse 287" class="cls-1" cx="0.7" cy="0.7" r="0.7" transform="translate(10 11.1)"/>
-  <path id="Path_2094" data-name="Path 2094" class="cls-1" d="M4.2,0h0a.472.472,0,0,0-.5.5V2.3a.472.472,0,0,0,.5.5h0a.472.472,0,0,0,.5-.5V.5A.472.472,0,0,0,4.2,0Z"/>
-  <path id="Path_2095" data-name="Path 2095" class="cls-1" d="M9.9,0h0a.472.472,0,0,0-.5.5V2.3a.472.472,0,0,0,.5.5h0a.472.472,0,0,0,.5-.5V.5A.472.472,0,0,0,9.9,0Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="23.794" viewBox="0 0 21.5 23.794">
+  <g id="Group_2653" data-name="Group 2653" transform="translate(-1765 -1773.206)">
+    <g id="Rectangle_2031" data-name="Rectangle 2031" transform="translate(1765 1775.562)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="21.5" height="21.439" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20.5" height="20.439" rx="2.5" fill="none"/>
+    </g>
+    <line id="Line_912" data-name="Line 912" x2="21.294" transform="translate(1765.206 1779.89)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_913" data-name="Line 913" y2="3.711" transform="translate(1771.215 1773.706)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_914" data-name="Line 914" y2="3.711" transform="translate(1780.285 1773.706)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+  </g>
 </svg>

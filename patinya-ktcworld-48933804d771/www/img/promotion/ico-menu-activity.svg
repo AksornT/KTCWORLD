@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Symbol_307_2" data-name="Symbol 307 – 2" transform="translate(-2567 -1416)">
+    <rect id="Rectangle_1151" data-name="Rectangle 1151" width="40" height="40" transform="translate(2567 1416)" fill="none"/>
+    <g id="Group_3261" data-name="Group 3261" transform="translate(834.823 428.832)">
+      <g id="Group_2638" data-name="Group 2638" transform="translate(1733.177 987.288)">
+        <g id="Rectangle_1682" data-name="Rectangle 1682" transform="matrix(0.788, 0.616, -0.616, 0.788, 18.698, 0)" fill="#fff" stroke="#00b2e3" stroke-width="2">
+          <rect width="24.53" height="30.37" rx="3" stroke="none"/>
+          <rect x="1" y="1" width="22.53" height="28.37" rx="2" fill="none"/>
+        </g>
+        <g id="Rectangle_1683" data-name="Rectangle 1683" transform="translate(6.405 22.827) rotate(-49)" fill="#fff" stroke="rgba(0,178,227,0.4)" stroke-width="2">
+          <rect width="16.353" height="9.345" rx="3" stroke="none"/>
+          <rect x="1" y="1" width="14.353" height="7.345" rx="2" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_1686" data-name="Path 1686" d="M643.34,1010.5l18.3-22.7" transform="translate(1105.963 11.789)" fill="none" stroke="#00b2e3" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

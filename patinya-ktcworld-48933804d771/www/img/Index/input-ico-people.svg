@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.5 15.158">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #5b6670;
-      }
-    </style>
-  </defs>
-  <path id="Path_2091" data-name="Path 2091" class="cls-1" d="M14.4,10.6l-3.3-.9a.954.954,0,0,1-.5-1.4,9.732,9.732,0,0,0,1.2-4.5C11.8.9,10.3.1,8.4.1,6.4,0,4.8.9,4.8,3.7A9.412,9.412,0,0,0,6,8.2c.3.6.1,1.3-.5,1.4l-3.3.9A3.171,3.171,0,0,0,0,13.3v.4a1.172,1.172,0,0,0,.9,1.1h0a60.25,60.25,0,0,0,14.7,0h0a1.088,1.088,0,0,0,.9-1.1v-.4A2.852,2.852,0,0,0,14.4,10.6Z" transform="translate(0 -0.092)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_3303" data-name="Group 3303" transform="translate(-2243 -682)">
+    <rect id="Rectangle_2678" data-name="Rectangle 2678" width="24" height="24" transform="translate(2243 682)" fill="none"/>
+    <g id="Group_2651" data-name="Group 2651" transform="translate(2242.7 680.3)">
+      <path id="Path_1684" data-name="Path 1684" d="M14.1,14.1a3.677,3.677,0,0,0,3.8-3.8V8.5a3.736,3.736,0,0,0-3.8-3.8,3.677,3.677,0,0,0-3.8,3.8v1.9A3.712,3.712,0,0,0,14.1,14.1Z" transform="translate(-2)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1685" data-name="Path 1685" d="M6.6,23.5V20.4c0-2.8,5-4.4,7.5-4.4s7.5,1.6,7.5,4.4v3.1Z" transform="translate(-2)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
 </svg>
