@@ -364,7 +364,7 @@ a:hover{
 }
 
 .card-register-btn:hover{
-	background: #c93339;
+	background: #c93339e6;
 	color:#FFF;
 	cursor: pointer;
 }
@@ -1146,18 +1146,22 @@ button:focus {
 }
 
 .card-choice{
-	width: 510px;
+	/*width: 510px;*/
 	max-width: 100%;
-    display: block;
-    margin: 0 auto 35px auto;
-    padding: 13px 15px 14px 15px;
-    border-radius: 6px;
-    position: relative;
-    top: 0;
-    color: #000;
-    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+	display: block;
+	margin: 0 5px 35px;
+	padding: 13px 15px 14px 15px;
+	border-radius: 6px;
+	position: relative;
+	top: 0;
+	color: #000;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+}
+
+.card-choice:first-child{
+	margin-top: 5px;
 }
 
 .card-choice:hover{
@@ -1168,25 +1172,21 @@ button:focus {
 	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.2);
 }
 
-.card-choice:first-child{
-	margin-top: 5px;
-}
-
 .card-choice> *{
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .left-icon{
-    width: 120px;
+    width: 80px;
     text-align: center;
 }
 
 .left-icon + p{
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.14;
-    max-width: calc(100% - 130px);
+    max-width: calc(100% - 80px);
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
