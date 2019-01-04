@@ -2233,6 +2233,17 @@ article.content-wrap{
 	margin-right: -20px;
 }
 
+body .page-head .info{
+	font-size: 40px;
+	line-height: 52px;
+	padding: 5px 0;
+}
+
+body .page-head .meta{
+	font-size: 30px;
+	line-height: 40px;
+}
+
 
 
 .space-15{

@@ -424,6 +424,7 @@
   }
   .text-on-slide {
     margin-bottom: 10px;
+    overflow: hidden;
   }
   .text-on-slide p{
     display: none;
@@ -647,6 +648,16 @@
 
   .image-over-left img{
     margin: 0 30px -7vw 15px;
+  }
+
+  body .page-head .info{
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  body .page-head .meta{
+    font-size: 24px;
+    line-height: 32px;
   }
 
 
