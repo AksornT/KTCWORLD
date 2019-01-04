@@ -587,14 +587,6 @@
     left: -35px;
   }
 
-  .world-service img{
-    bottom: 0 !important;
-    top: 0 !important;
-    margin: 0 !important;
-    display: block;
-    max-width: 36vw;
-  }
-
   .world-service > .row > div br{
     display: none;
   }
@@ -607,8 +599,8 @@
     top: -12px;
   }
 
-  .world-service:before{
-    bottom: 120px;
+  .world-service .static-wrap .text-on-center-img {
+    position: relative;
   }
 
   .left-side,
@@ -658,6 +650,14 @@
   body .page-head .meta{
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .eight-service-wrap > div:nth-child(odd){
+    padding-right: 5px;
+  }
+
+  .eight-service-wrap > div:nth-child(even){
+    padding-left: 5px;
   }
 
 

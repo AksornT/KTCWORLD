@@ -3879,10 +3879,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .page-info .title {
-  font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 35px;
+  font-family: 'Conv_SukhumvitTadmai_Bol';
+  font-size: 25px;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3895,20 +3895,21 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 .page-info .normal-list {
   list-style: disc;
   padding-left: 20px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 @media only screen and (max-width: 767px) {
   .page-info .normal-list {
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
   }
 }
 
 .page-info .normal-list li {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Conv_SukhumvitTadmai_Tex';
   font-size: 18px;
   line-height: 1.4;
   padding-left: 5px;
+  margin-left: 15px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3919,30 +3920,44 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .page-info .icon-list li {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 44px;
+  font-size: 16px;
+  line-height: 21.5px;
   position: relative;
-  padding-left: 40px;
+  align-self: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   .page-info .icon-list li {
-    line-height: 25px;
-    margin-bottom: 12px;
+    padding: 5px 15px;
   }
 }
 
 .page-info .icon-list li img {
-  width: 20px;
-  position: absolute;
-  left: 0;
-  top: 12px;
+  width: 40px;
+  margin-right: 20px;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 767px) {
   .page-info .icon-list li img {
-    top: 2px;
+    /*top: 2px;*/
   }
+}
+
+.page-info .icon-list li p{
+    display: inline-block;
+    width: calc(100% - 60px);
+    vertical-align: middle;
+    color: rgba(90,102,112,0.7);
+}
+
+.page-info .notice-list{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: rgba(90,102,112,0.7);
+  margin-top: 30px;
+  line-height: 25px;
+  padding: 0 15px;
 }
 
 .info-box-list {
