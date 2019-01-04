@@ -3786,7 +3786,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .page-image-header {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 767px) {

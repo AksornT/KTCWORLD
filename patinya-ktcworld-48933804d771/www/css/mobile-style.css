@@ -601,6 +601,7 @@
 
   .world-service .static-wrap .text-on-center-img {
     position: relative;
+    padding-top: 20px;
   }
 
   .left-side,
@@ -650,6 +651,11 @@
   body .page-head .meta{
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .eight-service-wrap{
+    padding-top: 0;
+    margin-top: -40px;
   }
 
   .eight-service-wrap > div:nth-child(odd){
