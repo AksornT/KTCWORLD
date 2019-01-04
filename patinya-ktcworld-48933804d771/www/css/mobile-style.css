@@ -422,6 +422,9 @@
     border-bottom: 3px solid #00B2E3;
     margin-bottom: 0px;
   }
+  .index-head .multi-line {
+    line-height: 25px;
+  }
   .text-on-slide {
     margin-bottom: 10px;
     overflow: hidden;
