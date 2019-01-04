@@ -793,22 +793,19 @@
     position: relative;
   }
 
+
+  .world-service .still-background,
+  .world-service .still-background img{
+    position: relative;
+  }
+  .world-service .static-wrap .text-on-center-img{
+    position: absolute;
+  }
+
+
   .right-side .text-on-center-img{
     left: 0;
     right: 0;
-  }
-
-  .world-service{
-    width: 530px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .world-service:before{
-    left: 28px;
-    bottom: 110px;
-    top: 180px;
   }
 
   .world-service > .row > div,
@@ -845,7 +842,9 @@
     margin-left: -20px !important;
   }
 
-
+  .icon-list{
+    margin-top: 30px;
+  }
 
 
   .space-15{

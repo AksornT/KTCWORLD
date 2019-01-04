@@ -1,15 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-      }
-    </style>
-  </defs>
-  <g id="ico-service-fb" transform="translate(-1631 -4771)">
-    <rect id="Rectangle_3032" data-name="Rectangle 3032" class="cls-1" width="18" height="18" transform="translate(1631 4771)"/>
-    <g id="ico-service-fb-2" data-name="ico-service-fb">
-      <path id="Path_1935" data-name="Path 1935" d="M8.513,0V2.961c0,.141-.047.141-.141.141h-1.5c-.188,0-.329.047-.517.047a.659.659,0,0,0-.564.658c-.047.658,0,1.316-.047,1.974,0,.141.094.094.141.094H8.56c-.094,1.034-.235,2.068-.329,3.1H5.74V18H2.356V8.93H.1V5.969c0-.141.047-.141.141-.141H2.168c.141,0,.188-.047.188-.188,0-.846,0-1.692.047-2.538a3.659,3.659,0,0,1,.423-1.739A2.4,2.4,0,0,1,4.236.282C4.612.188,4.988.141,5.317.047A.173.173,0,0,0,5.458,0Z" transform="translate(1634.9 4771)"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_3779" data-name="Group 3779" transform="translate(12686 16675)">
+    <rect id="Rectangle_2015" data-name="Rectangle 2015" width="40" height="40" transform="translate(-12686 -16675)" fill="rgba(255,255,255,0.5)"/>
+    <path id="Path_1366" data-name="Path 1366" d="M17.676-16.912v5.077H14.656a2.826,2.826,0,0,0-2.231.692,3.185,3.185,0,0,0-.577,2.077v3.635h5.635L16.733.261H11.849v14.6H5.964V.261H1.06V-5.431h4.9V-9.624a7.439,7.439,0,0,1,2-5.548,7.259,7.259,0,0,1,5.327-1.971A31.814,31.814,0,0,1,17.676-16.912Z" transform="translate(-12677.062 -16653.912)" fill="none" stroke="rgba(91,102,112,0.7)" stroke-width="1"/>
   </g>
 </svg>
