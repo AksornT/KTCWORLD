@@ -654,7 +654,7 @@ a:hover{
 	/*font-family: Helvetica, Arial, sans-serif ;*/
 	font-family: 'Conv_PSL249pro';
 	font-size: 18px;
-	line-height: 17px;
+	line-height: 1.2;
 	display: block;
 	position: relative;
 	left: 0;
@@ -2066,7 +2066,7 @@ article.content-wrap{
 	font-size: 20px;
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .static-wrap .media-content > div{
@@ -2088,7 +2088,7 @@ article.content-wrap{
 	font-family: 'Conv_PSL249pro';
 	margin-top: 5px;
 	font-size: 20px;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .static-wrap .media-body .link-more{

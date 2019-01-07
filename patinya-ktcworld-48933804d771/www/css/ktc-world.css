@@ -2351,7 +2351,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Conv_PSL249pro';
   font-size: 18px;
-  line-height: 1;
+  line-height: 1.2;
   padding-right: 35px;
   margin-bottom: 30px;
 }
@@ -2398,7 +2398,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Conv_PSL249pro';
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.2;
   white-space: nowrap;
 }
 
@@ -2938,7 +2938,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Conv_PSL249pro';
   font-size: 24px;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 40px;
 }
 
@@ -3007,7 +3007,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Conv_PSL249pro';
   font-size: 24px;
-  line-height: 1;
+  line-height: 1.2;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -3935,7 +3935,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Conv_PSL249pro';
   font-size: 22px;
-  line-height: 21.5px;
+  line-height: 1.2;
   position: relative;
   align-self: center;
 }
@@ -3971,7 +3971,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   font-size: 22px;
   color: rgba(90,102,112,0.7);
   margin-top: 30px;
-  line-height: 25px;
+  line-height: 1.2;
   padding: 0 15px;
 }
 
