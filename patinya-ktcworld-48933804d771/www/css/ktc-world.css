@@ -113,12 +113,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
   .menu-world .content-wrap {
     max-width: 1218px;
     padding: 0 20px;
   }
-}
+}*/
 
 .menu-world .ktc-world-logo {
   display: none;
@@ -138,11 +138,6 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .menu-world .scrolled-menu {
   text-align: left;
-  padding-left: 72px;
-}
-
-.fixed-header .menu-world .scrolled-menu {
-  padding-left: 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -230,7 +225,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 @media only screen and (max-width: 575px) {
   .menu-world .sub-menu-mobile .horizontal-menu {
     white-space: nowrap;
-    height: 55px;
+    height: 45px;
     padding-bottom: 17px;
     box-sizing: content-box;
     overflow-x: scroll;
