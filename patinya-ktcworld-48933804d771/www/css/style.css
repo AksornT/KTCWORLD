@@ -75,6 +75,21 @@
 	unicode-range: U+41-5A, U+61-7A, U+C0-FF;
 }
 
+@font-face {
+	font-family: 'Conv_PSL249pro';
+	src: url('../fonts/PSL249pro.eot');
+	src: local('☺'), url('../fonts/PSL249pro.woff') format('woff'), url('../fonts/PSL249pro.ttf') format('truetype'), url('../fonts/PSL249pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_PSL251pro';
+	src: url('../fonts/PSL251pro.eot');
+	src: local('☺'), url('../fonts/PSL251pro.woff') format('woff'), url('../fonts/PSL251pro.ttf') format('truetype'), url('../fonts/PSL251pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -636,8 +651,9 @@ a:hover{
 
 .footer a{
 	color: #000;
-	font-family: Helvetica, Arial, sans-serif ;
-	font-size: 12px;
+	/*font-family: Helvetica, Arial, sans-serif ;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 18px;
 	line-height: 17px;
 	display: block;
 	position: relative;
@@ -928,8 +944,9 @@ button:focus {
 }
 
 .license{
-	font-family: sans-serif;
-	font-size: 12px;
+	/*font-family: sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 18px;
 	line-height: 14px;
 	padding-top: 12px;
 }
@@ -944,7 +961,7 @@ button:focus {
 }
 
 .footer .lang-footer{
-	font-size: 12px;
+	font-size: 18px;
     line-height: 14px;
     padding-top: 2px;
     display: inline-block;
@@ -2046,8 +2063,10 @@ article.content-wrap{
 }
 
 .static-wrap .media p{
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	line-height: 1;
 }
 
 .static-wrap .media-content > div{
@@ -2065,9 +2084,11 @@ article.content-wrap{
 }
 
 .static-wrap .media-body .link-more{
-	font-family: Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
 	margin-top: 5px;
-	font-size: 14px;
+	font-size: 20px;
+	line-height: 1;
 }
 
 .static-wrap .media-body .link-more{
@@ -2075,8 +2096,9 @@ article.content-wrap{
 }
 
 .static-wrap .media-body p b{
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: 'Conv_PSL251pro';
+	font-weight: normal;
+	line-height: 1;
 }
 
 .static-modal .header{

@@ -2348,9 +2348,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .sub-footer .col-desc p {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  line-height: 1.4;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 18px;
+  line-height: 1;
   padding-right: 35px;
   margin-bottom: 30px;
 }
@@ -2394,9 +2395,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .sub-footer .col-info .time span {
   display: block;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
+  line-height: 1;
   white-space: nowrap;
 }
 
@@ -2734,8 +2736,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 #terms-modal .content {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -2768,9 +2771,11 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .article-wrap .article-cover .sub-meta small {
   float: right;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;*/
+  font-family: 'Conv_PSL249pro';
+  
+  font-size: 20px;
   line-height: 27px;
   margin-top: 5px;
   color: #5B6670;
@@ -2930,9 +2935,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .article-wrap .article-content {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 24px;
+  line-height: 1;
   margin-bottom: 40px;
 }
 
@@ -2998,9 +3004,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .article-wrap .article-collapse .info {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 24px;
+  line-height: 1;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -3077,10 +3084,11 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .article-wrap .article-link .link {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  font-weight: bold;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL251pro';
+  font-size: 24px;
+  line-height: 1;
+  font-weight: normal;
   color: #00B2E3;
   margin-bottom: 5px;
 }
@@ -3924,8 +3932,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .page-info .icon-list li {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 22px;
   line-height: 21.5px;
   position: relative;
   align-self: center;
@@ -3957,8 +3966,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .page-info .notice-list{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 22px;
   color: rgba(90,102,112,0.7);
   margin-top: 30px;
   line-height: 25px;
