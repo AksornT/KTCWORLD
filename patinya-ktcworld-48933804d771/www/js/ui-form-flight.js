@@ -619,6 +619,11 @@ $(document).ready(function() {
                     var wClass = (jQuery.inArray(date.toString(), warningDateArr) !== -1) ? ' ui-datepicker-warning' : '';
                     return [true, 'ui-datepicker-unselectable' + wClass, ''];
                 }
+                // DISABLE ALL DATE AFTER MARKED ONLY ON DEPARTURE
+                if ($(this).attr('id') == 'departureDate' && date > mark) {
+                    var wClass = (jQuery.inArray(date.toString(), warningDateArr) !== -1) ? ' ui-datepicker-warning' : '';
+                    return [true, 'ui-datepicker-unselectable' + wClass, ''];
+                }
                 // DATE RANGE BETWEEN MAKRED AND SELECTED
                 if(typeof $(this).attr('data-selected') !== typeof undefined && $(this).attr('data-selected') !== false){
                     var selected = getDateFromString($(this).attr('data-selected'));
