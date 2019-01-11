@@ -343,7 +343,30 @@ $(document).ready(function() {
             else if (inputID[0] == 'destinationAirport') {
                 filterAirport = $('#originAirport_' + inputID[1]).val();
             }
-            $(this).autocomplete('option', 'source', $.grep(airportData, function (n) { return n.label != filterAirport; }) );
+
+            // $(this).autocomplete('option', 'source', $.grep(airportData, function (n) { return n.label != filterAirport; }) );
+            $(this).autocomplete('option', 'source', 
+                function (req, res) {
+                    var r = [];
+                    for(var i in airportData) {
+                        var a = airportData[i];
+                        if (a.label == filterAirport) {
+                            continue;
+                        }
+                        var t = req.term.toLowerCase();
+                        var l = (a.label.toLowerCase().indexOf(t) != -1);
+                        
+                        var g = false;
+                        if (a.group) {
+                            g = (a.group.toLowerCase().indexOf(t) != -1);
+                        }
+                        if (l || g) {
+                            r.push(a);
+                        }
+                    }
+                    res(r);
+                }
+            );
 
             var inputbox = this;
             $(this).parents('.form-flight').find('.box-airport-autocomplete').show();
@@ -509,7 +532,7 @@ $(document).ready(function() {
                     }
                     $.each( sorted, function( index, item ) {
                         // item.label = item.label + "AA";
-                        console.log(item);
+                        // console.log(item);
                         that._renderItemData( ul, item );
                     });
                     // $( ul ).find( "li:odd" ).addClass( "odd" );
