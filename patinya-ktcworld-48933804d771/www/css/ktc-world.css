@@ -3888,9 +3888,27 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .page-info .title {
   font-family: 'Conv_SukhumvitTadmai_Bol';
-  font-size: 25px;
+  font-size: 26px;
   line-height: 1.4;
   margin-bottom: 15px;
+}
+
+.page-info.service-wrap-icon .title{
+  font-family: 'Conv_SukhumvitTadmai_Tex';
+}
+.page-info.service-wrap-icon .icon-list{
+  margin-top: 0;
+}
+.page-info.service-wrap-icon .icon-list li img{
+  width: 30px;
+}
+.page-info.service-wrap-icon .icon-list li p{
+  color: #000;
+}
+
+.service-wrap-text{
+  background-color: rgba(91,102,112,0.05);
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 767px) {
