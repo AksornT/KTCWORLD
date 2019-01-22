@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ico-clock" transform="translate(-27 -2614.601)">
+    <rect id="Rectangle_3220" data-name="Rectangle 3220" width="30" height="30" transform="translate(27 2614.601)" fill="none"/>
+    <g id="Group_3986" data-name="Group 3986" transform="translate(-1953.553 2405.197)">
+      <path id="Path_2365" data-name="Path 2365" d="M1995.553,236.314a12,12,0,1,1,12-12A12.013,12.013,0,0,1,1995.553,236.314Zm0-23.077a11.077,11.077,0,1,0,11.077,11.077A11.09,11.09,0,0,0,1995.553,213.237Z" transform="translate(0 0)" fill="#231f20"/>
+      <circle id="Ellipse_248" data-name="Ellipse 248" cx="0.923" cy="0.923" r="0.923" transform="translate(1994.63 223.391)" fill="#231f20"/>
+      <path id="Path_2366" data-name="Path 2366" d="M1996.515,225.148a.461.461,0,0,1-.462-.462v-8.141a.461.461,0,1,1,.923,0v8.141A.461.461,0,0,1,1996.515,225.148Z" transform="translate(-0.962 -0.29)" fill="#231f20"/>
+      <path id="Path_2367" data-name="Path 2367" d="M1996.065,225.737h-5.4a.462.462,0,0,1,0-.923h5.4a.462.462,0,1,1,0,.923Z" transform="translate(-0.512 -0.962)" fill="#231f20"/>
+    </g>
+  </g>
+</svg>

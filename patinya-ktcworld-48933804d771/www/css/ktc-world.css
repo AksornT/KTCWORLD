@@ -3900,7 +3900,11 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   margin-top: 0;
 }
 .page-info.service-wrap-icon .icon-list li img{
+  height: 30px;
   width: 30px;
+}
+.page-info.service-wrap-icon .icon-list li{
+  margin-bottom: 4px;
 }
 .page-info.service-wrap-icon .icon-list li p{
   color: #000;
