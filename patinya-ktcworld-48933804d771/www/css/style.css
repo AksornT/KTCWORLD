@@ -1692,7 +1692,7 @@ button.close{
 }
 
 .static-wrap p{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 20px;
 	display: block;
 }
@@ -2187,6 +2187,12 @@ article.content-wrap{
 	line-height: 39px;
 	position: relative;
 	margin: 0;
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+}
+
+a.link-underline{
+	color: #000;
+	text-decoration: underline;
 }
 
 .world-service > .row > div{
