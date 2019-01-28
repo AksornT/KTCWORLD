@@ -1,13 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <g id="Symbol_34" data-name="Symbol 34" transform="translate(-2982 -1487)">
-    <g id="Symbol_304_2" data-name="Symbol 304 – 2">
-      <rect id="Rectangle_2656" data-name="Rectangle 2656" width="40" height="40" transform="translate(2982 1487)" fill="#fff"/>
-    </g>
-    <g id="Group_3257" data-name="Group 3257" transform="translate(2988 1492)">
-      <rect id="Rectangle_2064" data-name="Rectangle 2064" width="11.873" height="11.873" rx="3" transform="translate(0 1)" fill="#00b2e3"/>
-      <rect id="Rectangle_2065" data-name="Rectangle 2065" width="11.873" height="11.873" rx="3" transform="translate(16.088 1)" fill="rgba(0,178,227,0.4)"/>
-      <rect id="Rectangle_2066" data-name="Rectangle 2066" width="11.873" height="11.873" rx="3" transform="translate(16.088 17.469)" fill="#00b2e3"/>
-      <rect id="Rectangle_2067" data-name="Rectangle 2067" width="11.873" height="11.873" rx="3" transform="translate(0 17.469)" fill="rgba(0,178,227,0.4)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_2394" data-name="Group 2394" transform="translate(-1156 -626)">
+    <rect id="Rectangle_1674" data-name="Rectangle 1674" width="60" height="60" transform="translate(1156 626)" fill="rgba(255,217,217,0)"/>
+    <g id="Group_2348" data-name="Group 2348" transform="translate(-155.264 -571.834)">
+      <g id="Group_2345" data-name="Group 2345">
+        <circle id="Ellipse_114" data-name="Ellipse 114" cx="4.149" cy="4.149" r="4.149" transform="translate(1323.851 1224.349)" fill="rgba(0,178,227,0.3)"/>
+        <path id="Path_1356" data-name="Path 1356" d="M1328,1233.647a5.148,5.148,0,1,1,5.149-5.149A5.154,5.154,0,0,1,1328,1233.647Zm0-8.3a3.148,3.148,0,1,0,3.149,3.148A3.152,3.152,0,0,0,1328,1225.35Z" fill="#00b2e3"/>
+      </g>
+      <g id="Group_2346" data-name="Group 2346">
+        <circle id="Ellipse_115" data-name="Ellipse 115" cx="4.149" cy="4.149" r="4.149" transform="translate(1337.702 1224.349)" fill="rgba(0,178,227,0.3)"/>
+        <path id="Path_1357" data-name="Path 1357" d="M1341.851,1233.647A5.148,5.148,0,1,1,1347,1228.5,5.154,5.154,0,0,1,1341.851,1233.647Zm0-8.3A3.148,3.148,0,1,0,1345,1228.5,3.152,3.152,0,0,0,1341.851,1225.35Z" fill="#00b2e3"/>
+      </g>
+      <g id="Group_2347" data-name="Group 2347">
+        <circle id="Ellipse_116" data-name="Ellipse 116" cx="4.149" cy="4.149" r="4.149" transform="translate(1351.553 1224.349)" fill="rgba(0,178,227,0.3)"/>
+        <path id="Path_1358" data-name="Path 1358" d="M1355.7,1233.647a5.148,5.148,0,1,1,5.149-5.149A5.154,5.154,0,0,1,1355.7,1233.647Zm0-8.3a3.148,3.148,0,1,0,3.149,3.148A3.152,3.152,0,0,0,1355.7,1225.35Z" fill="#00b2e3"/>
+      </g>
     </g>
   </g>
 </svg>

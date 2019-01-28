@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21.485" height="20" viewBox="0 0 21.485 20">
-  <g id="Group_3301" data-name="Group 3301" transform="translate(-1927 -2197)">
-    <rect id="Rectangle_1151" data-name="Rectangle 1151" width="20" height="20" transform="translate(1928 2197)" fill="none"/>
-    <g id="Group_2679" data-name="Group 2679" transform="translate(143 285.172)">
-      <path id="Path_1687" data-name="Path 1687" d="M18.38.5a2.036,2.036,0,0,0-.573.115L5.944,5.027H2.735a.636.636,0,0,0-.63.63V6a1.917,1.917,0,0,0,0,3.782v.344a.636.636,0,0,0,.63.63H4v3.209a1.652,1.652,0,0,0,1.662,1.6H7.434a.392.392,0,0,0,.4-.4.443.443,0,0,0-.4-.458h-1.2a.784.784,0,0,1-.86-.688V10.816h.573l11.863,4.413a1.7,1.7,0,0,0,.573.115,1.6,1.6,0,0,0,1.6-1.6V2.1A1.567,1.567,0,0,0,18.38.5Z" transform="translate(1784.5 1913.5)" fill="none" stroke="#00b2e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_1688" data-name="Path 1688" d="M616.52,1893.317v2.947" transform="translate(1172.789 26.59)" fill="none" stroke="rgba(0,178,227,0.4)" stroke-linecap="round" stroke-width="2"/>
-      <path id="Path_1689" data-name="Path 1689" d="M616.52,1893.318v13.893" transform="translate(1185.971 21.213)" fill="none" stroke="rgba(0,178,227,0.4)" stroke-linecap="round" stroke-width="2"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_2458" data-name="Group 2458" transform="translate(-194.384 -281.067)">
+    <rect id="Rectangle_2030" data-name="Rectangle 2030" width="24" height="24" transform="translate(194.384 281.067)" fill="none"/>
+    <path id="Path_1429" data-name="Path 1429" d="M1352.438,164.255h-2.784a2.784,2.784,0,0,1-2.784-2.784h0a2.784,2.784,0,0,1,2.784-2.783h2.784l9.611-2.439a.773.773,0,0,1,.974.734v8.836a.773.773,0,0,1-.965.736Z" transform="translate(-1148.563 130.235)" fill="#00b2e3" stroke="#00b2e3" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_965" data-name="Line 965" y1="6.558" transform="translate(203.396 288.427)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.75"/>
+    <path id="Path_1439" data-name="Path 1439" d="M1350.928,164.218l.952,2.651a1.334,1.334,0,0,1-1.316,1.78h0a1.334,1.334,0,0,1-1.2-.886l-1.525-4.18" transform="translate(-1148.563 130.235)" fill="#00b2e3" stroke="#00b2e3" stroke-linejoin="round" stroke-width="1"/>
   </g>
 </svg>

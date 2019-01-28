@@ -1,12 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24.461" height="24" viewBox="0 0 24.461 24">
-  <g id="Group_3307" data-name="Group 3307" transform="translate(-1509.867 -683)">
-    <rect id="Rectangle_2680" data-name="Rectangle 2680" width="24" height="24" transform="translate(1510 683)" fill="none"/>
-    <g id="Group_3304" data-name="Group 3304" transform="translate(1510.167 689.772)">
-      <g id="Group_2647" data-name="Group 2647" transform="translate(0.45 0.2)">
-        <path id="Path_1682" data-name="Path 1682" d="M13.241,9.317l-2.607.823h-.2c-.067-.059-.134-.118-.134-.176l.936-3.647-6.417,2-1.27.471-1-.294L2.68,7.376.675,5.2a.1.1,0,0,1,0-.176.136.136,0,0,1,.134-.118l1.938-.529a.445.445,0,0,1,.267.059L4.686,5.964l5.682-1.941L6.624,1.259c-.067-.059-.067-.118-.067-.235,0-.059.067-.118.134-.176L8.763.2h.2l6.016,2,2.674-.706c3.609-.823,5.08-.235,5.414.412.4,1-2.273,1.882-4.612,2.647,0,0-1.337.471-1.938.647,0,0-3.075,3.882-3.142,3.941C13.375,9.2,13.308,9.258,13.241,9.317Z" transform="translate(-0.625 -0.2)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-        <line id="Line_915" data-name="Line 915" x1="2.47" y2="0.941" transform="translate(11.745 2.059)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-      </g>
-      <line id="Line_916" data-name="Line 916" x2="23.462" transform="translate(0.2 13.573)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_2439" data-name="Group 2439" transform="translate(-847.354 -676)">
+    <rect id="Rectangle_2021" data-name="Rectangle 2021" width="24" height="24" transform="translate(847.354 676)" fill="none"/>
+    <g id="Group_2436" data-name="Group 2436" transform="translate(-220.639 295.945)">
+      <line id="Line_955" data-name="Line 955" x2="20.087" transform="translate(1069.95 396.611)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_1423" data-name="Path 1423" d="M1085.227,389.869l3.965-1.443a2.009,2.009,0,1,0-1.374-3.775l-5.124,1.865h0l-6.273-1.374-2.084,1.125,3.611,1.976-4.07,1.482-2.449-2.251-1.957.823,3,4.507a1.927,1.927,0,0,0,1.91.835l.871-.139,4.741-1.726Z" fill="#5b6670" stroke="rgba(0,0,0,0)" stroke-width="1"/>
     </g>
   </g>
 </svg>

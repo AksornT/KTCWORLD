@@ -615,40 +615,42 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .form-wrapper .nav-main li:nth-child(1) .nav-link:before {
-  background-image: url("../img/index/ico-tab-1.svg");
+  background-image: url("../img/index/ico-0.svg");
 }
 .form-wrapper .nav-main li:nth-child(1) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-1-1.svg);
+  background-image: url(../img/index/ico-0.2.svg);
 }
 .form-wrapper .nav-main li:nth-child(2) .nav-link:before {
-  background-image: url("../img/index/ico-tab-2.svg");
+  background-image: url("../img/index/ico-1.svg");
 }
 .form-wrapper .nav-main li:nth-child(2) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-2-1.svg);
+  background-image: url(../img/index/ico-1.1.svg);
 }
 .form-wrapper .nav-main li:nth-child(3) .nav-link:before {
-  background-image: url("../img/index/ico-tab-3.svg");
+  background-image: url("../img/index/ico-2.svg");
 }
 .form-wrapper .nav-main li:nth-child(3) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-3-1.svg);
+  background-image: url(../img/index/ico-2.1.svg);
 }
 .form-wrapper .nav-main li:nth-child(4) .nav-link:before {
-  background-image: url("../img/index/ico-tab-4.svg");
+  background-image: url("../img/index/ico-3.svg");
+  margin-top: 9px;
+  margin-bottom: 1px;
 }
 .form-wrapper .nav-main li:nth-child(4) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-4-1.svg);
+  background-image: url(../img/index/ico-3.1.svg);
 }
 .form-wrapper .nav-main li:nth-child(5) .nav-link:before {
-  background-image: url("../img/index/ico-tab-5.svg");
+  background-image: url("../img/index/ico-4.svg");
 }
 .form-wrapper .nav-main li:nth-child(5) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-5-1.svg);
+  background-image: url(../img/index/ico-4.1.svg);
 }
 .form-wrapper .nav-main li:nth-child(6) .nav-link:before {
-  background-image: url("../img/index/ico-tab-6.svg");
+  background-image: url("../img/index/ico-5.svg");
 }
 .form-wrapper .nav-main li:nth-child(6) .nav-link.active:before {
-  background-image: url(../img/index/ico-tab-6-1.svg);
+  background-image: url(../img/index/ico-5.1.svg);
 }
 
 @media only screen and (max-width: 767px) {

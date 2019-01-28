@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="23.794" viewBox="0 0 21.5 23.794">
-  <g id="Group_2653" data-name="Group 2653" transform="translate(-1765 -1773.206)">
-    <g id="Rectangle_2031" data-name="Rectangle 2031" transform="translate(1765 1775.562)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="21.5" height="21.439" rx="3" stroke="none"/>
-      <rect x="0.5" y="0.5" width="20.5" height="20.439" rx="2.5" fill="none"/>
-    </g>
-    <line id="Line_912" data-name="Line 912" x2="21.294" transform="translate(1765.206 1779.89)" fill="none" stroke="#707070" stroke-width="1"/>
-    <line id="Line_913" data-name="Line 913" y2="3.711" transform="translate(1771.215 1773.706)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
-    <line id="Line_914" data-name="Line 914" y2="3.711" transform="translate(1780.285 1773.706)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_2442" data-name="Group 2442" transform="translate(-751.63 -790.611)">
+    <rect id="Rectangle_2019" data-name="Rectangle 2019" width="24" height="24" transform="translate(751.63 790.611)" fill="none"/>
+    <path id="Rectangle_2023" data-name="Rectangle 2023" d="M2.5,0h8.08a2.5,2.5,0,0,1,2.5,2.5V4.512a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.5A2.5,2.5,0,0,1,2.5,0Z" transform="translate(757.262 796.071)" fill="#5b6670"/>
+    <rect id="Rectangle_2024" data-name="Rectangle 2024" width="13.08" height="13.08" rx="1.925" transform="translate(757.262 796.071)" fill="none" stroke="#5b6670" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_118" data-name="Ellipse 118" cx="0.721" cy="0.721" r="0.721" transform="translate(763.309 802.402)" fill="#5b6670"/>
+    <circle id="Ellipse_119" data-name="Ellipse 119" cx="0.721" cy="0.721" r="0.721" transform="translate(766.773 802.402)" fill="#5b6670"/>
+    <circle id="Ellipse_120" data-name="Ellipse 120" cx="0.721" cy="0.721" r="0.721" transform="translate(763.309 805.22)" fill="#5b6670"/>
+    <circle id="Ellipse_121" data-name="Ellipse 121" cx="0.721" cy="0.721" r="0.721" transform="translate(759.408 805.22)" fill="#5b6670"/>
+    <circle id="Ellipse_122" data-name="Ellipse 122" cx="0.721" cy="0.721" r="0.721" transform="translate(766.773 805.22)" fill="#5b6670"/>
+    <rect id="Rectangle_2025" data-name="Rectangle 2025" width="1.006" height="2.837" rx="0.503" transform="translate(760.446 794.181)" fill="#5b6670"/>
+    <rect id="Rectangle_2026" data-name="Rectangle 2026" width="1.006" height="2.837" rx="0.503" transform="translate(766.152 794.181)" fill="#5b6670"/>
   </g>
 </svg>
