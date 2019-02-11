@@ -1866,6 +1866,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .text-on-slide .view-all {
   padding-top: 13px;
+  padding-right: 15px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2444,8 +2445,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 992px) {
   .sub-footer .footer-menu .col-lg-6 {
-    width: 46%;
-    flex: none;
+    width: auto;
+    flex: 0 0 auto;
   }
 }
 
