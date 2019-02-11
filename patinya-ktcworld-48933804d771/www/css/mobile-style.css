@@ -85,6 +85,10 @@
   .footer-menu + div{
     padding-bottom: 100px;
     position: relative;
+    text-align: center;
+  }
+  .footer .tel, .footer .download-section a {
+    display: inline-block;
   }
   .tel + .footer-badge{
     position: absolute;
@@ -121,6 +125,15 @@
 
   .menu-global{
     height: 45px;
+  }
+
+  .tel > p, .tel > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px 0 5px 7px;
+  }
+  .tel > span {
+    margin: 5px 0 30px 7px;
   }
 
  
@@ -428,6 +441,8 @@
   .text-on-slide {
     margin-bottom: 10px;
     overflow: hidden;
+    padding-top: 10px;
+    margin-top: -10px;
   }
   .text-on-slide p{
     display: none;
@@ -667,6 +682,20 @@
 
   .eight-service-wrap > div:nth-child(even){
     padding-left: 5px;
+  }
+
+  .item .slide-footer .slide-content.slide-meta{
+    margin-bottom: 0;
+    height: 21px;
+    overflow: visible;
+    position: relative;
+    padding-left: 34px;
+  }
+
+  .item .slide-footer .slide-content.slide-meta .fav-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
 

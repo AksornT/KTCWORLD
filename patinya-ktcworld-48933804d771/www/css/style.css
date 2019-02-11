@@ -610,6 +610,7 @@ a:hover{
 	border-bottom: 4px solid #00B2E3;
 	display: inline-block;
 	margin-bottom: 25px;
+	padding-bottom: 5px;
 }
 
 .text-on-slide{
