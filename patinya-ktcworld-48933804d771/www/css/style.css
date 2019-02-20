@@ -212,11 +212,20 @@ a:hover{
 }*/
 
 .scrolled-menu > li{
-	display: inline-block;
+  display: inline-block;
   position: relative;
   padding: 23px 0.8rem 16px 0.8rem;
   top: 2px;
   height: 63px;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px){
+.scrolled-menu > li {
+    font-size: 12px;
+    padding: 23px 0.7rem 16px 0.1rem;
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+}
 }
 
 .scrolled-menu > li:hover{
@@ -2831,6 +2840,14 @@ img[href]:hover{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
+.form-content .input-ico.input-ico-right span.error{
+	display: block;
+	text-align: left;
+	color: #cf3339;
+	margin-top: 2px;
+	padding-left: 5px;
+}
+
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{
 		padding-left: calc(50vw - 653px);
@@ -2846,12 +2863,20 @@ img[href]:hover{
 
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
-		font-size: 14px;
-    	padding: 23px 0.3rem 16px 0.3rem;
+		font-size: 12px;
+		padding: 23px 0.7rem 16px 0.1rem;
 	}
-	.card-register-btn{
+	.menu-global .card-register-btn{
 		font-size: 12px;
     	padding: 8px 16px;
+    	width: auto;
+	}
+
+	.menu-global .login-btn {
+	    font-size: 12px;
+	    padding: 0 8px;
+	    width: auto;
+	    vertical-align: middle;
 	}
 
 	.profile-name{
