@@ -1711,6 +1711,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   .row-search-filter .input-search-inline {
     width: 100%;
     margin-right: 0;
+    border-radius: 3px;
   }
 }
 
@@ -2020,6 +2021,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   .slide-wrap .item .slide-btn {
     margin-top: 15px;
+    border-radius: 3px;
   }
 }
 
@@ -2523,6 +2525,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     width: 80px;
     padding: 2px 5px;
     margin-right: 10px;
+    border-radius: 3px;
   }
 }
 
@@ -2610,6 +2613,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   #filter-modal .card-select-row .img-checkbox label {
     display: block;
+    border-radius: 6px;
   }
 
   #filter-modal .card-select-row .img-checkbox label img {
@@ -2685,6 +2689,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
   #filter-modal .footer-row .submit-filter-btn {
     width: 100%;
+    border-radius: 6px;
   }
 }
 
@@ -3597,6 +3602,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 @media only screen and (max-width: 991px) {
   .magazine-featured .bg {
     height: 125px;
+    border-radius: 6px;
   }
 }
 
@@ -3705,6 +3711,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     line-height: 20px;
     width: 108px;
     height: 30px;
+    border-radius: 6px;
   }
 }
 
@@ -3761,6 +3768,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border: 0;
   display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .magazine-action .btn {
+    border-radius: 3px;
+  }
 }
 
 .magazine-wrap {
