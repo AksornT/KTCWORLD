@@ -3871,6 +3871,21 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   color: #FFF;
 }
 
+@media only screen and (max-width: 767px) {
+  .row-breadcrumb-filter .site-breadcrumb a,
+  .page-image-header .overlay-breadcrumb .site-breadcrumb a {
+    flex: 0 0 auto;
+  }
+  .row-breadcrumb-filter .site-breadcrumb a:nth-child(n+2),
+  .page-image-header .overlay-breadcrumb .site-breadcrumb a:nth-child(n+2) {
+    flex: 0 0 10px;
+  }
+  .row-breadcrumb-filter .site-breadcrumb a.current,
+  .page-image-header .overlay-breadcrumb .site-breadcrumb a.current {
+    flex: 1;
+  }
+}
+
 .page-head {
   text-align: center;
   margin-bottom: 45px;
