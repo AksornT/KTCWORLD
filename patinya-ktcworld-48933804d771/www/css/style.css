@@ -12,20 +12,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'SukhumvitTadmai_Bold';
-	src: url('../fonts/SukhumvitTadmai_Bol.eot');
-	src: local('☺'), url('../fonts/SukhumvitTadmai_Bol.woff') format('woff'), url('../fonts/SukhumvitTadmai_Bol.ttf') format('truetype'), url('../fonts/SukhumvitTadmai_Bol.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'SukhumvitTadmai_Text';
-	src: url('../fonts/SukhumvitTadmai_Tex.eot');
-	src: local('☺'), url('../fonts/SukhumvitTadmai_Tex.woff') format('woff'), url('../fonts/SukhumvitTadmai_Tex.ttf') format('truetype'), url('../fonts/SukhumvitTadmai_Tex.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: 'Conv_SukhumvitTadmai_Bol';
@@ -725,7 +711,7 @@ a:hover{
   top: 0;
 }
 .item .slide-title{
-	font-family: 'SukhumvitTadmai_Bold';
+	font-family: 'Conv_SukhumvitTadmai_Bol';
 	font-size: 20px;
 	padding-top: 14px;
 	line-height: 1.4;
@@ -735,7 +721,7 @@ a:hover{
     overflow: hidden;
 }
 .item .slide-content{
-	font-family: 'SukhumvitTadmai_Text';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
 	line-height: 1.4;
 	padding-top: 10px;
@@ -1599,7 +1585,7 @@ input:focus + .suggess-box,
 }
 
 .profile-name{
-	font-family: 'SukhumvitTadmai_Text';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
 	line-height: 30px;
 	color: #fff;
