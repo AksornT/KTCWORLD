@@ -1169,7 +1169,7 @@ button:focus {
 }
 
 .full-modal .modal-title:after{
-	height: 4px;
+	height: 2px;
 	width: 50%;
 	background: #CF3339;
 	position: absolute;

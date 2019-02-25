@@ -3285,7 +3285,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   content: '';
   width: 50%;
   margin-left: -25%;
-  height: 4px;
+  height: 2px;
   background: #00B2E3;
   position: absolute;
   left: 50%;
@@ -3349,7 +3349,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   display: block;
   width: 50%;
   margin-left: 25%;
-  height: 4px;
+  height: 2px;
   content: "";
   background: #fff;
 }
