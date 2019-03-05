@@ -191,6 +191,10 @@ a:hover{
 
 .scrolled-menu{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+	text-align: center;
+	opacity: 1;
+	pointer-events: all;
+	flex: auto;
 }
 
 /*.mini-header .scrolled-menu{
@@ -201,9 +205,11 @@ a:hover{
   display: inline-block;
   position: relative;
   padding: 23px 0.8rem 16px 0.8rem;
-  top: 2px;
+  top: 3px;
   height: 63px;
+  vertical-align: bottom;
   font-size: 14px;
+  letter-spacing: 0.6px;
 }
 
 @media (max-width: 1200px){
@@ -279,6 +285,10 @@ a:hover{
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.menu-global .d-flex.align-items-center.justify-content-end{
+	margin-left: 70px!important;
 }
 
 .text-on-left{
@@ -366,15 +376,15 @@ a:hover{
 }
 
 .menu-global .card-register-btn{
-	padding: 8px;
+	padding: 8px 26px;
 	border-radius: 6px;
 	font-size: 14px;
 	background: #cf3339;
-	font-family: 'Conv_SukhumvitTadmai_Bol';
-	width:108px;
-	height:30px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	height: 30px;
 	text-align: center;
-	color:#FFF;
+	color: #FFF;
+	letter-spacing: 1px;
 }
 
 .card-register-btn:hover{
@@ -384,23 +394,23 @@ a:hover{
 }
 
 .menu-global .login-btn{
-	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
   	font-size: 14px;
-  	padding: 2px 8px;
+  	letter-spacing: 1px;
+  	padding: 4px 12px;
   	border: 1px #fff solid;
   	border-radius: 6px;
   	margin-left: 10px;
-	width:108px;
-	height:30px;
+	height: 30px;
 	text-align: center;
-	color:#FFF;
+	color: #FFF;
 }
 
 .menu-global .login-btn img{
 	width: 18px;
-	margin-right: 6px;
+	height: 18px;
 	position: relative;
-	top:3px;
+	vertical-align: bottom;
 	/*filter: invert(100%) brightness(200%);*/
 }
 
