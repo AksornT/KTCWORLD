@@ -1732,7 +1732,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   border: 0;
   outline: none;
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 16px;
+  font-size: 12px;
   line-height: 26px;
   background: none;
   padding: 0;
@@ -1740,7 +1740,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .row-search-filter .filter-btn {
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 16px;
+  font-size: 14px;
   line-height: 38px;
   color: #5B6670;
   display: inline-flex;
@@ -2831,7 +2831,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   width: 25px;
   height: 25px;
   background-size: contain;
-  background-image: url("../img/promotion/ico-art-fav.svg");
+  background-image: url("../img/promotion/ico-art-fav-bl.svg");
   background-color: transparent;
   background-repeat: no-repeat;
   margin-right: 10px;
@@ -2852,7 +2852,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   width: 25px;
   height: 25px;
   background-size: contain;
-  background-image: url("../img/promotion/ico-art-share.svg");
+  background-image: url("../img/promotion/ico-share-pro.svg");
   background-color: transparent;
   background-repeat: no-repeat;
   position: relative;

@@ -2906,3 +2906,15 @@ img[href]:hover{
 		display: none;
 	}
 }
+
+@media (min-width: 992px) and (max-width: 1054px){
+	.menu-global .search-on-menu {
+	    margin-right: 10px;
+	}
+	.menu-global .login-btn {
+	    padding: 2px 8px;
+	}
+	.menu-global .d-flex.align-items-center.justify-content-end {
+	    margin-left: 0px!important;
+	}
+}

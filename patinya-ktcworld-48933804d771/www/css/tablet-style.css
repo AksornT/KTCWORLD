@@ -60,6 +60,10 @@
   .menu-global .menu-mobile img{
     width: 18px;
   }
+
+  .menu-global .d-flex.align-items-center.justify-content-end{
+    margin-left: auto !important;
+  }
   
   /*.menu-mobile{
     position: relative;
@@ -79,6 +83,10 @@
     height: 16px;
     margin-left: 14px;
   }*/
+
+  .row-breadcrumb-filter .filter-btn img{
+    filter: brightness(100%)!important;
+  }
 
   .menu-responsive-dropdown{
     position: absolute;
