@@ -109,7 +109,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   width: 100%;
   background: #F6F6F7;
   font-size: 15px;
-  height: 65px;
+  height: 66px;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
