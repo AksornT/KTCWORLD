@@ -614,42 +614,42 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   background-repeat: no-repeat;
 }
 
-.form-wrapper .nav-main li:nth-child(1) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-flight .nav-link:before {
   background-image: url("../img/index/ico-0.svg");
 }
-.form-wrapper .nav-main li:nth-child(1) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-flight .nav-link.active:before {
   background-image: url(../img/index/ico-0.2.svg);
 }
-.form-wrapper .nav-main li:nth-child(2) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-hotel .nav-link:before {
   background-image: url("../img/index/ico-1.svg");
 }
-.form-wrapper .nav-main li:nth-child(2) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-hotel .nav-link.active:before {
   background-image: url(../img/index/ico-1.1.svg);
 }
-.form-wrapper .nav-main li:nth-child(3) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-attraction .nav-link:before {
   background-image: url("../img/index/ico-2.svg");
 }
-.form-wrapper .nav-main li:nth-child(3) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-attraction .nav-link.active:before {
   background-image: url(../img/index/ico-2.1.svg);
 }
-.form-wrapper .nav-main li:nth-child(4) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-car .nav-link:before {
   background-image: url("../img/index/ico-3.svg");
   margin-top: 9px;
   margin-bottom: 1px;
 }
-.form-wrapper .nav-main li:nth-child(4) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-car .nav-link.active:before {
   background-image: url(../img/index/ico-3.1.svg);
 }
-.form-wrapper .nav-main li:nth-child(5) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-wifi .nav-link:before {
   background-image: url("../img/index/ico-4.svg");
 }
-.form-wrapper .nav-main li:nth-child(5) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-wifi .nav-link.active:before {
   background-image: url(../img/index/ico-4.1.svg);
 }
-.form-wrapper .nav-main li:nth-child(6) .nav-link:before {
+.form-wrapper .nav-main li.ico-tab-insurance .nav-link:before {
   background-image: url("../img/index/ico-5.svg");
 }
-.form-wrapper .nav-main li:nth-child(6) .nav-link.active:before {
+.form-wrapper .nav-main li.ico-tab-insurance .nav-link.active:before {
   background-image: url(../img/index/ico-5.1.svg);
 }
 
@@ -1955,6 +1955,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   height: 60px;
 }
 
+@media (max-width: 576px){
+  .slide-wrap .item .slide-title {
+    height: 44px;
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .slide-wrap .item .slide-title {
     height: 70px;
@@ -2956,7 +2962,11 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 .article-wrap .article-content table{
   display: table;
   border-collapse: separate;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.article-wrap .table-bordered td, .article-wrap .table-bordered th {
+    border: 1px solid #000;
 }
 
 .article-wrap .article-content ul{
