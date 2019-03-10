@@ -166,6 +166,7 @@ a:hover{
 
 #ktc-logo img{
 	margin-top: 13px;
+	margin-right: 10px;
 }
 
 .mini-header #ktc-logo img{
@@ -192,9 +193,30 @@ a:hover{
 .scrolled-menu{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	text-align: center;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.menu-global.expand-menu .scrolled-menu{
+	flex: 1;
+}
+.menu-global.mini-header .scrolled-menu{
+	opacity: 1;
+    pointer-events: all;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-global.menu-world .scrolled-menu{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	text-align: left;
 	opacity: 1;
 	pointer-events: all;
 	flex: auto;
+}
+.menu-global.menu-world .scrolled-menu > li{
+	padding: 23px 0.8rem 16px 0.8rem;
 }
 
 /*.mini-header .scrolled-menu{
@@ -204,19 +226,29 @@ a:hover{
 .scrolled-menu > li{
   display: inline-block;
   position: relative;
-  padding: 23px 0.8rem 16px 0.8rem;
+  padding: 23px 0 16px 5px;
   top: 3px;
   height: 63px;
   vertical-align: bottom;
   font-size: 14px;
   letter-spacing: 0.6px;
+  flex: 0 0 auto;
+}
+.scrolled-menu li.dropdown:after{
+	right: 13px;
+}
+.scrolled-menu > li .fa{
+	margin-left: 3px;
 }
 
 @media (max-width: 1200px){
 .scrolled-menu > li {
-    font-size: 12px;
-    padding: 23px 0.7rem 16px 0.1rem;
+    font-size: 11px;
+    padding: 23px 0 16px 5px;
     font-family: 'Conv_SukhumvitTadmai_Tex';
+}
+.scrolled-menu li.dropdown:after{
+	right: 10px;
 }
 }
 
@@ -236,8 +268,8 @@ a:hover{
 .scrolled-menu > li:after{
 	position: absolute;
 	bottom: 0;
-	left: 16px;
-	right: 16px;
+	left: 5px;
+	right: 0;
 	height: 3px;
 	background: #000;
 	content: "";
@@ -250,7 +282,7 @@ a:hover{
 }
 
 .scrolled-menu ul{
-	top: 100%;
+	top: 99%;
 	position: absolute;
 	left: 0;
 	white-space: nowrap;
@@ -441,11 +473,14 @@ a:hover{
 
 /*/.menu-global .content-wrap{
 	display: flex;
-}
+}*/
 
 .menu-global .content-wrap > *{
+	flex: 0 0 auto;
+}
+.open-on-top .content-wrap > .row{
 	flex: auto;
-}*/
+}
 
 .menu-global .only-mobile{
 	display: none;

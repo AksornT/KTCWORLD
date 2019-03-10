@@ -11,6 +11,9 @@
   .scrolled-menu{
     display: none;
   }
+  .menu-global.mini-header .scrolled-menu{
+    display: none !important;
+  }
 
   /*.menu-global{
     background: url("../img/bg_menu.png");
@@ -412,6 +415,10 @@
     background: #fff;
   }
 
+  .menu-global .on-right{
+    flex: 1;
+  }
+  
   .menu-global .on-right .login-btn.logged-in{
     display: inline-block;
   }
