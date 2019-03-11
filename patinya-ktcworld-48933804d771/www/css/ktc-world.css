@@ -2798,12 +2798,19 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   }
 }
 
+.article-wrap .article-title-wrap{
+  margin-bottom: 25px;
+}
 .article-wrap .article-title {
-  font-family: 'Conv_SukhumvitTadmai_Tex';
+  font-family: 'Conv_SukhumvitTadmai_Bol';
   font-size: 25px;
   line-height: 1.4;
-  margin-bottom: 20px;
   padding-right: 20px;
+}
+.article-wrap .article-sub-title{
+  font-family: 'Conv_SukhumvitTadmai_Bol';
+    margin-top: 8px;
+    font-size: 20px;
 }
 
 .article-wrap .article-title.bold {
