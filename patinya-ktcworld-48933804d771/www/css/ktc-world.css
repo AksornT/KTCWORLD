@@ -55,9 +55,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 @media only screen and (min-width: 1400px) {
-  #ktc-logo {
+  /*#ktc-logo {
     margin-right: 50px;
-  }
+  }*/
 }
 
 /*.scrolled-menu {
@@ -2971,11 +2971,17 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .article-wrap .article-content ul{
   margin-bottom: 15px;
+  list-style: inside;
+}
+.article-wrap .article-content ul li{
   list-style-type: disc;
 }
 
 .article-wrap .article-content ol{
   margin-bottom: 15px;
+  list-style: inside;
+}
+.article-wrap .article-content ol li{
   list-style-type: decimal;
 }
 
