@@ -2809,8 +2809,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 .article-wrap .article-sub-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
-    margin-top: 8px;
-    font-size: 20px;
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 .article-wrap .article-title.bold {
@@ -2822,6 +2823,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     font-size: 16px;
     line-height: 26px;
     padding-right: 0;
+  }
+  .article-wrap .article-sub-title{
+    font-size: 14px;
+  }
+  .article-wrap .article-content p{
+    font-size: 20px;
   }
 }
 

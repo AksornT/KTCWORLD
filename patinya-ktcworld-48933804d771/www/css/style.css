@@ -951,8 +951,8 @@ button:focus {
 
 .tel span{
 	font-family: 'Gotham-Bold';
-	line-height: 34px;
-	font-size: 24px;
+	line-height: 29px;
+	font-size: 21px;
 	padding-left: 24px;
 	background: url(../img/ico-footer-tel.png) no-repeat;
 	background-position: left center;
@@ -967,18 +967,18 @@ button:focus {
 
 .download-section p{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 25px;
 }
 
 .download-section .footer-badge{
-	margin: 2px 0;
-	width: 100px;
+	margin: 8px 0;
+	width: 85px;
 }
 
 .footer-badge.tapktc{
 	margin-bottom: 3px;
-	width: 116px;
+	width: 156px;
 }
 
 .download-section img{
