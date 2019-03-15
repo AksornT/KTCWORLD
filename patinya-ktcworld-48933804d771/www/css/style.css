@@ -105,6 +105,7 @@ body {
 	line-height: 1;
 	font-family: 'Conv_SukhumvitTadmai_Thi';
 	font-size: 16px;
+	overflow: overlay;
 }
 ol, ul {
 	list-style: none;
