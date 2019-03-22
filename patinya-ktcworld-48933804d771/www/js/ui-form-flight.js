@@ -620,6 +620,33 @@ $(document).ready(function() {
 		        moved = false;
             }
             $('#ui-datepicker-div').addClass('form-bubble');
+
+            if (this.className.indexOf("multi-city-date") != -1) {
+                var date_route = 1;
+                if (this.className.indexOf("multi-city-date-2") != -1) {
+                    date_route = 2;
+                }
+                if (this.className.indexOf("multi-city-date-3") != -1) {
+                    date_route = 3;
+                }
+                if (this.className.indexOf("multi-city-date-4") != -1) {
+                    date_route = 4;
+                }
+
+                var maxdate = getDateFromToday(0);
+                for(var i=1;i<date_route;i++) {
+                    var predate = $(".multi-city-date-" + i).val();
+                    if (predate != "") {
+                        var thisdate = getDateFromString(predate);
+                        if (thisdate > maxdate) {
+                            maxdate = thisdate;
+                        }
+                    }
+                }
+
+                $(this).data('after-date', maxdate);
+            }
+
             // ADD WARNING TEXT
             setTimeout(function () {
                 $('#ui-datepicker-div').append('<p class="warning">หากต้องการทำการจองตั๋วในวันดังกล่าว <br class="rpsbr">กรุณาติดต่อ KTC World Travel Service <br class="rpsbr">โทร. 02 123 5050</p>');
@@ -663,6 +690,15 @@ $(document).ready(function() {
                     }
                 }
             }
+
+            if (this.className.indexOf("multi-city-date") != -1) {
+                var maxdate = $(this).data('after-date');
+                if (date < maxdate) {
+                    var wClass = (jQuery.inArray(date.toString(), warningDateArr) !== -1) ? ' ui-datepicker-warning' : '';
+                    return [true, 'ui-datepicker-unselectable' + wClass, ''];
+                }
+            }
+
             // WARNING DATE
             if(jQuery.inArray(date.toString(), warningDateArr) !== -1){
                 return [true, ' ui-datepicker-warning', ''];
