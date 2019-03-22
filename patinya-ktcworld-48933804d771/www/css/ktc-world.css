@@ -3012,7 +3012,6 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .article-wrap .article-content a {
-  font-weight: bold;
   color: #00B2E3;
 }
 
@@ -3135,10 +3134,9 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .article-wrap .article-link .link {
   /*font-family: Helvetica, Arial, sans-serif;*/
-  font-family: 'Conv_PSL251pro';
+  font-family: 'Conv_PSL249pro';
   font-size: 24px;
   line-height: 1;
-  font-weight: normal;
   color: #00B2E3;
   margin-bottom: 5px;
 }
