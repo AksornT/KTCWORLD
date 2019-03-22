@@ -681,9 +681,9 @@ $(document).ready(function() {
             $(this).trigger('change');
             $(this).attr('data-selected', dateText).datepicker('refresh');
             // MARKED ONLY ON DEPART / RETURN
-            if($(this).attr('id') == 'departureDate' && dateText.length > 0 && $('#returnDate').hasClass('required')){
+            if($(this).attr('id') == 'departureDate' && dateText.length > 0){
                 $('#returnDate').attr('data-mark', dateText).datepicker('refresh')
-                if($('#returnDate').val().length <= 0){ 
+                if($('#returnDate').hasClass('required') && $('#returnDate').val().length <= 0){ 
                     // SELECT ONE DAY RETURN
                     var nextSelected = getNextDateFrom( getDateFromString(dateText), 1);
                     $('#returnDate').datepicker("setDate", nextSelected).datepicker('show');
