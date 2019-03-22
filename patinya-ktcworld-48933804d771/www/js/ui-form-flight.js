@@ -330,7 +330,7 @@ $(document).ready(function() {
         minLength: 0,
         change: function(e, ui) {
             if (ui.item == null) {
-                $(this).val('').trigger('change');
+                $(this).trigger('change');
             }
         },
         search: function (e, ui) {
