@@ -955,7 +955,8 @@ button:focus {
 	line-height: 29px;
 	font-size: 21px;
 	padding-left: 24px;
-	background: url(../img/ico-footer-tel.png) no-repeat;
+	background: url(../img/ico-footer-tel.svg) no-repeat;
+	background-size: 20px;
 	background-position: left center;
 	white-space: nowrap;
 }
@@ -1083,8 +1084,8 @@ button:focus {
 }
 
 .social-footer img{
-	width: 20px;
-	height: auto;
+	width: 24px;
+	height: 24px;
 }
 
 .social-footer a{
