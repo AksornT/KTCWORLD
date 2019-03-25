@@ -1394,6 +1394,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .ui-autocomplete.form-dropdown {
   padding: 0;
+  height: 24vh;
+  overflow: auto;
 }
 
 .ui-datepicker {
