@@ -77,4 +77,32 @@ $(document).ready(function() {
       $('#scrolled-menu-responsive').removeClass('active');
   });
 
+
+  $(".type-or-selected .custom-dropdown").on('click touch', function () {
+      if( $(this).val() == $(this).siblings('select').find('option:nth-child(1)').text()){ 
+        $(this).val('');
+        return true;
+      }
+    });
+    $(".type-or-selected .custom-dropdown").focusout(function() {
+      if( $(this).val().length == 0) { 
+        var defaultText = $(this).siblings('select').find('option:nth-child(1)').text();
+        $(this).val(defaultText);
+        return true;
+      }
+    });
+    $('.type-or-selected .custom-dropdown').unbind('keypress');
+    $('.type-or-selected .custom-dropdown').unbind('keydown');
+    $('.type-or-selected .custom-dropdown').keydown( function(e){  
+        if($(this).hasClass("byClicked")) {
+            if(e.which == 8){   
+                $(this).val('');
+                $(this).removeClass("byClicked");
+                return true;
+            } 
+        }
+        $(this).removeClass("byClicked");
+    });
+
 });
+

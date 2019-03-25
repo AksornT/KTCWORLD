@@ -80,6 +80,7 @@ $(document).ready(function() {
         $(this).autocomplete('search', ''); 
     });
 
+
     $('.form-register .input-file').click(function(){
         $(this).siblings('input[type=file]').trigger('click');
     });
