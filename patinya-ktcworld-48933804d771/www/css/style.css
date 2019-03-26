@@ -105,6 +105,7 @@ body {
 	line-height: 1;
 	font-family: 'Conv_SukhumvitTadmai_Thi';
 	font-size: 16px;
+	letter-spacing: 0.5px;
 	overflow: overlay;
 }
 ol, ul {
@@ -322,10 +323,6 @@ a:hover{
 	bottom: 0;
 }
 
-.menu-global .d-flex.align-items-center.justify-content-end{
-	margin-left: 16px!important;
-}
-
 .text-on-left{
 	width: 100%;
 	display: block;
@@ -399,14 +396,20 @@ a:hover{
 }*/
 
 .menu-global .search-on-menu{
-	margin-right: 22px;
+	font-size: 18px;
+	padding: 16px;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
 }
 
 .menu-global .search-on-menu img{
-	width:18px;
+	width: 18px;
+	height: 18px;
+	pointer-events: none;
 }
 
-.menu-global a.search-on-menu:hover{
+.menu-global a:hover.search-on-menu{
 	color: #bf2a31;
 }
 
@@ -2896,7 +2899,6 @@ img[href]:hover{
 		padding-left: calc(50vw - 653px);
 		padding-right: calc(50vw - 653px);
 		max-width: none;
-		overflow: auto;
 	}
 	.index-slide2 .owl-nav button.owl-next,
 	.index-slide2 .owl-nav button.owl-prev,
@@ -2951,8 +2953,5 @@ img[href]:hover{
 	}
 	.menu-global .login-btn {
 	    padding: 2px 8px;
-	}
-	.menu-global .d-flex.align-items-center.justify-content-end {
-	    margin-left: 0px!important;
 	}
 }
