@@ -177,10 +177,12 @@ a:hover{
 /*.menu-global .on-right{
 	float: right;
 	text-align: right;
+	padding-top: 6px;
 }
 
 .menu-global .on-right > *{
 	display: inline-block;
+	vertical-align: middle;
 }*/
 
 .index-head a{
@@ -2894,6 +2896,7 @@ img[href]:hover{
 		padding-left: calc(50vw - 653px);
 		padding-right: calc(50vw - 653px);
 		max-width: none;
+		overflow: auto;
 	}
 	.index-slide2 .owl-nav button.owl-next,
 	.index-slide2 .owl-nav button.owl-prev,

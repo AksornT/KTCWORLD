@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-body {
-  /*-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+/*body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-}
+}*/
 
 a[href^=tel] {
   color: inherit;
