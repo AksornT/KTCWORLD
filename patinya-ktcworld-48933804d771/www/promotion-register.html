@@ -298,34 +298,35 @@
 
           <div class="tab-content">
             <div class="tab-pane fade show active" id="tab-online" role="tabpanel">
-              <form class="form-register form-content form-check-required">
+              <form class="form-register form-content form-check-required custom-select-form">
                 <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right input-select">
-                      <input type="text" class="input-card-picker required" placeholder="กรุณาเลือกบัตรที่ต้องการลงทะเบียน" readonly>
-                    </div>
+                  <div class="col-sm-6 col-12 type-or-selected">
+                    <label class="before-dropdown">บัตรที่ต้องการลงทะเบียน</label>
+                    <select class="form-control option-selected">
+                      <option disabled selected value="">กรุณาเลือกบัตรที่ต้องการลงทะเบียน</option>
+                      <option value="">1100-11-0-1111-000</option>
+                      <option value="">2100-10-0-1211-001</option>
+                      <option value="">1200-21-0-1121-002</option>
+                    </select>
+                    <span class="select-arrow"></span>
                   </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right">
-                      <input type="text" class="input-text required" placeholder="กรุณาระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
-                    </div>
+                  <div class="col-sm-6 col-12">
+                    <label class="before-dropdown">&nbsp;</label>
+                    <input class="required" type="text" placeholder="กรุณาระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
                   </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right">
-                      <input type="text" class="input-text required" placeholder="ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย">
-                    </div>
+
+                  <div class="col-sm-6 col-12">
+                    <input class="required" type="text" placeholder="ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย">
                   </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right">
-                      <input type="text" class="input-text required" placeholder="ระบุยอดใช้จ่ายต่อรายการ">
-                    </div>
+                  <div class="col-sm-6 col-12">
+                    <input class="required" type="text" placeholder="ระบุยอดใช้จ่ายต่อรายการ">
                   </div>
-                  <div class="col-12 col-md-6">
+                  <div class="col-12 col-sm-6">
                     <div class="input-ico input-ico-right input-date">
                       <input type="text" class="input-date-picker required" placeholder="ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย">
                     </div>
                   </div>
-                  <div class="col-12 col-md-6">
+                  <div class="col-12 col-sm-6">
                     <div class="input-ico input-ico-right input-upload">
                       <input type="file" class="required" />
                       <input type="text" class="input-file" placeholder="กรุณาแนบไฟล์" readonly />
@@ -630,44 +631,7 @@
 
     <script type="text/javascript" src="js/ui-main.js"></script>
     <script type="text/javascript" src="js/ui-form-flight.js"></script>
-    
-    <script type="text/javascript">
-    $(document).ready(function() {
-	    $('.index-slide1').owlCarousel({
-        loop:false,
-        items:1,
-        nav:true,
-        margin:12
-      });
-	          
-      $('.index-slide2').owlCarousel({
-        loop:true,
-        dots:false,
-        responsiveClass:true,
-        responsive:{
-          0:{
-              items:1,
-              nav:true,
-              margin:12
-          },
-          576:{
-              items:2,
-              nav:true,
-              margin:26
-          },
-          1000:{
-              items:4,
-              nav:true,
-              margin:26
-          }
-      	}
-      });
-
-      $('.slide-title').dotdotdot();
-      $('.slide-content').dotdotdot();
-
-    });
-    </script>
+    <script type="text/javascript" src="js/win-ui.js"></script>
    
     
   </body>
