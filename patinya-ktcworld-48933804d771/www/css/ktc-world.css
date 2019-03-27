@@ -739,7 +739,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   background: #FFF;
   height: 30px;
   width: 100%;
-  border-bottom: 1px solid #E6E8EA;
+  border-bottom: rgba(90,102,112,.4) solid 1px;
   font-family: 'Conv_SukhumvitTadmai_Tex';
   font-size: 18px;
   line-height: 34px;
@@ -3423,6 +3423,13 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   padding-left: 40px;
   padding-right: 40px;
   text-align: left;
+}
+
+.register-wrapper .form-register .row > .col-sm-6{
+  margin: 0 40px;
+  flex: 0 0 calc(50% - 80px);
+  text-align: left;
+  padding: 0 15px;
 }
 
 .register-wrapper .form-register .input-ico-right {
