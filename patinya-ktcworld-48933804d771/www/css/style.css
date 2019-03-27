@@ -2907,7 +2907,7 @@ img[href]:hover{
 
 .form-register input[type="text"]:focus,
 .form-register input[type="password"]:focus{
-	border-bottom: 1px solid #CF3339;
+	border-bottom: 1px solid #00B2E3;
 }
 
 .form-register input[type="text"].hasText + label,
@@ -2922,7 +2922,7 @@ img[href]:hover{
 .form-register input[type="text"].hasText:focus + label,
 .form-register input[type="password"]:focus + label,
 .form-register input[type="password"].hasText:focus + label{
-	color: #CF3339 !important;
+	color: #00B2E3 !important;
 	font-size: 12px;
 	top: 16px;
 }
@@ -3011,7 +3011,7 @@ img[href]:hover{
 }
 
 .before-dropdown.text-focus{
-	color: #CF3339
+	color: #00B2E3;
 }
 .custom-dropdown+ul.active:before {
     display: block;
@@ -3077,7 +3077,7 @@ img[href]:hover{
 
 .custom-select-form.form-register .custom-dropdown + ul li:hover,
 .custom-select-form.form-register .custom-dropdown + ul li.active{
-	background: #CF3339;
+	background: #00B2E3;
 	cursor: pointer;
 	color: #fff;
 }
