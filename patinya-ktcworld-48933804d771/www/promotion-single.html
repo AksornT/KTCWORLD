@@ -316,79 +316,72 @@
         </div>
 
         <!-- START REGISTER SECTION -->
-        <div class="register-wrapper">
-          <div class="section-title">ลงทะเบียนร่วมรายการ</div>
-          <div class="d-flex justify-content-center">
-            <ul class="nav nav-justified" role="tablist">
-              <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#tab-online" role="tab">ลงทะเบียนออนไลน์</a></li>
-              <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-sms" role="tab">ลงทะเบียนผ่าน SMS</a></li>
-            </ul>
-          </div>
-          <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab-online" role="tabpanel">
-              <form class="form-register form-content form-check-required">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <!-- IF LOGIN -->
-                    <div class="input-ico input-ico-right input-select">
-                      <label>กรุณาเลือกบัตรที่ต้องการลงทะเบียน</label>
-                      <input type="text" class="input-card-picker required" placeholder="กรุณาเลือกบัตรที่ต้องการลงทะเบียน" />
-                    </div>
-                    <!-- IF NOT LOGIN -->
-                    <!--<div class="input-ico input-ico-right">
-                      <label>ระบุหมายเลขบัตร 16 หลัก</label>
-                      <input type="text" class="input-card-text required" placeholder="ระบุหมายเลขบัตร 16 หลัก" />
-                    </div>-->
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right">
-                      <label>ระบุหมายเลขโทรศัพท์มือถือ / อีเมล</label>
-                      <input type="text" class="input-text required" placeholder="ระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right">
-                      <label>ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย</label>
-                      <input type="text" class="input-text required" placeholder="ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย">
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right input-baht">
-                      <label>ระบุยอดใช้จ่ายต่อรายการ</label>
-                      <input type="text" class="input-text required" placeholder="ระบุยอดใช้จ่ายต่อรายการ">
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right input-date">
-                      <label>ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย</label>
-                      <input type="text" class="input-date-picker required" placeholder="ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย">
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="input-ico input-ico-right input-upload">
-                      <label>กรุณาแนบไฟล์</label>
-                      <input type="file" class="required" />
-                      <input type="text" class="input-file" placeholder="กรุณาแนบไฟล์" readonly />
-                      <span>( ไฟล์ jpg, png, pdf, ขนาดไม่เกิน 2 MB ) การแนบหลักฐานจะช่วยทำให้ตรวจสอบได้เร็วขึ้น</span>
-                    </div>
-                  </div>
-                  <div class="col-12 d-flex justify-content-md-center">
-                    <div class="checkbox">
-                      <input type="checkbox" name="cb-accpet" id="cb_accpet" class="required"><label for="cb_accpet">ขอยืนยันว่าข้อมูลที่ได้ระบุไว้เป็นข้อมูลจริง</label>
-                    </div>
-                  </div>
+        <div class="content-wrap">
+          <div class="register-wrapper">
 
-                <div class="col-12 d-flex justify-content-center">
-                  <button class="btn btn-submit-form" disabled>ส่งข้อมูล</button>
-                </div>
-              </div>
-              <!-- END ROW -->
-              </form>
+            <div class="section-title">ลงทะเบียนร่วมรายการ</div>
+
+            <div class="d-flex justify-content-center">
+              <ul class="nav nav-justified" role="tablist">
+                <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#tab-online" role="tab">ลงทะเบียนออนไลน์</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-sms" role="tab">ลงทะเบียนผ่าน SMS</a></li>
+              </ul>
             </div>
-            <div class="tab-pane fade" id="tab-sms" role="tabpanel">
-              <p>1. พิมพ์ “MO” วรรค ตามด้วยเลขบัตรฯ 16 หลัก # ตามด้วยยอดใช้จ่ายต่อเซลส์สลิป</p>
-              <p>2. ส่งมาที่ 0613845000 (ค่าส่งครั้งละ 3 บาท)</p>
-              <p>3. จะได้รับข้อความตอบกลับยืนยันเมื่อลงทะเบียนสำเร็จ</p> 
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tab-online" role="tabpanel">
+                <form class="form-register form-content form-check-required custom-select-form">
+                  <div class="row">
+                    <div class="col-sm-6 col-12 type-or-selected">
+                      <label class="before-dropdown">บัตรที่ต้องการลงทะเบียน</label>
+                      <select class="form-control option-selected">
+                        <option disabled selected value="">กรุณาเลือกบัตรที่ต้องการลงทะเบียน</option>
+                        <option value="">1100-11-0-1111-000</option>
+                        <option value="">2100-10-0-1211-001</option>
+                        <option value="">1200-21-0-1121-002</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                      <label class="before-dropdown">&nbsp;</label>
+                      <input class="required" type="text" placeholder="กรุณาระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
+                    </div>
+
+                    <div class="col-sm-6 col-12">
+                      <input class="required" type="text" placeholder="ระบุชื่อร้านค้า / เว็บไซต์ / แอปพลิเคชั่นที่ใช้จ่าย">
+                    </div>
+                    <div class="col-sm-6 col-12">
+                      <input class="required" type="text" placeholder="ระบุยอดใช้จ่ายต่อรายการ">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="input-ico input-ico-right input-date">
+                        <input type="text" class="input-date-picker required" placeholder="ระบุ วัน / เดือน / ปี (ค.ศ) ที่ใช้จ่าย">
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="input-ico input-ico-right input-upload">
+                        <input type="file" class="required" />
+                        <input type="text" class="input-file" placeholder="กรุณาแนบไฟล์" readonly />
+                        <span>( ไฟล์ jpg, png, pdf, ขนาดไม่เกิน 2 MB ) การแนบหลักฐานจะช่วยทำให้ตรวจสอบได้เร็วขึ้น</span>
+                      </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <div class="checkbox">
+                        <input type="checkbox" name="cb-accpet" id="cb_accpet" class="required"><label for="cb_accpet">ขอยืนยันว่าข้อมูลที่ได้ระบุไว้เป็นข้อมูลจริง</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END ROW -->
+                  <div class="d-flex justify-content-center">
+                    <button class="btn btn-submit-form disabled">ส่งข้อมูล</button>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="tab-sms" role="tabpanel">
+                <p>1. พิมพ์ “MO” วรรค ตามด้วยเลขบัตรฯ 16 หลัก # ตามด้วยยอดใช้จ่ายต่อเซลส์สลิป</p>
+                <p>2. ส่งมาที่ 0613845000 (ค่าส่งครั้งละ 3 บาท)</p>
+                <p>3. จะได้รับข้อความตอบกลับยืนยันเมื่อลงทะเบียนสำเร็จ</p> 
+              </div>
             </div>
           </div>
         </div>
@@ -848,6 +841,7 @@
     <script type="text/javascript" src="js/ui-main.js"></script>
     <script type="text/javascript" src="js/ui-form-flight.js"></script>
     <script type="text/javascript" src="js/ui-form-register.js"></script>
-
+    <script type="text/javascript" src="js/win-ui.js"></script>
+    
   </body>
 </html>
