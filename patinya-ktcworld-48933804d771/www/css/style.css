@@ -3063,6 +3063,8 @@ img[href]:hover{
 
 .custom-select-form.form-register .custom-dropdown + ul{
 	top: 88px;
+	height: 248%;
+    overflow: auto;
 }
 
 .custom-select-form.form-register .custom-dropdown + ul.active{
@@ -3070,7 +3072,8 @@ img[href]:hover{
 }
 
 .custom-select-form.form-register .custom-dropdown + ul li{
-	padding: 5px 15px;
+	padding: 8px 15px;
+	letter-spacing: 0;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 
 }
@@ -3099,6 +3102,25 @@ img[href]:hover{
 
  body .form-content .input-ico:after{
  	top: 40px;
+ }
+ .type-or-selected .custom-option li div{
+ 	display: inline-block;
+ }
+ .type-or-selected .custom-option li div.info{
+ 	vertical-align: top;
+    margin-left: 15px;
+ }
+ .type-or-selected .custom-option li div.info .title{
+ 	display: block;
+ 	font-size: 12px;
+    padding: 3px 0;
+ }
+ .type-or-selected .custom-option li:nth-child(1) div img,
+ .type-or-selected .custom-option li:nth-child(1) div span.title{
+ 	display: none;
+ }
+ .type-or-selected .custom-option li:nth-child(1) .info{
+ 	margin-left: 0;
  }
 
 

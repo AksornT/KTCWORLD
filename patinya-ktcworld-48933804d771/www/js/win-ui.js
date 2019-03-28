@@ -108,7 +108,7 @@ $(document).ready(function() {
     });
 
     $('.custom-select-form select.form-control option').each(function(){
-      $(this).parent().siblings('.custom-option').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+      $(this).parent().siblings('.custom-option').append('<li value="' + $(this).val() + '"><div><img src="img/card-img-4.png"></div><div class="info"><span class="title">KTC</span>'+$(this).text()+'</div></li>');
     });
 
     $('.custom-option > li:nth-child(1)').addClass('active');
