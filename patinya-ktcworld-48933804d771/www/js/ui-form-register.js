@@ -70,6 +70,7 @@ $(document).ready(function() {
             e.preventDefault();
             $(this).val(ui.item.label).trigger('change');
             $(this).autocomplete('close');
+            $(this).addClass('add-by-click');
         },
         create: function() {
             $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
@@ -87,6 +88,17 @@ $(document).ready(function() {
 
     $('.form-register input[type=file]').change(function(){
         $(this).siblings('.input-file').val($(this).val());
+    });
+
+    $('.form-register .input-card-picker').keydown( function(e){  
+        if($(this).hasClass("add-by-click")) {
+            if(e.which == 8){   
+                $(this).val('');
+                $(this).removeClass("add-by-click");
+                return true;
+            } 
+        }
+        $(this).removeClass("add-by-click");
     });
 
 });
