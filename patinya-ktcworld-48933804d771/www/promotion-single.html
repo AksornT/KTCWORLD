@@ -332,7 +332,7 @@
               <div class="tab-pane fade show active" id="tab-online" role="tabpanel">
                 <form class="form-register form-content form-check-required custom-select-form">
                   <div class="row">
-                    <div class="col-sm-6 col-12 type-or-selected">
+                    <!-- <div class="col-sm-6 col-12 type-or-selected">
                       <label class="before-dropdown">บัตรที่ต้องการลงทะเบียน</label>
                       <select class="form-control option-selected">
                         <option disabled selected value="">กรุณาเลือกบัตรที่ต้องการลงทะเบียน</option>
@@ -343,9 +343,13 @@
                         <option value="">0022-21-0-1121-002</option>
                       </select>
                       <span class="select-arrow"></span>
+                    </div> -->
+                    <div class="col-sm-6 col-12">
+                      <div class="input-ico input-ico-right input-select">
+                        <input type="text" class="input-card-picker required" placeholder="กรุณาเลือกบัตรที่ต้องการลงทะเบียน">
+                      </div>
                     </div>
                     <div class="col-sm-6 col-12">
-                      <label class="before-dropdown">&nbsp;</label>
                       <input class="required" type="text" placeholder="กรุณาระบุหมายเลขโทรศัพท์มือถือ / อีเมล">
                     </div>
 
@@ -842,8 +846,8 @@
 
     <script type="text/javascript" src="js/ui-main.js"></script>
     <script type="text/javascript" src="js/ui-form-flight.js"></script>
-    <script type="text/javascript" src="js/ui-form-register.js"></script>
     <script type="text/javascript" src="js/win-ui.js"></script>
+    <script type="text/javascript" src="js/ui-form-register.js"></script>
     
   </body>
 </html>
