@@ -64,7 +64,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   > li i {
     	margin-right: -10px;
 	}
-}*/
+}
 
 .scrolled-menu li:after {
   left: 0.3rem;
@@ -76,7 +76,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
     left: 0.8rem;
     right: 0.8rem;
   }
-}
+}*/
 
 .scrolled-menu li.dropdown:after {
   right: calc(0.3rem + 15px);
@@ -325,6 +325,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 #menu-global {
   margin-bottom: 65px;
+  border-bottom: 1px solid #000;
 }
 
 @media only screen and (max-width: 575px) {
@@ -336,7 +337,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 #menu-world {
   transition: none;
   position: absolute;
-  top: 65px;
+  top: 66px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -358,6 +359,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 
 .fixed-header #menu-global {
   margin-bottom: 65px;
+  border-bottom: 1px solid #000;
 }
 
 @media only screen and (max-width: 575px) {

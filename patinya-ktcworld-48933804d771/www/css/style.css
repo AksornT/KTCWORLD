@@ -235,14 +235,21 @@ a:hover{
   height: 63px;
   vertical-align: bottom;
   font-size: 14px;
-  letter-spacing: 0.6px;
   flex: 0 0 auto;
+  line-height: 12px;
 }
+
+.scrolled-menu li.dropdown{
+    top: 2px;
+}
+
 .scrolled-menu li.dropdown:after{
 	right: 13px;
 }
 .scrolled-menu > li .fa{
 	margin-left: 3px;
+	position: relative;
+	top: -1px;
 }
 
 @media (max-width: 1200px){
@@ -250,6 +257,7 @@ a:hover{
     font-size: 11px;
     padding: 23px 0 16px 5px;
     font-family: 'Conv_SukhumvitTadmai_Tex';
+    top: 2px;
 }
 .scrolled-menu li.dropdown:after{
 	right: 10px;
@@ -270,14 +278,20 @@ a:hover{
 }
 
 .scrolled-menu > li:after{
-	position: absolute;
-	bottom: 0;
-	left: 5px;
-	right: 0;
-	height: 3px;
-	background: #000;
-	content: "";
-	display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 3px;
+    right: 0;
+    height: 3px;
+    background: transparent;
+    content: "";
+    display: block;
+}
+
+@media (max-width: 1200px){
+	.scrolled-menu > li:after{
+		bottom: -1px;
+	}
 }
 
 .scrolled-menu > li:hover:after,
@@ -398,6 +412,7 @@ a:hover{
 .menu-global .search-on-menu{
 	font-size: 18px;
 	padding: 16px;
+	margin-right: 5px;
 	position: relative;
 	top: 1px;
 	cursor: pointer;
@@ -423,6 +438,7 @@ a:hover{
 	text-align: center;
 	color: #FFF;
 	letter-spacing: 1px;
+	line-height: 12px;
 }
 
 .card-register-btn:hover{
@@ -442,6 +458,7 @@ a:hover{
 	height: 30px;
 	text-align: center;
 	color: #FFF;
+	line-height: 18px;
 }
 
 .menu-global .login-btn img{
@@ -449,7 +466,14 @@ a:hover{
 	height: 18px;
 	position: relative;
 	vertical-align: bottom;
+	margin-right: 1px;
 	/*filter: invert(100%) brightness(200%);*/
+}
+
+@media (max-width: 1200px){
+	.menu-global .login-btn img{
+		margin: -1px 0 1px 0; 
+	}
 }
 
 .menu-global a.login-btn:hover{
@@ -3146,20 +3170,22 @@ img[href]:hover{
 
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
-		font-size: 12px;
-		padding: 23px 0.7rem 16px 0.1rem;
+		font-size: 11px;
+		padding: 23px 0 16px 5px;
 	}
 	.menu-global .card-register-btn{
 		font-size: 12px;
     	padding: 8px 16px;
     	width: auto;
+    	line-height: 14px;
 	}
 
 	.menu-global .login-btn {
 	    font-size: 12px;
-	    padding: 0 8px;
+	    padding: 5px 8px;
 	    width: auto;
 	    vertical-align: middle;
+	    margin-left: 9px;
 	}
 
 	.profile-name{

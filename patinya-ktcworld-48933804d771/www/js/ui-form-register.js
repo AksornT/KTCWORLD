@@ -71,7 +71,7 @@ $(document).ready(function() {
             $(this).val(ui.item.label).trigger('change');
             $(this).autocomplete('close');
             $(this).addClass('add-by-click');
-            $(this).blur();
+            $(this).blur(); 
         },
         create: function() {
             $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
