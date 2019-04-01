@@ -2915,7 +2915,14 @@ img[href]:hover{
 	font-size: 12px;
 	top: 16px;
 	color: black;
+	left: 15px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+}
+
+.form-register .input-ico input + label,
+.form-register .input-ico input.hasText + label{
+	left: 0;
+	top: 9px !important;
 }
 
 .form-register input[type="text"]:focus + label,

@@ -62,15 +62,16 @@ $(document).ready(function() {
             }
         },
         close: function (e, ui) {
-            if (!navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-                $(this).blur();
-            }
+            // if (!navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+            //     $(this).blur();
+            // }
         },
         select: function (e, ui) {
             e.preventDefault();
             $(this).val(ui.item.label).trigger('change');
             $(this).autocomplete('close');
             $(this).addClass('add-by-click');
+            $(this).blur();
         },
         create: function() {
             $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
@@ -95,10 +96,12 @@ $(document).ready(function() {
             if(e.which == 8){   
                 $(this).val('');
                 $(this).removeClass("add-by-click");
+                $(this).focus();
                 return true;
             } 
         }
         $(this).removeClass("add-by-click");
+        $(this).focus();
     });
 
 });

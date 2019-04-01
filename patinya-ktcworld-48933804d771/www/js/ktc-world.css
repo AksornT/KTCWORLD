@@ -1948,11 +1948,11 @@ input:focus:-ms-input-placeholder {
     .register-wrapper .form-register .row > div {
       padding-left: 40px;
       padding-right: 40px; }
-  .register-wrapper .form-register .input-ico-right {
+/*  .register-wrapper .form-register .input-ico-right {
     margin-bottom: 60px; }
     @media only screen and (max-width: 767px) {
       .register-wrapper .form-register .input-ico-right {
-        margin-bottom: 45px; } }
+        margin-bottom: 45px; } }*/
   .register-wrapper .form-register .checkbox {
     margin: 30px 0 60px; }
     @media only screen and (max-width: 767px) {
