@@ -634,17 +634,29 @@ $(document).ready(function() {
                 }
 
                 var maxdate = getDateFromToday(0);
+                var maxdateset = false;
                 for(var i=1;i<date_route;i++) {
                     var predate = $(".multi-city-date-" + i).val();
                     if (predate != "") {
                         var thisdate = getDateFromString(predate);
                         if (thisdate > maxdate) {
                             maxdate = thisdate;
+                            maxdateset = true;
                         }
                     }
                 }
 
                 $(this).data('after-date', maxdate);
+
+                if (maxdateset && (this.className.indexOf("multi-city-date-2") != -1 
+                    || this.className.indexOf("multi-city-date-3") != -1
+                    || this.className.indexOf("multi-city-date-4") != -1)) {
+
+                    if ($(this).val() == "") {
+                        $(this).datepicker( "setDate", maxdate );
+                    }
+                }
+
             }
 
             // ADD WARNING TEXT
