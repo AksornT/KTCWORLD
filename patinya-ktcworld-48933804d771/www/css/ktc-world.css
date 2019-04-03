@@ -750,6 +750,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   cursor: pointer;
 }
 .form-content .input-ico .input-card-picker[disabled]{
+  -webkit-opacity: 1 !important;
   -webkit-text-fill-color: #000!important;
   color: #000!important;
 }
