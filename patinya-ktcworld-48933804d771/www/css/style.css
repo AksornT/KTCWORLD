@@ -438,7 +438,6 @@ a:hover{
 	text-align: center;
 	color: #FFF;
 	letter-spacing: 1px;
-	line-height: 12px;
 }
 
 .card-register-btn:hover{
@@ -458,7 +457,7 @@ a:hover{
 	height: 30px;
 	text-align: center;
 	color: #FFF;
-	line-height: 18px;
+	line-height: 16px;
 }
 
 .menu-global .login-btn img{
@@ -752,7 +751,7 @@ a:hover{
 	left: 0;
 	margin-top: 8px;
 	opacity: 1;
-	max-width: 185px;
+	max-width: 190px;
 }
 
 .footer a:hover{
