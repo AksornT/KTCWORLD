@@ -4370,7 +4370,3 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 /*.footer .two-col-list > div:first-child{
     margin-right: 20px;
 }*/
-
-button.fake-button-input{
-  display: none;
-}

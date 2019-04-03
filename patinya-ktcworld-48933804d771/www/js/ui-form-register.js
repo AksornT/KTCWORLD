@@ -48,6 +48,10 @@ $(document).ready(function() {
         maxDate: 0,
     });
 
+    $('.form-register .input-select').on('click touch', function () {
+        $(this).find('.input-card-picker').removeAttr("disabled").focus().autocomplete('search', '');
+    });
+
     $('.form-register .input-card-picker').autocomplete({
         source: cardData,
         minLength: 0,
@@ -58,7 +62,7 @@ $(document).ready(function() {
         },
         open: function (result) {
             if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-                $(this).autocomplete('widget').off('menufocus hover mouseover');
+                $('.ui-autocomplete').off('menufocus hover mouseover');
             }
         },
         close: function (e, ui) {
@@ -72,7 +76,7 @@ $(document).ready(function() {
             $(this).autocomplete('close');
             $(this).addClass('add-by-click');
             $(this).blur();
-            $('#fake-button').focus();
+            $(this).prop("disabled", true);
         },
         create: function() {
             $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
