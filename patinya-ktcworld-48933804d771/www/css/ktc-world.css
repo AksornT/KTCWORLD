@@ -1362,6 +1362,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   padding-bottom: 30px;
   line-height: 0;
   padding: 12px 16px;
+  cursor: pointer;
 }
 
 .ui-menu .ui-menu-item.ui-card-item .info {
@@ -1398,6 +1399,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   padding: 0;
   max-height: 214px;
   overflow: auto;
+  cursor: pointer;
 }
 
 .ui-datepicker {
