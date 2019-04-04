@@ -3487,10 +3487,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 @media only screen and (max-width: 576px) {
-  .register-wrapper .form-register .row > .col-sm-6{
+  /*.register-wrapper .form-register .row > .col-sm-6{
     margin: 0 20px;
     flex: 0 0 calc(100% - 40px);
-  }
+  }*/
 }
 
 .register-wrapper .form-register .checkbox {
