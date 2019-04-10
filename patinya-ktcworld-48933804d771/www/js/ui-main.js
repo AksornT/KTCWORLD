@@ -349,7 +349,7 @@ $(document).ready(function() {
                 margin: 10
             },
             576: {
-                items: 1,
+                items: 2,
                 nav: true,
                 loop: true,
                 mouseDrag: true,
