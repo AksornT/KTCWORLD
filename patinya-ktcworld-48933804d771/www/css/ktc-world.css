@@ -2210,6 +2210,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   width: 460px;
 }
 
+@media only screen and (max-width: 576px){
+  .index-slide-member .item .slide-member-content {
+    width: auto;
+  }
+}
+
 .index-slide-member .item .slide-member-text {
   font-family: 'Conv_SukhumvitTadmai_Tex';
   font-size: 18px;
