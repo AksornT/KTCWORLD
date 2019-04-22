@@ -177,13 +177,25 @@ $(document).ready(function() {
     });
     
     $('.form-flight .input-qty input').change(function(e) {
+        debugger;
         var popover = $(this).parents('.people-picker-popover');
         var adultVal = parseInt(popover.find('.p-adult').val());
         var childVal = parseInt(popover.find('.p-child').val());
         var infantVal = parseInt(popover.find('.p-infant').val());
 
         popover.find('a').removeClass('disabled');
-
+        
+        if(adultVal==0){
+           popover.find('.p-child').val(0);
+           popover.find('.p-infant').val(0);
+        }
+        
+        if(adultVal==1){
+           popover.find('.p-adult').siblings('a.minus').addClass('disabled');
+        }
+        if(childVal>8){
+           popover.find('.p-child').siblings('a.plus').addClass('disabled');
+        }
         if (adultVal + childVal >= 9){
             popover.find('.p-adult').siblings('a.plus').addClass('disabled');
             popover.find('.p-child').siblings('a.plus').addClass('disabled');
