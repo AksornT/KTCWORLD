@@ -3132,7 +3132,7 @@ img[href]:hover{
  }
 
  body .form-content .input-ico:after{
- 	top: 40px;
+ 	/*top: 40px;*/
  }
  .type-or-selected .custom-option li div{
  	display: inline-block;

@@ -289,7 +289,7 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-origin filled space-right">
                           <label>ต้นทาง</label>
-                          <input type="text" class="input-airport-picker required" id="originAirport_0" placeholder="ต้นทาง" value="Bangkok [BKK] - Thailand" />
+                          <input type="text" class="input-airport-picker required" id="originAirport_0" placeholder="ต้นทาง" readonly="true" value="Bangkok [BKK] - Thailand" />
                           <!-- <a href="#" class="swap-btn"><img src="img/index/ico-swap.svg" /></a> -->
                           <div class="box-airport-autocomplete form-bubble" style="display: none;">
 	                          <div class="loading"><i class="fa fa-circle-o-notch fa-spin fa-fw"></i></div>
@@ -299,13 +299,13 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-destination space-left">
                           <label>ปลายทาง</label>
-                          <input type="text" class="input-airport-picker required" id="destinationAirport_0" placeholder="ปลายทาง" />
+                          <input readonly="true" type="text" class="input-airport-picker required" id="destinationAirport_0" placeholder="ปลายทาง" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4 flex-order-m-1">
                         <div class="input-ico input-people filled">
                           <label>จำนวนผู้โดยสาร</label>
-                          <input type="text" class="input-people-picker required" placeholder="จำนวนผู้โดยสาร" readonly />
+                          <input readonly="true" type="text" class="input-people-picker required" placeholder="จำนวนผู้โดยสาร" readonly />
 
                           <div class="people-picker-popover form-bubble">
                             <div class="d-flex justify-content-between">
@@ -336,19 +336,19 @@
                       <div class="col-12 col-md-4 show-on-expand">
                         <div class="input-ico input-date space-right">
                           <label>วันที่ออกเดินทาง</label>
-                          <input type="text" class="input-date-picker required" id="departureDate" placeholder="วันที่ออกเดินทาง" readonly />
+                          <input type="text" class="input-date-picker required" id="departureDate" placeholder="วันที่ออกเดินทาง"  readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4 show-on-expand hide-on-oneway">
                         <div class="input-ico input-date space-left">
                           <label>วันที่เดินทางกลับ</label>
-                          <input type="text" class="input-date-picker required" id="returnDate" placeholder="วันที่เดินทางกลับ" readonly />
+                          <input type="text" class="input-date-picker required" id="returnDate" placeholder="วันที่เดินทางกลับ"  readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4 show-on-expand flex-order-m-2">
                         <div class="input-ico input-seat filled">
                           <label>ชั้นโดยสาร</label>
-                          <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด" readonly />
+                          <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด"  readonly="true" />
                         </div>
                       </div>
                     </div>
@@ -373,7 +373,7 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-origin">
                           <label>เส้นทางที่ 1: ต้นทาง</label>
-                          <input type="text" class="input-airport-picker required" id="originAirport_1" placeholder="เส้นทางที่ 1: ต้นทาง" />
+                          <input type="text" class="input-airport-picker required" id="originAirport_1" placeholder="เส้นทางที่ 1: ต้นทาง" readonly="true" />
                           <div class="box-airport-autocomplete form-bubble" style="display: none;">
 	                          <div class="loading"><i class="fa fa-circle-o-notch fa-spin fa-fw"></i></div>
 	                        </div>
@@ -382,13 +382,13 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-destination">
                           <label>เส้นทางที่ 1: ปลายทาง</label>
-                          <input type="text" class="input-airport-picker required" id="destinationAirport_1" placeholder="เส้นทางที่ 1: ปลายทาง" />
+                          <input type="text" class="input-airport-picker required" id="destinationAirport_1" placeholder="เส้นทางที่ 1: ปลายทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-date space-right-lg">
                           <label>เส้นทางที่ 1: วันที่ออกเดินทาง</label>
-                          <input type="text" class="input-date-picker required multi-city-date-1" placeholder="เส้นทางที่ 1: วันที่ออกเดินทาง" readonly />
+                          <input type="text" class="input-date-picker required multi-city-date-1" placeholder="เส้นทางที่ 1: วันที่ออกเดินทาง"  readonly="true" />
                         </div>
                       </div>
                     </div>
@@ -397,19 +397,19 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-origin">
                           <label>เส้นทางที่ 2: ต้นทาง</label>
-                          <input type="text" class="input-airport-picker required" id="originAirport_2" placeholder="เส้นทางที่ 2: ต้นทาง" />
+                          <input type="text" class="input-airport-picker required" id="originAirport_2" placeholder="เส้นทางที่ 2: ต้นทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-destination">
                           <label>เส้นทางที่ 2: ปลายทาง</label>
-                          <input type="text" class="input-airport-picker required" id="destinationAirport_2"  placeholder="เส้นทางที่ 2: ปลายทาง" />
+                          <input type="text" class="input-airport-picker required" id="destinationAirport_2"  placeholder="เส้นทางที่ 2: ปลายทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-date space-right-lg">
                           <label>เส้นทางที่ 2: วันที่ออกเดินทาง</label>
-                          <input type="text" class="input-date-picker required multi-city-date-2" placeholder="เส้นทางที่ 2: วันที่ออกเดินทาง" readonly />
+                          <input type="text" class="input-date-picker required multi-city-date-2" placeholder="เส้นทางที่ 2: วันที่ออกเดินทาง"  readonly="true" />
                         </div>
                       </div>
                     </div>
@@ -418,19 +418,19 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-origin">
                           <label>เส้นทางที่ 3: ต้นทาง</label>
-                          <input type="text" class="input-airport-picker" id="originAirport_3" placeholder="เส้นทางที่ 3: ต้นทาง" />
+                          <input type="text" class="input-airport-picker" id="originAirport_3" placeholder="เส้นทางที่ 3: ต้นทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-destination">
                           <label>เส้นทางที่ 3: ปลายทาง</label>
-                          <input type="text" class="input-airport-picker" id="destinationAirport_3" placeholder="เส้นทางที่ 3: ปลายทาง" />
+                          <input type="text" class="input-airport-picker" id="destinationAirport_3" placeholder="เส้นทางที่ 3: ปลายทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-date space-right-lg">
                           <label>เส้นทางที่ 3: วันที่ออกเดินทาง</label>
-                          <input type="text" class="input-date-picker multi-city-date-3" placeholder="เส้นทางที่ 3: วันที่ออกเดินทาง" readonly />
+                          <input type="text" class="input-date-picker multi-city-date-3" placeholder="เส้นทางที่ 3: วันที่ออกเดินทาง"  readonly="true" />
                           <a href="#" class="delete-route-btn" data-delete="3"><img src="img/ico-del.png" /></a>
                         </div>
                       </div>
@@ -440,19 +440,19 @@
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-origin">
                           <label>เส้นทางที่ 4: ต้นทาง</label>
-                          <input type="text" class="input-airport-picker" id="originAirport_4" placeholder="เส้นทางที่ 4: ต้นทาง" />
+                          <input type="text" class="input-airport-picker" id="originAirport_4" placeholder="เส้นทางที่ 4: ต้นทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-destination">
                           <label>เส้นทางที่ 4: ปลายทาง</label>
-                          <input type="text" class="input-airport-picker" id="destinationAirport_4" placeholder="เส้นทางที่ 4: ปลายทาง" />
+                          <input type="text" class="input-airport-picker" id="destinationAirport_4" placeholder="เส้นทางที่ 4: ปลายทาง" readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4">
                         <div class="input-ico input-date space-right-lg">
                           <label>เส้นทางที่ 4: วันที่ออกเดินทาง</label>
-                          <input type="text" class="input-date-picker multi-city-date-4" placeholder="เส้นทางที่ 4: วันที่ออกเดินทาง" readonly />
+                          <input type="text" class="input-date-picker multi-city-date-4" placeholder="เส้นทางที่ 4: วันที่ออกเดินทาง"  readonly="true" />
                           <a href="#" class="delete-route-btn" data-delete="4"><img src="img/ico-del.png" /></a>
                         </div>
                       </div>
@@ -462,7 +462,7 @@
                       <div class="col-12 col-md-4 flex-order-m-1">
                         <div class="input-ico input-people filled">
                           <label>จำนวนผู้โดยสาร</label>
-                          <input type="text" class="input-people-picker required" placeholder="จำนวนผู้โดยสาร" readonly />
+                          <input type="text" class="input-people-picker required" placeholder="จำนวนผู้โดยสาร"  readonly="true" />
 
                           <div class="people-picker-popover form-bubble">
                             <div class="d-flex justify-content-between">
@@ -493,7 +493,7 @@
                       <div class="col-12 col-md-4 flex-order-m-2">
                         <div class="input-ico input-seat filled">
                           <label>ชั้นโดยสาร</label>
-                          <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด" readonly />
+                          <input type="text" class="input-select-seat required" placeholder="ชั้นโดยสาร" value="ชั้นประหยัด"  readonly="true" />
                         </div>
                       </div>
                       <div class="col-12 col-md-4 hide-on-route-4">
@@ -1186,6 +1186,12 @@
 
     <script type="text/javascript" src="js/ui-main.js"></script>
     <script type="text/javascript" src="js/ui-form-flight.js"></script>
+
+    <script type="text/javascript">
+      $('.disabled-typing input').keypress(function(e) {
+          e.preventDefault();
+      });
+    </script>
     
   </body>
 </html>
